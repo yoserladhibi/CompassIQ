@@ -157,19 +157,19 @@ Each startup is evaluated across five dimensions:
 All system diagrams are available below:
 
 <p align="center">
-  <img src="docs/diagrams/system_architecture.png" width="900">
+  <img src="docs/diagrams/system_architecture.png" width="600">
 </p>
 
 📄 [Download PDF](docs/diagrams/system_architecture.pdf)
 
 <p align="center">
-  <img src="docs/diagrams/ai_workflow..png" width="900">
+  <img src="docs/diagrams/ai_workflow..png" width="600">
 </p>
 
 📄 [Download PDF](docs/diagrams/ai_workflow.pdf)
 
 <p align="center">
-  <img src="docs/diagrams/user_journey.png" width="900">
+  <img src="docs/diagrams/user_journey.png" width="600">
 </p>
 
 📄 [Download PDF](docs/diagrams/user_journey.pdf)
