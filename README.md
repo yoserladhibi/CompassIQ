@@ -165,9 +165,6 @@ All system diagrams are available below:
 ## 👤 User Journey
 👉 [View Diagram](docs/diagrams/user_journey.pdf)
 
-## 📊 Maturity Model
-👉 [View Diagram](docs/diagrams/maturity_model.pdf)
-
 ---
 
 # 🧰 Tech Stack
