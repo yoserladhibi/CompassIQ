@@ -163,7 +163,7 @@ All system diagrams are available below:
 📄 [Download PDF](docs/diagrams/system_architecture.pdf)
 
 <p align="center">
-  <img src="docs/diagrams/ai_workflow.png" width="900">
+  <img src="docs/diagrams/ai_workflow..png" width="900">
 </p>
 
 📄 [Download PDF](docs/diagrams/ai_workflow.pdf)
