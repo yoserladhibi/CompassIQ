@@ -11,6 +11,13 @@
 
 ---
 
+## Phase 1 Submission
+
+📄 **Presentation Deck:**  
+[Phase1_Presentation.pdf](docs/presentation/Phase1_Presentation.pdf)
+
+---
+
 # 📚 Table of Contents
 
 - [Overview](#-overview)
