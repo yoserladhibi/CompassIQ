@@ -115,7 +115,7 @@ Startup Compass AI is built using a hybrid architecture:
 
 ---
 
-# 📊 Startup Maturity Model
+#  Startup Maturity Model
 
 | Stage | Description |
 |------|-------------|
@@ -149,7 +149,7 @@ Each startup is evaluated across five dimensions:
 
 ---
 
-# 🧩 System Diagrams
+#  System Diagrams
 
 All system diagrams are available below:
 
