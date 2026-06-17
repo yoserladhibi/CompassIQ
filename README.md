@@ -13,21 +13,22 @@
 
 # 📚 Table of Contents
 
-- Overview
-- Problem Statement
-- Solution
-- Key Features
-- AI System Architecture
-- Startup Maturity Model
-- Explainable Scoring Methodology
-- System Diagrams
-- Tech Stack
-- Repository Structure
-- Project Status
-- Roadmap
-- Team
-- License
-- Vision
+- [Overview](#-overview)
+- [Problem Statement](#-problem-statement)
+- [Solution](#-solution)
+- [Key Features](#️-key-features)
+- [AI System Architecture](#-ai-system-architecture)
+- [Startup Maturity Model](#-startup-maturity-model)
+- [Explainable Scoring Methodology](#-explainable-scoring-methodology)
+- [System Diagrams](#-system-diagrams)
+- [Project Documentation](#-project-documentation)
+- [Tech Stack](#-tech-stack)
+- [Repository Structure](#-repository-structure)
+- [Project Status](#-project-status)
+- [Roadmap](#-roadmap)
+- [Team](#-team)
+- [License](#-license)
+- [Vision](#-vision)
 
 ---
 
