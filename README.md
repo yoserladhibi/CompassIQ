@@ -24,11 +24,7 @@
 - [Project Documentation](#-project-documentation)
 - [Tech Stack](#-tech-stack)
 - [Repository Structure](#-repository-structure)
-- [Project Status](#-project-status)
-- [Roadmap](#-roadmap)
-- [Team](#-team)
-- [License](#-license)
-- [Vision](#-vision)
+
 
 ---
 
