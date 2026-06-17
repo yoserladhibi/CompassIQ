@@ -186,6 +186,29 @@ All system diagrams are available below:
 | RAG | LangChain + ChromaDB |
 | Data | JSON / Structured datasets |
 | Version Control | Git & GitHub |
+---
+# 📂 Repository Structure
+```text
+CompassIQ/
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+│
+├── docs/
+│   ├── diagrams/
+│   ├── scoring/
+│   └── presentation/
+│
+├── frontend/
+├── backend/
+│   ├── diagnosis/        # Adaptive diagnostic engine & maturity classification
+│   ├── scoring/          # Explainable multi-dimensional scoring logic
+│   ├── recommendation/   # RAG pipeline & roadmap generation
+│
+├── knowledge_base/       # Curated Tunisian entrepreneurship resources (RAG corpus)
+├── prompts/              # LLM prompt templates
+
 
 
 
