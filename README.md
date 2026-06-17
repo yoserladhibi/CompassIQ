@@ -196,15 +196,7 @@ CompassIQ/
 │   ├── diagrams/
 │   ├── scoring/
 │   └── presentation/
-│
-├── frontend/
-├── backend/
-│   ├── diagnosis/        # Adaptive diagnostic engine & maturity classification
-│   ├── scoring/          # Explainable multi-dimensional scoring logic
-│   ├── recommendation/   # RAG pipeline & roadmap generation
-│
-├── knowledge_base/       # Curated Tunisian entrepreneurship resources (RAG corpus)
-├── prompts/              # LLM prompt templates
+
 
 
 
