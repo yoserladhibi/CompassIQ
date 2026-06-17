@@ -28,7 +28,7 @@
 
 ---
 
-# 📌 Overview
+# Overview
 
 Startup Compass AI is an AI-powered entrepreneurial orientation system designed for the **AI for Entrepreneurship Hackathon**.
 
@@ -43,7 +43,7 @@ Unlike generic AI chatbots, this system is a **decision-support engine** combini
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
 Entrepreneurs in early-stage startup development face several challenges:
 
@@ -61,7 +61,7 @@ but NOT structured entrepreneurial diagnosis.
 
 ---
 
-# 💡 Solution
+# Solution
 
 Startup Compass AI provides a structured entrepreneurial guidance system that:
 
@@ -75,7 +75,7 @@ Startup Compass AI provides a structured entrepreneurial guidance system that:
 
 ---
 
-# ⚙️ Key Features
+# Key Features
 
 ## 1. Adaptive Diagnostic Engine
 Dynamically adjusts questions based on user responses to collect relevant startup information.
@@ -104,7 +104,7 @@ Combines structured data + knowledge base + LLM reasoning to generate actionable
 
 ---
 
-# 🧠 AI System Architecture
+# AI System Architecture
 
 Startup Compass AI is built using a hybrid architecture:
 
@@ -119,16 +119,16 @@ Startup Compass AI is built using a hybrid architecture:
 
 | Stage | Description |
 |------|-------------|
-| 💡 Idea | Initial concept, no validation |
-| 🧪 Market Validation | Prototype and early testing |
-| 🏗 Structuration | Business model being developed |
-| 💰 Fundraising | Seeking investment readiness |
-| 🚀 Launch | Active market entry |
-| 📈 Growth | Scaling operations |
+|  Idea | Initial concept, no validation |
+|  Market Validation | Prototype and early testing |
+|  Structuration | Business model being developed |
+|  Fundraising | Seeking investment readiness |
+|  Launch | Active market entry |
+|  Growth | Scaling operations |
 
 ---
 
-# 📈 Explainable Scoring Methodology
+#  Explainable Scoring Methodology
 
 Each startup is evaluated across five dimensions:
 
@@ -173,7 +173,7 @@ All system diagrams are available below:
 
 ---
 
-# 🧰 Tech Stack
+#  Tech Stack
 
 | Layer | Technology |
 |------|-----------|
