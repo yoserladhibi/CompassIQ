@@ -179,7 +179,7 @@ All project documents are stored under `docs/`. Replace the placeholder paths be
 
 | Document | Description | Link |
 |---|---|---|
-| CompassIQ Knowledge Base | Domain knowledge used to ground LLM recommendations in Tunisian ecosystem context | [CompassIQ_knowledge_base_v2.pdf](docs/knowledge_base/CompassIQ_knowledge_base_v2.pdf) |
+| CompassIQ Knowledge Base | Domain knowledge used to ground LLM recommendations in Tunisian ecosystem context | [CompassIQ_knowledge_base_v2.pdf](docs/scoring/CompassIQ_knowledge_base_v2.pdf) |
 
 ### 📊 Evaluation
 
