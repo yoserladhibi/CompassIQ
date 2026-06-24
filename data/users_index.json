@@ -1,0 +1,22 @@
+{
+  "yosrabenali@gmail.com": {
+    "profile_id": "b1ce5902-b019-4fd9-9c51-d72e17d7555f",
+    "password_hash": "$2b$10$/r.i8xb9xRYiRf8lv.9htu1lH84S9bE/6GrqNf4nApLcGpFF4iThy",
+    "name": "Yosra Ben Ali"
+  },
+  "testsession@example.com": {
+    "profile_id": "7b5a20e2-6459-4ffe-97d5-522972696f69",
+    "password_hash": "$2b$10$EBZdYPY6mU6X5g4cBM9nT.a77v.7vSHZjscAIl.A7yV9q4SL9DKZq",
+    "name": "Test User"
+  },
+  "testsession2@example.com": {
+    "profile_id": "42dcafb2-ba86-46d8-b218-12a6491249b3",
+    "password_hash": "$2b$10$rQbyIbivNrumAi886MqcB.rhzaYHfhotlLAnA8gue1oV/7HGvZb/2",
+    "name": "Test User2"
+  },
+  "yassine.belhaj@gmail.com": {
+    "profile_id": "66eb5d42-4f23-4cbe-bc14-5a050cc926d9",
+    "password_hash": "$2b$10$z/yUUZ1//aqO5EBmB9zJ8u6OrbbPhRynN.8QWYVpufPT9FpEDlhgW",
+    "name": "Yassine Belhaj"
+  }
+}

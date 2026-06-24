@@ -1,0 +1,2186 @@
+{
+  "meta": {
+    "version": "1.0",
+    "entry_point": "Q01",
+    "supported_languages": [
+      "fr",
+      "ar"
+    ],
+    "default_language": "fr",
+    "sector_specific_questions": [
+      "QA01",
+      "QA02"
+    ],
+    "description": {
+      "fr": "Questionnaire adaptatif de diagnostic entrepreneurial — CompassIQ",
+      "ar": "استبيان تكيفي لتشخيص ريادة الأعمال — CompassIQ"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "category": "entrepreneur_profile",
+      "text": {
+        "fr": "Quel est le secteur principal de votre startup ?",
+        "ar": "ما هو القطاع الرئيسي لشركتك الناشئة؟"
+      },
+      "description": {
+        "fr": "Sélectionnez le secteur qui décrit le mieux votre activité principale.",
+        "ar": "اختر القطاع الذي يصف نشاطك التجاري الرئيسي بشكل أفضل."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "entrepreneur.sector",
+      "used_by": [
+        "diagnosis",
+        "scoring.green",
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "agritech",
+          "label": {
+            "fr": "AgriTech & Technologies Agricoles 🌾",
+            "ar": "التكنولوجيا الفلاحية والزراعية 🌾"
+          }
+        },
+        {
+          "value": "fintech",
+          "label": {
+            "fr": "FinTech & Services Financiers 💳",
+            "ar": "التكنولوجيا المالية والتأمين 💳"
+          }
+        },
+        {
+          "value": "healthtech",
+          "label": {
+            "fr": "HealthTech, MedTech & e-Santé 🏥",
+            "ar": "التكنولوجيا الصحية والرقمية الطبية 🏥"
+          }
+        },
+        {
+          "value": "edtech",
+          "label": {
+            "fr": "EdTech, E-Learning & Éducation 🎓",
+            "ar": "تكنولوجيا التعليم والتدريب الرقمي 🎓"
+          }
+        },
+        {
+          "value": "ecommerce",
+          "label": {
+            "fr": "E-Commerce & RetailTech 🛍️",
+            "ar": "التجارة الإلكترونية وحلول التجزئة 🛍️"
+          }
+        },
+        {
+          "value": "logistics",
+          "label": {
+            "fr": "Smart City, Transport & Logistique 📦",
+            "ar": "اللوجستيك ونقل البضائع والمدن الذكية 📦"
+          }
+        },
+        {
+          "value": "energy",
+          "label": {
+            "fr": "CleanTech & Management Énergétique ☀️",
+            "ar": "الطاقة المتجددة والتكنولوجيا النظيفة ☀️"
+          }
+        },
+        {
+          "value": "manufacturing",
+          "label": {
+            "fr": "Industrie 4.0 & Fabrication 🏭",
+            "ar": "صناعة المستقبل والإنتاج الذكي 🏭"
+          }
+        },
+        {
+          "value": "tourism",
+          "label": {
+            "fr": "Tourisme Durable & Patrimoine 🏺",
+            "ar": "السياحة المستدامة وتثمين التراث 🏺"
+          }
+        },
+        {
+          "value": "greentech",
+          "label": {
+            "fr": "GreenTech & Économie Circulaire ♻️",
+            "ar": "التكنولوجيا البيئية والاقتصاد الدائري ♻️"
+          }
+        },
+        {
+          "value": "deeptech",
+          "label": {
+            "fr": "DeepTech, IoT & Intelligence Artificielle 🤖",
+            "ar": "التكنولوجيا العميقة، الذكاء الاصعناعي وإنترنت الأشياء 🤖"
+          }
+        },
+        {
+          "value": "service",
+          "label": {
+            "fr": "Services Innovants aux Entreprises (SaaS B2B) 💼",
+            "ar": "الخدمات المبتكرة للمؤسسات 💼"
+          }
+        },
+        {
+          "value": "creative",
+          "label": {
+            "fr": "Industries Créatives, Médias & Gaming 🎬",
+            "ar": "الصناعات الإبداعية، الإعلام والألعاب 🎬"
+          }
+        },
+        {
+          "value": "social_impact",
+          "label": {
+            "fr": "CivicTech & Impact Social 🤝",
+            "ar": "ريادة الأعمال الاجتماعية وحلول الأثر 🤝"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "fr": "Autres Technologies & Softwares 💻",
+            "ar": "البرمجيات الرقمية والتقنيات الأخرى 💻"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "agritech"
+            },
+            "next": "QA01"
+          }
+        ],
+        "default_next": "Q02"
+      }
+    },
+    {
+      "id": "Q02",
+      "category": "entrepreneur_profile",
+      "text": {
+        "fr": "Où votre startup est-elle principalement basée ?",
+        "ar": "أين تتمركز شركتك الناشئة بشكل رئيسي؟"
+      },
+      "description": {
+        "fr": "Sélectionnez la région tunisienne où se déroule votre activité principale.",
+        "ar": "حدد المنطقة التونسية التي يتمركز فيها نشاطك الرئيسي."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "entrepreneur.location",
+      "used_by": [
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "tunis",
+          "label": {
+            "fr": "Tunis",
+            "ar": "تونس"
+          }
+        },
+        {
+          "value": "sfax",
+          "label": {
+            "fr": "Sfax",
+            "ar": "صفاقس"
+          }
+        },
+        {
+          "value": "sousse",
+          "label": {
+            "fr": "Sousse",
+            "ar": "سوسة"
+          }
+        },
+        {
+          "value": "nabeul",
+          "label": {
+            "fr": "Nabeul / Cap Bon",
+            "ar": "نابل / رأس الطيب"
+          }
+        },
+        {
+          "value": "inland",
+          "label": {
+            "fr": "Région intérieure",
+            "ar": "منطقة داخلية"
+          }
+        },
+        {
+          "value": "other_coastal",
+          "label": {
+            "fr": "Autre région côtière",
+            "ar": "منطقة ساحلية أخرى"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q03"
+      }
+    },
+    {
+      "id": "Q03",
+      "category": "entrepreneur_profile",
+      "text": {
+        "fr": "Combien de personnes travaillent actuellement sur ce projet, vous y compris ?",
+        "ar": "كم عدد الأشخاص الذين يعملون حاليًا في هذا المشروع بما فيهم أنت؟"
+      },
+      "description": {
+        "fr": "Comptez les fondateurs, co-fondateurs et membres clés de l'équipe.",
+        "ar": "احسب المؤسسين والمؤسسين المشاركين وأعضاء الفريق الأساسيين."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.team_size",
+      "used_by": [
+        "diagnosis",
+        "scoring.innovation"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "solo",
+          "label": {
+            "fr": "Juste moi",
+            "ar": "أنا وحدي"
+          }
+        },
+        {
+          "value": "2-3",
+          "label": {
+            "fr": "2 à 3 personnes",
+            "ar": "2 إلى 3 أشخاص"
+          }
+        },
+        {
+          "value": "4-6",
+          "label": {
+            "fr": "4 à 6 personnes",
+            "ar": "4 à 6 أشخاص"
+          }
+        },
+        {
+          "value": "7+",
+          "label": {
+            "fr": "7 personnes ou plus",
+            "ar": "7 أشخاص أو أكثر"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q04"
+      }
+    },
+    {
+      "id": "Q04",
+      "category": "entrepreneur_profile",
+      "text": {
+        "fr": "Où pensez-vous que votre startup se situe dans son parcours de développement ?",
+        "ar": "أين تعتقد أن شركتك الناشئة تقف حاليًا في رحلة تطورها؟"
+      },
+      "description": {
+        "fr": "C'est votre auto-évaluation. Le système la comparera avec le diagnostic réel.",
+        "ar": "هذا تقييمك الذاتي. سيقارنه النظام بالتشخيص الفعلي."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "entrepreneur.stage_self_assessed",
+      "used_by": [
+        "diagnosis"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "idea",
+          "label": {
+            "fr": "Idée — concept uniquement, rien de construit",
+            "ar": "فكرة — مجرد مفهوم، لم يُبنَ شيء بعد"
+          }
+        },
+        {
+          "value": "validation",
+          "label": {
+            "fr": "Validation marché — test avec de vrais utilisateurs",
+            "ar": "التحقق من السوق — اختبار مع مستخدمين حقيقيين"
+          }
+        },
+        {
+          "value": "structuration",
+          "label": {
+            "fr": "Structuration — construction du modèle économique",
+            "ar": "الهيكلة — بناء نموذج العمل التجاري"
+          }
+        },
+        {
+          "value": "fundraising",
+          "label": {
+            "fr": "Levée de fonds — recherche d'investissement",
+            "ar": "جمع التمويل — البحث عن استثمار"
+          }
+        },
+        {
+          "value": "launch",
+          "label": {
+            "fr": "Lancement — entrée sur le marché",
+            "ar": "الإطلاق — دخول السوق"
+          }
+        },
+        {
+          "value": "growth",
+          "label": {
+            "fr": "Croissance — mise à l'échelle des opérations",
+            "ar": "النمو — توسيع العمليات"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q05"
+      }
+    },
+    {
+      "id": "QA01",
+      "category": "sector_specific",
+      "text": {
+        "fr": "Votre projet implique-t-il l'utilisation ou la gestion de terres agricoles ?",
+        "ar": "هل يتضمن مشروعك استخدام أو إدارة الأراضي الزراعية؟"
+      },
+      "description": {
+        "fr": "Pertinent pour l'évaluation de l'impact environnemental.",
+        "ar": "ذو صلة بتقييم الأثر البيئي."
+      },
+      "type": "yes_no",
+      "required": false,
+      "maps_to": "startup.agri_land_use",
+      "used_by": [
+        "scoring.green"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "QA02"
+      }
+    },
+    {
+      "id": "QA02",
+      "category": "sector_specific",
+      "text": {
+        "fr": "Votre solution s'adresse-t-elle spécifiquement à l'efficacité hydrique ou à l'optimisation de l'irrigation ?",
+        "ar": "هل تتناول حلولك تحديدًا كفاءة استخدام المياه أو تحسين الري؟"
+      },
+      "description": {
+        "fr": "Utilisé pour évaluer votre score d'impact sur l'eau.",
+        "ar": "يُستخدم لتقييم درجة تأثيرك على المياه."
+      },
+      "type": "yes_no",
+      "required": false,
+      "maps_to": "startup.agri_water_efficiency",
+      "used_by": [
+        "scoring.green"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q02"
+      }
+    },
+    {
+      "id": "Q05",
+      "category": "startup_overview",
+      "text": {
+        "fr": "Quel est le nom de votre startup ?",
+        "ar": "ما هو اسم شركتك الناشئة؟"
+      },
+      "description": {
+        "fr": "Utilisé pour personnaliser votre rapport de diagnostic.",
+        "ar": "يُستخدم لتخصيص تقرير التشخيص الخاص بك."
+      },
+      "type": "text",
+      "required": false,
+      "maps_to": "startup.name",
+      "used_by": [],
+      "validation": {
+        "max_length": 100
+      },
+      "branching": {
+        "type": "linear",
+        "next": "Q06"
+      }
+    },
+    {
+      "id": "Q06",
+      "category": "startup_overview",
+      "text": {
+        "fr": "Le problème que votre startup adresse est-il clairement défini et documenté ?",
+        "ar": "هل تم تحديد المشكلة التي تعالجها شركتك الناشئة وتوثيقها بوضوح؟"
+      },
+      "description": {
+        "fr": "Un problème clairement défini est la première condition d'un diagnostic utile.",
+        "ar": "تحديد مشكلة واضحة هو الشرط الأول لأي تشخيص مفيد."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.problem_defined",
+      "used_by": [
+        "diagnosis",
+        "scoring.market",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q07"
+      }
+    },
+    {
+      "id": "Q07",
+      "category": "startup_overview",
+      "text": {
+        "fr": "Qui est votre client cible principal ?",
+        "ar": "من هو عميلك المستهدف الرئيسي؟"
+      },
+      "description": {
+        "fr": "Décrivez votre client idéal en une phrase.",
+        "ar": "صف عميلك المثالي في جملة واحدة."
+      },
+      "type": "text",
+      "required": true,
+      "maps_to": "startup.target_customer",
+      "used_by": [
+        "scoring.market",
+        "scoring.commercial",
+        "rag"
+      ],
+      "validation": {
+        "max_length": 300
+      },
+      "branching": {
+        "type": "linear",
+        "next": "Q08"
+      }
+    },
+    {
+      "id": "Q08",
+      "category": "startup_overview",
+      "text": {
+        "fr": "En une ou deux phrases, quelle solution votre startup propose-t-elle ?",
+        "ar": "في جملة أو جملتين، ما الحل الذي تقدمه شركتك الناشئة؟"
+      },
+      "description": {
+        "fr": "Soyez précis sur ce que vous faites et en quoi cela diffère des solutions existantes.",
+        "ar": "كن محددًا بشأن ما تفعله وكيف يختلف عن الحلول الموجودة."
+      },
+      "type": "text",
+      "required": true,
+      "maps_to": "startup.solution_description",
+      "used_by": [
+        "scoring.innovation",
+        "scoring.commercial",
+        "rag"
+      ],
+      "validation": {
+        "max_length": 500
+      },
+      "branching": {
+        "type": "linear",
+        "next": "Q09"
+      }
+    },
+    {
+      "id": "Q09",
+      "category": "legal",
+      "text": {
+        "fr": "Quel est le statut juridique actuel de votre startup ?",
+        "ar": "ما هو الوضع القانوني الحالي لشركتك الناشئة؟"
+      },
+      "description": {
+        "fr": "Le statut juridique conditionne l'accès à certains programmes de soutien.",
+        "ar": "الوضع القانوني يحدد أهليتك للوصول إلى بعض برامج الدعم."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.legal_form",
+      "used_by": [
+        "diagnosis",
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "not_registered",
+          "label": {
+            "fr": "Pas encore enregistrée",
+            "ar": "غير مسجلة بعد"
+          }
+        },
+        {
+          "value": "in_progress",
+          "label": {
+            "fr": "Enregistrement en cours",
+            "ar": "التسجيل جارٍ"
+          }
+        },
+        {
+          "value": "sarl",
+          "label": {
+            "fr": "SARL",
+            "ar": "SARL — شركة ذات مسؤولية محدودة"
+          }
+        },
+        {
+          "value": "suarl",
+          "label": {
+            "fr": "SUARL",
+            "ar": "SUARL — شركة بشريك وحيد"
+          }
+        },
+        {
+          "value": "sa",
+          "label": {
+            "fr": "SA",
+            "ar": "SA — شركة مساهمة"
+          }
+        },
+        {
+          "value": "startup_act",
+          "label": {
+            "fr": "Certifiée Startup Act",
+            "ar": "معتمدة بموجب قانون الشركات الناشئة"
+          }
+        },
+        {
+          "value": "association",
+          "label": {
+            "fr": "Association / ONG",
+            "ar": "جمعية / منظمة غير حكومية"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q10"
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "legal",
+      "text": {
+        "fr": "Votre startup a-t-elle déjà bénéficié d'un accompagnement d'un incubateur, accélérateur ou programme public ?",
+        "ar": "هل استفادت شركتك الناشئة سابقًا من دعم حاضنة أو مسرّع أعمال أو برنامج عام؟"
+      },
+      "description": {
+        "fr": "Cela nous aide à recommander des programmes auxquels vous n'avez pas encore accédé.",
+        "ar": "يساعدنا هذا في التوصية ببرامج لم تستفد منها بعد."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.prior_accompaniment",
+      "used_by": [
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q11"
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "team",
+      "text": {
+        "fr": "Avez-vous des co-fondateurs ?",
+        "ar": "هل لديك مؤسسون مشاركون؟"
+      },
+      "description": {
+        "fr": "Les fondateurs solo font face à des défis différents de ceux des équipes.",
+        "ar": "المؤسسون المنفردون يواجهون تحديات مختلفة عن تحديات الفرق."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_cofounders",
+      "used_by": [
+        "diagnosis",
+        "scoring.innovation"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q12"
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "team",
+      "text": {
+        "fr": "Quels domaines de compétences sont couverts par votre équipe ? Sélectionnez tout ce qui s'applique.",
+        "ar": "ما مجالات الكفاءات التي يغطيها فريقك؟ حدد كل ما ينطبق."
+      },
+      "description": {
+        "fr": "La couverture des compétences affecte votre capacité d'exécution.",
+        "ar": "تغطية المهارات تؤثر على قدرتك التنفيذية في جميع المحاور."
+      },
+      "type": "multiple_choice",
+      "required": true,
+      "maps_to": "startup.team_skills",
+      "used_by": [
+        "diagnosis",
+        "scoring.scalability"
+      ],
+      "validation": {
+        "min_selected": 1
+      },
+      "options": [
+        {
+          "value": "tech",
+          "label": {
+            "fr": "Technologie / Développement",
+            "ar": "تكنولوجيا / تطوير"
+          }
+        },
+        {
+          "value": "business",
+          "label": {
+            "fr": "Business / Stratégie",
+            "ar": "أعمال / استراتيجية"
+          }
+        },
+        {
+          "value": "marketing",
+          "label": {
+            "fr": "Marketing / Ventes",
+            "ar": "تسويق / مبيعات"
+          }
+        },
+        {
+          "value": "finance",
+          "label": {
+            "fr": "Finance / Comptabilité",
+            "ar": "مالية / محاسبة"
+          }
+        },
+        {
+          "value": "operations",
+          "label": {
+            "fr": "Opérations / Logistique",
+            "ar": "عمليات / لوجستيك"
+          }
+        },
+        {
+          "value": "domain",
+          "label": {
+            "fr": "Expertise sectorielle",
+            "ar": "خبرة قطاعية"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q13"
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "team",
+      "text": {
+        "fr": "Avez-vous accès à des mentors, conseillers ou un réseau professionnel dans votre secteur ?",
+        "ar": "هل لديك إمكانية الوصول إلى مرشدين أو مستشارين أو شبكة مهنية في قطاعك؟"
+      },
+      "description": {
+        "fr": "Les mentors et conseillers accélèrent significativement le développement des startups.",
+        "ar": "المرشدون والمستشارون يُسرّعون بشكل كبير تطوير الشركات الناشئة."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_mentors",
+      "used_by": [
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q14"
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "product",
+      "text": {
+        "fr": "Disposez-vous d'un prototype fonctionnel ou d'un MVP ?",
+        "ar": "هل لديك نموذج أولي وظيفي أو منتج بحد أدنى من المتطلبات (MVP)؟"
+      },
+      "description": {
+        "fr": "Un prototype est toute version fonctionnelle de votre produit, aussi précoce soit-elle.",
+        "ar": "النموذج الأولي هو أي نسخة وظيفية من منتجك، مهما كانت مبكرة."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_prototype",
+      "used_by": [
+        "diagnosis",
+        "scoring.innovation",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q15"
+          }
+        ],
+        "default_next": "Q18"
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "product",
+      "text": {
+        "fr": "Quel stade décrit le mieux votre produit actuel ?",
+        "ar": "ما المرحلة التي تصف منتجك الحالي بشكل أفضل؟"
+      },
+      "description": {
+        "fr": "Soyez honnête — cela influence directement votre diagnostic.",
+        "ar": "كن صادقًا — هذا يؤثر مباشرة على تشخيصك."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.product_stage",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "proof_of_concept",
+          "label": {
+            "fr": "Preuve de concept (prototype précoce)",
+            "ar": "إثبات المفهوم (نموذج أولي مبكر)"
+          }
+        },
+        {
+          "value": "mvp",
+          "label": {
+            "fr": "MVP — fonctionnel mais limité",
+            "ar": "MVP — وظيفي لكن محدود"
+          }
+        },
+        {
+          "value": "beta",
+          "label": {
+            "fr": "Bêta — testé avec des utilisateurs",
+            "ar": "نسخة تجريبية — تم اختبارها مع المستخدمين"
+          }
+        },
+        {
+          "value": "market_ready",
+          "label": {
+            "fr": "Produit prêt pour le marché",
+            "ar": "منتج جاهز للسوق"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q16"
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "product",
+      "text": {
+        "fr": "Votre produit ou service a-t-il été officiellement lancé sur le marché ?",
+        "ar": "هل تم إطلاق منتجك أو خدمتك رسميًا في السوق؟"
+      },
+      "description": {
+        "fr": "Lancé signifie disponible et utilisé par de vrais clients.",
+        "ar": "الإطلاق يعني أن المنتج متاح ويُستخدم من قبل عملاء حقيقيين."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.launched_to_market",
+      "used_by": [
+        "diagnosis",
+        "scoring.market",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q17"
+          }
+        ],
+        "default_next": "Q18"
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "product",
+      "text": {
+        "fr": "Combien d'utilisateurs ou de clients actifs avez-vous actuellement ?",
+        "ar": "كم عدد المستخدمين أو العملاء النشطين لديك حاليًا؟"
+      },
+      "description": {
+        "fr": "Actif signifie qu'ils ont utilisé le produit au moins une fois au cours des 30 derniers jours.",
+        "ar": "النشط يعني أنه استخدم المنتج مرة واحدة على الأقل خلال الـ 30 يومًا الماضية."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.active_users",
+      "used_by": [
+        "diagnosis",
+        "scoring.market",
+        "scoring.scalability"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "fr": "Aucun pour l'instant",
+            "ar": "لا أحد حتى الآن"
+          }
+        },
+        {
+          "value": "1-10",
+          "label": {
+            "fr": "1 à 10",
+            "ar": "1 إلى 10"
+          }
+        },
+        {
+          "value": "11-50",
+          "label": {
+            "fr": "11 à 50",
+            "ar": "11 إلى 50"
+          }
+        },
+        {
+          "value": "51-200",
+          "label": {
+            "fr": "51 à 200",
+            "ar": "51 إلى 200"
+          }
+        },
+        {
+          "value": "200+",
+          "label": {
+            "fr": "Plus de 200",
+            "ar": "أكثر من 200"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q18"
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "market_validation",
+      "text": {
+        "fr": "Avez-vous mené des entretiens directs ou des conversations avec des clients potentiels ?",
+        "ar": "هل أجريت مقابلات directe أو محادثات مع عملاء محتملين؟"
+      },
+      "description": {
+        "fr": "Les entretiens clients sont la principale preuve d'une demande réelle du marché.",
+        "ar": "مقابلات العملاء هي الدليل الرئيسي على وجود طلب حقيقي في السوق."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.customer_interviews_conducted",
+      "used_by": [
+        "diagnosis",
+        "scoring.market"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q19"
+          }
+        ],
+        "default_next": "Q20"
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "market_validation",
+      "text": {
+        "fr": "Combien d'entretiens ou de conversations significatives avez-vous menés ?",
+        "ar": "كم عدد المقابلات أو المحادثات المهمة التي أجريتها؟"
+      },
+      "description": {
+        "fr": "Un minimum de 5 est requis pour une validation marché crédible.",
+        "ar": "الحد الأدنى من 5 مقابلات مطلوب للتحقق الموثوق من السوق."
+      },
+      "type": "number",
+      "required": true,
+      "maps_to": "startup.customer_interviews_count",
+      "used_by": [
+        "diagnosis",
+        "scoring.market"
+      ],
+      "validation": {
+        "min": 0,
+        "max": 10000
+      },
+      "branching": {
+        "type": "linear",
+        "next": "Q20"
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "market_validation",
+      "text": {
+        "fr": "Disposez-vous de données d'enquête collectées auprès de votre marché cible ?",
+        "ar": "هل لديك بيانات استبيان تم جمعها من سوقك المستهدف؟"
+      },
+      "description": {
+        "fr": "Les enquêtes complètent les entretiens avec des preuves quantitatives.",
+        "ar": "الاستبيانات تكمل المقابلات بأدلة كمية."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_survey_data",
+      "used_by": [
+        "scoring.market"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q21"
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "market_validation",
+      "text": {
+        "fr": "Avez-vous actuellement des utilisateurs pilotes ou des bêta-testeurs ?",
+        "ar": "هل لديك حاليًا مستخدمون تجريبيون أو مختبرو نسخة بيتا؟"
+      },
+      "description": {
+        "fr": "Les utilisateurs pilotes fournissent des retours concrets au-delà des entretiens.",
+        "ar": "المستخدمون التجريبيون يوفرون ملاحظات ملموسة تتجاوز المقابلات."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_pilot_users",
+      "used_by": [
+        "diagnosis",
+        "scoring.market",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q22"
+      }
+    },
+    {
+      "id": "Q22",
+      "category": "market_validation",
+      "text": {
+        "fr": "Avez-vous obtenu des Lettres d'Intention (LOI) ou des accords signés de clients potentiels ?",
+        "ar": "هل حصلت على خطابات نية (LOI) أو اتفاقيات موقعة من عملاء محتملين؟"
+      },
+      "description": {
+        "fr": "Les LOI sont une preuve forte d'intention commerciale avant le lancement.",
+        "ar": "خطابات النية هي دليل قوي على النية التجارية قبل الإطلاق."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_loi",
+      "used_by": [
+        "scoring.market",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q23"
+      }
+    },
+    {
+      "id": "Q23",
+      "category": "business_model",
+      "text": {
+        "fr": "Avez-vous défini un modèle économique clair pour votre startup ?",
+        "ar": "هل قمت بتحديد نموذج عمل تجاري واضح لشركتك الناشئة؟"
+      },
+      "description": {
+        "fr": "Un modèle économique définit comment vous créez, délivrez et capturez de la valeur.",
+        "ar": "نموذج العمل يحدد كيفية خلق القيمة وتسليمها والاستفادة منها."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_business_model",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q24"
+          }
+        ],
+        "default_next": "Q26"
+      }
+    },
+    {
+      "id": "Q24",
+      "category": "business_model",
+      "text": {
+        "fr": "Quel est votre modèle de revenus principal ?",
+        "ar": "ما هو نموذج إيراداتك الرئيسي؟"
+      },
+      "description": {
+        "fr": "Comment votre startup génère-t-elle ou prévoit-elle de générer des revenus ?",
+        "ar": "كيف تولّد شركتك الإيرادات أو تخطط لتوليدها؟"
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.revenue_model",
+      "used_by": [
+        "scoring.commercial",
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "subscription",
+          "label": {
+            "fr": "Abonnement / SaaS",
+            "ar": "اشتراك / SaaS"
+          }
+        },
+        {
+          "value": "commission",
+          "label": {
+            "fr": "Commission / Marketplace",
+            "ar": "عمولة / سوق إلكتروني"
+          }
+        },
+        {
+          "value": "direct_sales",
+          "label": {
+            "fr": "Vente directe (B2B ou B2C)",
+            "ar": "بيع مباشر (B2B أو B2C)"
+          }
+        },
+        {
+          "value": "freemium",
+          "label": {
+            "fr": "Freemium",
+            "ar": "نموذج مجاني مع خيارات مدفوعة"
+          }
+        },
+        {
+          "value": "licensing",
+          "label": {
+            "fr": "Licence",
+            "ar": "ترخيص"
+          }
+        },
+        {
+          "value": "advertising",
+          "label": {
+            "fr": "Publicité",
+            "ar": "إعلانات"
+          }
+        },
+        {
+          "value": "not_defined",
+          "label": {
+            "fr": "Pas encore défini",
+            "ar": "لم يُحدَّد بعد"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q25"
+      }
+    },
+    {
+      "id": "Q25",
+      "category": "business_model",
+      "text": {
+        "fr": "Avez-vous défini et testé votre stratégie de tarification avec des clients potentiels ?",
+        "ar": "هل قمت بتحديد استراتيجية التسعير الخاصة بك واختبارها مع العملاء المحتملين؟"
+      },
+      "description": {
+        "fr": "La validation du prix avec de vrais clients est un signal commercial clé.",
+        "ar": "التحقق من السعر مع عملاء حقيقيين إشارة تجارية أساسية."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.pricing_defined",
+      "used_by": [
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q26"
+      }
+    },
+    {
+      "id": "Q26",
+      "category": "business_model",
+      "text": {
+        "fr": "Disposez-vous d'un plan d'affaires rédigé ?",
+        "ar": "هل لديك خطة عمل مكتوبة؟"
+      },
+      "description": {
+        "fr": "Un plan d'affaires est requis pour la plupart des demandes de financement institutionnel.",
+        "ar": "خطة العمل مطلوبة لمعظم طلبات التمويل المؤسسي."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_business_plan",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q27"
+      }
+    },
+    {
+      "id": "Q27",
+      "category": "business_model",
+      "text": {
+        "fr": "Avez-vous préparé des projections financières pour les 12 à 24 prochains mois ?",
+        "ar": "هل أعددت توقعات مالية للـ 12 إلى 24 شهرًا القادمة؟"
+      },
+      "description": {
+        "fr": "Les projections financières sont un prérequis minimum avant d'approcher des investisseurs.",
+        "ar": "التوقعات المالية شرط أدنى قبل التواصل مع المستثمرين."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_financial_projection",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q28"
+      }
+    },
+    {
+      "id": "Q28",
+      "category": "revenue",
+      "text": {
+        "fr": "Quel est votre chiffre d'affaires mensuel moyen actuel (en TND) ?",
+        "ar": "ما هو متوسط إيراداتك الشهرية الحالية (بالدينار التونسي)؟"
+      },
+      "description": {
+        "fr": "Sélectionnez la tranche qui représente le mieux votre moyenne sur les 3 derniers mois.",
+        "ar": "حدد الفئة التي تمثل متوسطك على مدى الأشهر الثلاثة الماضية."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.monthly_revenue",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial",
+        "scoring.market"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "fr": "0 — Pas encore de revenus",
+            "ar": "0 — لا إيرادات بعد"
+          },
+          "numeric": 0
+        },
+        {
+          "value": "1-1000",
+          "label": {
+            "fr": "1 à 1 000 TND",
+            "ar": "1 إلى 1,000 دينار تونسي"
+          },
+          "numeric": 500
+        },
+        {
+          "value": "1001-5000",
+          "label": {
+            "fr": "1 001 à 5 000 TND",
+            "ar": "1,001 إلى 5,000 دينار تونسي"
+          },
+          "numeric": 3000
+        },
+        {
+          "value": "5001-20000",
+          "label": {
+            "fr": "5 001 à 20 000 TND",
+            "ar": "5,001 إلى 20,000 دينار تونسي"
+          },
+          "numeric": 12000
+        },
+        {
+          "value": "20000+",
+          "label": {
+            "fr": "Plus de 20 000 TND",
+            "ar": "أكثر من 20,000 دينار تونسي"
+          },
+          "numeric": 30000
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q29"
+      }
+    },
+    {
+      "id": "Q29",
+      "category": "revenue",
+      "text": {
+        "fr": "Avez-vous actuellement des clients payants ?",
+        "ar": "هل لديك حاليًا عملاء يدفعون؟"
+      },
+      "description": {
+        "fr": "Les clients payants sont le signal le plus fort de viabilité commerciale.",
+        "ar": "العملاء الذين يدفعون هم الإشارة الأقوى على الجدوى التجارية."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_paying_customers",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial",
+        "scoring.market"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q30"
+          }
+        ],
+        "default_next": "Q31"
+      }
+    },
+    {
+      "id": "Q30",
+      "category": "revenue",
+      "text": {
+        "fr": "Combien de clients payants avez-vous actuellement ?",
+        "ar": "كم عدد العملاء الذين يدفعون لديك حاليًا؟"
+      },
+      "description": {
+        "fr": "Incluez tous les clients ayant effectué au moins un paiement.",
+        "ar": "أدرج جميع العملاء الذين دفعوا مرة واحدة على الأقل."
+      },
+      "type": "number",
+      "required": true,
+      "maps_to": "startup.paying_customers_count",
+      "used_by": [
+        "diagnosis",
+        "scoring.commercial",
+        "scoring.scalability"
+      ],
+      "validation": {
+        "min": 1,
+        "max": 100000
+      },
+      "branching": {
+        "type": "linear",
+        "next": "Q31"
+      }
+    },
+    {
+      "id": "Q31",
+      "category": "funding",
+      "text": {
+        "fr": "Votre startup a-t-elle reçu un financement externe ?",
+        "ar": "هل تلقت شركتك الناشئة تمويلًا خارجيًا؟"
+      },
+      "description": {
+        "fr": "Incluez les subventions, prix de concours, prêts ou investissements privés.",
+        "ar": "أدرج المنح وجوائز المسابقات والقروض والاستثمارات الخاصة."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_funding",
+      "used_by": [
+        "diagnosis",
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q32"
+          }
+        ],
+        "default_next": "Q33"
+      }
+    },
+    {
+      "id": "Q32",
+      "category": "funding",
+      "text": {
+        "fr": "Quel type de financement avez-vous reçu ?",
+        "ar": "ما نوع التمويل الذي تلقيته؟"
+      },
+      "description": {
+        "fr": "Sélectionnez la source la plus significative.",
+        "ar": "حدد المصدر الأكثر أهمية."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.funding_type",
+      "used_by": [
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "grant",
+          "label": {
+            "fr": "Subvention publique (APII, ANPE, ODC...)",
+            "ar": "منحة عامة (APII, ANPE, ODC...)"
+          }
+        },
+        {
+          "value": "competition",
+          "label": {
+            "fr": "Prix de concours",
+            "ar": "جائزة مسابقة"
+          }
+        },
+        {
+          "value": "loan",
+          "label": {
+            "fr": "Prêt bancaire (BFPME, BTS...)",
+            "ar": "قرض بنكي (BFPME, BTS...)"
+          }
+        },
+        {
+          "value": "angel",
+          "label": {
+            "fr": "Investissement providentiel",
+            "ar": "استثمار ملاكي"
+          }
+        },
+        {
+          "value": "vc",
+          "label": {
+            "fr": "Capital-risque",
+            "ar": "رأس المال المخاطر"
+          }
+        },
+        {
+          "value": "crowdfunding",
+          "label": {
+            "fr": "Financement participatif",
+            "ar": "تمويل جماعي"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "fr": "Autre",
+            "ar": "أخرى"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q33"
+      }
+    },
+    {
+      "id": "Q33",
+      "category": "growth_scalability",
+      "text": {
+        "fr": "Disposez-vous d'un plan de croissance documenté pour les 12 à 24 prochains mois ?",
+        "ar": "هل لديك خطة نمو موثقة للـ 12 إلى 24 شهرًا القادمة؟"
+      },
+      "description": {
+        "fr": "Un plan de croissance définit des objectifs, des jalons et les ressources nécessaires.",
+        "ar": "خطة النمو تحدد الأهداف والمعالم والموارد المطلوبة."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_growth_plan",
+      "used_by": [
+        "diagnosis",
+        "scoring.scalability"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q34"
+      }
+    },
+    {
+      "id": "Q34",
+      "category": "growth_scalability",
+      "text": {
+        "fr": "Votre solution peut-elle servir beaucoup plus d'utilisateurs sans augmentation proportionnelle des coûts ?",
+        "ar": "هل يمكن لحلك خدمة عدد أكبر بكثير من المستخدمين دون زيادة متناسبة في التكاليف؟"
+      },
+      "description": {
+        "fr": "Cela mesure la scalabilité structurelle — pas seulement l'ambition.",
+        "ar": "هذا يقيس قابلية التوسع الهيكلية — وليس مجرد الطموح."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.solution_replicable",
+      "used_by": [
+        "scoring.scalability"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q35"
+      }
+    },
+    {
+      "id": "Q35",
+      "category": "growth_scalability",
+      "text": {
+        "fr": "Dans quelle mesure votre modèle de livraison dépend-il d'une intervention humaine manuelle ?",
+        "ar": "إلى أي مدى يعتمد نموذج تسليمك على التدخل البشري اليدوي؟"
+      },
+      "description": {
+        "fr": "Une forte dépendance manuelle limite la scalabilité même avec une demande forte.",
+        "ar": "الاعتماد اليدوي العالي يحد من قابلية التوسع حتى مع وجود طلب قوي."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.manual_dependency_level",
+      "used_by": [
+        "scoring.scalability"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "fully_manual",
+          "label": {
+            "fr": "Entièrement manuel — effort humain important à chaque livraison",
+            "ar": "يدوي بالكامل — كل تسليم يتطلب جهدًا بشريًا كبيرًا"
+          }
+        },
+        {
+          "value": "mostly_manual",
+          "label": {
+            "fr": "Principalement manuel — quelques automatisations",
+            "ar": "يدوي في معظمه — بعض الأتمتة موجودة"
+          }
+        },
+        {
+          "value": "mixed",
+          "label": {
+            "fr": "Mixte — processus manuels et automatisés",
+            "ar": "مختلط — عمليات يدوية وآلية"
+          }
+        },
+        {
+          "value": "mostly_automated",
+          "label": {
+            "fr": "Principalement automatisé — intervention minimale",
+            "ar": "آلي في معظمه — تدخل بشري ضئيل"
+          }
+        },
+        {
+          "value": "fully_automated",
+          "label": {
+            "fr": "Entièrement automatisé — aucune intervention requise",
+            "ar": "آلي بالكامل — لا حاجة لتدخل بشري"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q36"
+      }
+    },
+    {
+      "id": "Q36",
+      "category": "growth_scalability",
+      "text": {
+        "fr": "Prévoyez-vous une expansion au-delà de la Tunisie dans les 2 prochaines années ?",
+        "ar": "هل تخطط للتوسع خارج تونس في السنتين القادمتين؟"
+      },
+      "description": {
+        "fr": "Le potentiel d'expansion internationale affecte votre score de scalabilité.",
+        "ar": "إمكانية التوسع الدولي تؤثر على درجة قابلية التوسع لديك."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.international_expansion",
+      "used_by": [
+        "scoring.scalability",
+        "rag"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q37"
+      }
+    },
+    {
+      "id": "Q37",
+      "category": "innovation",
+      "text": {
+        "fr": "Existe-t-il une solution similaire sur le marché tunisien ?",
+        "ar": "هل توجد حلول مماثلة في السوق التونسية؟"
+      },
+      "description": {
+        "fr": "La nouveauté locale est évaluée dans le contexte tunisien et MENA.",
+        "ar": "يتم تقييم الجدة المحلية في السياق التونسي ومنطقة الشرق الأوسط وشمال أفريقيا."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.local_competition_level",
+      "used_by": [
+        "scoring.innovation"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "fr": "Aucune solution similaire n'existe localement",
+            "ar": "لا توجد حلول مماثلة محليًا"
+          }
+        },
+        {
+          "value": "partial",
+          "label": {
+            "fr": "Des solutions similaires existent mais la mienne se différencie",
+            "ar": "توجد حلول مماثلة لكن حلي متميز"
+          }
+        },
+        {
+          "value": "strong",
+          "label": {
+            "fr": "Forte concurrence avec peu de différenciation",
+            "ar": "منافسة قوية مع تمييز ضعيف"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q38"
+      }
+    },
+    {
+      "id": "Q38",
+      "category": "innovation",
+      "text": {
+        "fr": "Comment décririez-vous le niveau technologique de votre solution ?",
+        "ar": "كيف تصف المستوى التكنولوجي لحلك؟"
+      },
+      "description": {
+        "fr": "L'intensité technologique est l'une des quatre sous-dimensions de l'innovation.",
+        "ar": "كثافة التكنولوجيا هي إحدى الأبعاد الفرعية الأربعة للابتكار."
+      },
+      "type": "single_choice",
+      "required": true,
+      "maps_to": "startup.technology_intensity",
+      "used_by": [
+        "scoring.innovation"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "fr": "Aucune technologie — entièrement manuel ou traditionnel",
+            "ar": "لا تكنولوجيا — يدوي أو تقليدي بالكامل"
+          }
+        },
+        {
+          "value": "basic",
+          "label": {
+            "fr": "Basique — outils numériques standard",
+            "ar": "أساسي — أدوات رقمية قياسية"
+          }
+        },
+        {
+          "value": "intermediate",
+          "label": {
+            "fr": "Intermédiaire — logiciels sur mesure ou intégrations",
+            "ar": "متوسط — برمجيات مخصصة أو تكاملات"
+          }
+        },
+        {
+          "value": "advanced",
+          "label": {
+            "fr": "Avancé — IA, ML, IoT, blockchain ou deep tech",
+            "ar": "متقدم — ذكاء اصطناعي، تعلم آلي، إنترنت الأشياء أو تقنيات عميقة"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q39"
+      }
+    },
+    {
+      "id": "Q39",
+      "category": "sustainability",
+      "text": {
+        "fr": "Votre projet a-t-il un impact environnemental direct — positif ou négatif ?",
+        "ar": "هل لمشروعك تأثير بيئي مباشر — إيجابي أو سلبي؟"
+      },
+      "description": {
+        "fr": "Cela détermine si nous évaluons les quatre dimensions du Score Vert.",
+        "ar": "هذا يحدد ما إذا كنا سنقيّم الأبعاد الأربعة للدرجة الخضراء."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_env_impact",
+      "used_by": [
+        "scoring.green"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non — mon projet n'a pas d'impact environnemental significatif",
+            "ar": "لا — مشروعي ليس له تأثير بيئي مهم"
+          }
+        }
+      ],
+      "branching": {
+        "type": "conditional",
+        "rules": [
+          {
+            "condition": {
+              "answer": "yes"
+            },
+            "next": "Q40"
+          }
+        ],
+        "default_next": "END"
+      }
+    },
+    {
+      "id": "Q40",
+      "category": "sustainability",
+      "text": {
+        "fr": "Avez-vous réalisé ou planifié une évaluation formelle de l'impact environnemental ?",
+        "ar": "هل أجريt أو خططت لإجراء تقييم رسمي للأثر البيئي؟"
+      },
+      "description": {
+        "fr": "Les secteurs à fort impact sont censés évaluer leur empreinte environnementale.",
+        "ar": "يُتوقع من القطاعات عالية التأثير تقييم بصمتها البيئية."
+      },
+      "type": "yes_no",
+      "required": true,
+      "maps_to": "startup.has_env_assessment",
+      "used_by": [
+        "scoring.green"
+      ],
+      "validation": {},
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "fr": "Oui",
+            "ar": "نعم"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "fr": "Non",
+            "ar": "لا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "Q41"
+      }
+    },
+    {
+      "id": "Q41",
+      "category": "sustainability",
+      "text": {
+        "fr": "Quelles pratiques environnementales votre startup met-elle en œuvre ? Sélectionnez tout ce qui s'applique.",
+        "ar": "ما الممارسات البيئية التي تطبقها شركتك الناشئة؟ حدد كل ما ينطبق."
+      },
+      "description": {
+        "fr": "Utilisé pour calculer votre Score Vert sur les quatre piliers environnementaux.",
+        "ar": "يُsmart لحساب درجتك الخضراء عبر الأعمدة البيئية الأربعة."
+      },
+      "type": "multiple_choice",
+      "required": true,
+      "maps_to": "startup.env_practices",
+      "used_by": [
+        "scoring.green"
+      ],
+      "validation": {
+        "min_selected": 0
+      },
+      "options": [
+        {
+          "value": "carbon_reduction",
+          "label": {
+            "fr": "Réduction de l'empreinte carbone (Climat & Air)",
+            "ar": "تخفيض البصمة الكربونية (المناخ والهواء)"
+          }
+        },
+        {
+          "value": "ghg_monitoring",
+          "label": {
+            "fr": "Surveillance des émissions GES (Climat & Air)",
+            "ar": "مراقبة انبعاثات الغازات الدفيئة (المناخ والهواء)"
+          }
+        },
+        {
+          "value": "water_efficiency",
+          "label": {
+            "fr": "Efficacité hydrique ou conservation (Eau)",
+            "ar": "كفاءة استخدام المياه أو الحفاظ عليها (المياه)"
+          }
+        },
+        {
+          "value": "water_recycling",
+          "label": {
+            "fr": "Recyclage ou réutilisation de l'eau (Eau)",
+            "ar": "إعادة تدوير المياه أو استخدامها (المياه)"
+          }
+        },
+        {
+          "value": "land_preservation",
+          "label": {
+            "fr": "Préservation des terres et sols (Sols & Biodiversité)",
+            "ar": "الحفاظ على الأراضي والتربة (التربة والتنوع البيولوجي)"
+          }
+        },
+        {
+          "value": "biodiversity",
+          "label": {
+            "fr": "Protection de la biodiversité (Sols & Biodiversité)",
+            "ar": "حماية التنوع البيولوجي (التربة والتنوع البيولوجي)"
+          }
+        },
+        {
+          "value": "waste_reduction",
+          "label": {
+            "fr": "Réduction ou tri des déchets (Ressources & Déchets)",
+            "ar": "تخفيض النفايات أو فرزها (الموارد والنفايات)"
+          }
+        },
+        {
+          "value": "circular_economy",
+          "label": {
+            "fr": "Pratiques d'économie circulaire (Ressources & Déchets)",
+            "ar": "ممارسات الاقتصاد الدائري (الموارد والنفايات)"
+          }
+        },
+        {
+          "value": "renewable_energy",
+          "label": {
+            "fr": "Utilisation d'énergie renouvelable",
+            "ar": "استخدام الطاقة المتجددة"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "fr": "Aucune pratique actuellement mise en œuvre",
+            "ar": "لا توجد ممارسات مطبقة حاليًا"
+          }
+        }
+      ],
+      "branching": {
+        "type": "linear",
+        "next": "END"
+      }
+    }
+  ]
+}

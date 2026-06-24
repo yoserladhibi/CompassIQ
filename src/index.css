@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-bg-ivory: #FAF3E8;
+  --color-bg-card: #FCFAF2;
+  --color-brand-red: #780000;
+  --color-brand-crimson: #C1121F;
+  --color-brand-varden: #AE1F23;
+  --color-brand-blue: #003049;
+  --color-brand-marble: #669BBC;
+}
+
+/* Custom styling for print support and scrollbars */
+@layer utilities {
+  .print-only {
+    display: none;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+  }
+  @page {
+    margin: 15mm;
+    size: A4 portrait;
+  }
+  h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  img, table, tr, td, p, .page-break-avoid {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF3E8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #669BBC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003049;
+}

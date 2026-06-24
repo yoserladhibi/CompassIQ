@@ -1,0 +1,217 @@
+{
+  "_meta": {
+    "project_id": "42dcafb2-ba86-46d8-b218-12a6491249b3",
+    "user_id": "33a4c7a8-eeec-4c8f-96f1-88047cb193c5",
+    "language": "fr",
+    "created_at": "2026-06-23T00:40:40.634Z",
+    "updated_at": "2026-06-23T00:40:40.634Z",
+    "diagnostic_version": 1,
+    "schema_version": "2.0"
+  },
+  "chat_history": [],
+  "notifications": [],
+  "progress": {
+    "completed_actions": [],
+    "in_progress_actions": [],
+    "activity_log": []
+  },
+  "profile": {
+    "entrepreneur": {
+      "sector": "agritech",
+      "location": "Tunis",
+      "stage_self_assessed": "S1"
+    },
+    "startup": {
+      "name": "TestStartup2",
+      "problem_defined": null,
+      "target_customer": null,
+      "solution_description": null,
+      "legal_form": null,
+      "prior_accompaniment": null,
+      "team_size": null,
+      "has_cofounders": null,
+      "team_skills": [],
+      "has_mentors": null,
+      "has_prototype": null,
+      "product_stage": null,
+      "launched_to_market": null,
+      "active_users": null,
+      "customer_interviews_conducted": null,
+      "customer_interviews_count": null,
+      "has_survey_data": null,
+      "has_pilot_users": null,
+      "has_loi": null,
+      "has_business_model": null,
+      "revenue_model": null,
+      "pricing_defined": null,
+      "has_business_plan": null,
+      "has_financial_projection": null,
+      "monthly_revenue": null,
+      "monthly_revenue_numeric": null,
+      "has_paying_customers": null,
+      "paying_customers_count": null,
+      "has_funding": null,
+      "funding_type": null,
+      "has_growth_plan": null,
+      "solution_replicable": null,
+      "manual_dependency_level": null,
+      "international_expansion": null,
+      "local_competition_level": null,
+      "technology_intensity": null,
+      "has_env_impact": null,
+      "has_env_assessment": null,
+      "env_practices": [],
+      "agri_land_use": null,
+      "agri_water_efficiency": null
+    },
+    "assessment": {
+      "questions_answered": [],
+      "questions_skipped": [],
+      "branching_path": [],
+      "completion_rate": 0,
+      "last_question_id": null
+    },
+    "answers": {
+      "Q1": "agritech",
+      "Q01": "agritech",
+      "Q02": "Tunis",
+      "Q03": "S1"
+    },
+    "user": {
+      "id": "33a4c7a8-eeec-4c8f-96f1-88047cb193c5",
+      "name": "Test User2",
+      "email": "testsession2@example.com",
+      "language_preference": "fr"
+    },
+    "achievements_unlocked": [],
+    "history": []
+  },
+  "diagnosis": {
+    "stage_assigned": null,
+    "stage_label": null,
+    "stage_self_assessed": null,
+    "perception_gap": {
+      "detected": false,
+      "self_assessed_stage": null,
+      "actual_stage": null,
+      "gap_direction": null,
+      "gap_explanation": null
+    },
+    "classification_evidence": [],
+    "confidence_score": null,
+    "blockers_detected": [],
+    "history": []
+  },
+  "scores": {
+    "market": {
+      "score": null,
+      "raw_score": null,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "customer_validation_evidence": null,
+        "market_opportunity": null,
+        "revenue_model_clarity": null
+      },
+      "primary_gap": null,
+      "explanation": null,
+      "recommendation": null
+    },
+    "commercial": {
+      "score": null,
+      "raw_score": null,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "value_proposition_clarity": null,
+        "product_maturity": null,
+        "pricing_strategy_coherence": null,
+        "offer_customer_alignment": null
+      },
+      "primary_gap": null,
+      "explanation": null,
+      "recommendation": null
+    },
+    "innovation": {
+      "score": null,
+      "raw_score": null,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "local_novelty_differentiation": null,
+        "technology_intensity": null,
+        "barrier_to_entry": null,
+        "departure_from_existing_offerings": null
+      },
+      "primary_gap": null,
+      "explanation": null,
+      "recommendation": null
+    },
+    "scalability": {
+      "score": null,
+      "raw_score": null,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "replicability_without_linear_cost": null,
+        "manual_accompaniment_dependency": null,
+        "deployment_cost_structure": null,
+        "geographic_expansion_potential": null
+      },
+      "primary_gap": null,
+      "explanation": null,
+      "recommendation": null
+    },
+    "green": {
+      "score": null,
+      "raw_score": null,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "climat_air": null,
+        "eau": null,
+        "sols_biodiversite": null,
+        "ressources_dechets": null
+      },
+      "primary_gap": null,
+      "explanation": null,
+      "recommendation": null
+    },
+    "overall": {
+      "score": null,
+      "diagnosis_confidence": null,
+      "computed_at": null
+    },
+    "history": []
+  },
+  "roadmap": {
+    "steps": {
+      "generated": false,
+      "generated_at": null,
+      "current_stage": null,
+      "target_stage": null,
+      "steps": [
+        {
+          "step_id": null,
+          "horizon": null,
+          "title": null,
+          "action": null,
+          "rationale": null,
+          "resources": [],
+          "completed": false
+        }
+      ],
+      "mon_parcours": {
+        "last_visited": null,
+        "actions_completed": [],
+        "actions_pending": [],
+        "profile_evolution": []
+      }
+    }
+  }
+}

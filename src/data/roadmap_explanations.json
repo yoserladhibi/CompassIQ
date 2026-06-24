@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "purpose": "Deterministic rationale and explanatory metadata for Tunisian entrepreneurship roadmap suggestions. Guarantees clear, educational, and compliant context on why resources are recommended without any LLM hallucination risk.",
+  "horizons": {
+    "immediate": {
+      "label": { "fr": "Horizon Immédiat", "ar": "المدى العاجل" },
+      "focus": { "fr": "Validation du problème et fondations administratives d'urgence.", "ar": "التحقق من المشكلة وتأسيس الأساسيات الإدارية المستعجلة." }
+    },
+    "short": {
+      "label": { "fr": "Horizon Court Terme", "ar": "المدى القريب" },
+      "focus": { "fr": "Construction du prototype (MVP) et obtention des premiers financements d'amorçage.", "ar": "بناء النموذج الأولي (MVP) والحصول على خطوط التمويل الأولى." }
+    },
+    "medium": {
+      "label": { "fr": "Horizon Moyen Terme", "ar": "المدى المتوسط" },
+      "focus": { "fr": "Structuration commerciale, conformité environnementale et préparation à l'expansion géographique.", "ar": "الهيكلة التجارية، التوافق البيئي والاستعداد للتوسع الجغرافي." }
+    }
+  },
+  "resource_rationales": {
+    "kb_001": {
+      "trigger_condition": { "fr": "Étape de Structuration / Lancement ou secteur Industriel/Services.", "ar": "مرحلة الهيكلة / الإطلاق أو قطاع الصناعة والخدمات." },
+      "why_recommended": {
+        "fr": "L'APII est l'organisme clé pour déclarer votre activité, obtenir vos agréments industriels en Tunisie et bénéficier d'avantages fiscaux et douaniers liés au code des investissements.",
+        "ar": "تعتبر وكالة APII الهيكل المحوري للتصريح بالنشاط، والحصول على التراخيص الصناعية بتونس، والتمتع بالامتيازات الجبائية والديوانية المرتبطة بمجلة الاستثمار."
+      },
+      "concrete_next_step": {
+        "fr": "Se rendre au guichet unique de l'APII à Tunis ou dans votre antenne régionale pour déposer la déclaration de projet.",
+        "ar": "الذهاب إلى الشباك الموحد لوكالة APII بتونس أو فرعها الجهوي لإيداع تصريح الاستثمار."
+      }
+    },
+    "kb_002": {
+      "trigger_condition": { "fr": "Recherche d'investissements conséquents en phase de structuration/croissance.", "ar": "البحث عن تمويلات هامة في مرحلة الهيكلة أو النمو." },
+      "why_recommended": {
+        "fr": "La BFPME offre des crédits à long terme dédiés aux investissements productifs pour les PME tunisiennes, structurant votre plan de financement global sans diluer votre capital.",
+        "ar": "يقدم بنك BFPME قروضاً طويلة المدى مخصصة للاستثمار الإنتاجي للمؤسسات الصغرى والمتوسطة في تونس، مما يهيكل خطتك التمويلية دون التقليص من رأس مالك."
+      },
+      "concrete_next_step": {
+        "fr": "Préparer un plan d'affaires rigoureux et prendre rendez-vous avec un conseiller en financement de la BFPME.",
+        "ar": "تجهيز مخطط أعمال متكامل وتحديد موعد مع مستشار التمويل ببنك BFPME."
+      }
+    },
+    "kb_003": {
+      "trigger_condition": { "fr": "Haut potentiel technologique, innovation, équipe avec cofondateurs.", "ar": "إمكانيات تكنولوجية عالية، ابتكار، وفريق يضم مؤسسين مساهمين." },
+      "why_recommended": {
+        "fr": "L'obtention du Label 'Startup Act' vous octroie des exonérations d'impôts sur les sociétés, la prise en charge des cotisations sociales (CNSS) par l'État, le congé pour création de startup et le compte en devises.",
+        "ar": "الحصول على علامة 'Startup Act' يمنحك إعفاءات ضريبية على الشركات، وتكفل الدولة بالمساهمات الاجتماعية (CNSS)، وعطلة لبعث شركة ناشئة، وفتح حساب بالعملة الأجنبية."
+      },
+      "concrete_next_step": {
+        "fr": "S'inscrire sur le portail Smart Capital (startupact.tn) et soumettre la candidature lors de la session mensuelle.",
+        "ar": "التسجيل في بوابة سمارت كابيتال (startupact.tn) وتقديم ملف الترشح خلال الدورة الشهرية."
+      }
+    },
+    "kb_004": {
+      "trigger_condition": { "fr": "Phase d'idéation ou besoins de formation d'un jeune promoteur.", "ar": "مرحلة الفكرة أو احتياجات التكوين والمرافقة لباعث مشروع جديد." },
+      "why_recommended": {
+        "fr": "L'ANETI propose des primes d'accompagnement à l'auto-emploi, des formations en gestion (programme GERME) et des aides au recrutement (CIVP, Karama) pour votre équipe.",
+        "ar": "تقدم الوكالة الوطنية للتشغيل والعمل المستقل ANETI منح مرافقة للتشغيل الذاتي، وتكوين علمي في التصرف (برنامج GERME)، وتشجيعات على الانتداب (CIVP، الكرامة) لفريقك."
+      },
+      "concrete_next_step": {
+        "fr": "Contacter l'espace entreprendre de l'ANETI le plus proche de votre domicile pour s'inscrire aux sessions d'accompagnement.",
+        "ar": "الاتصال بفضاء المبادرة التابع لـ ANETI الأقرب لمقر سكنك للتسجيل في حصص المرافقة."
+      }
+    },
+    "kb_005": {
+      "trigger_condition": { "fr": "Besoins d'amorçage financier rapides sous forme de micro-crédits.", "ar": "احتياجات تمويلية سريعة للانطلاق في شكل قروض صغرى." },
+      "why_recommended": {
+        "fr": "La BTS octroie des crédits à taux privilégiés sans garanties dures pour l'acquisition d'équipements de démarrage ou de matières premières.",
+        "ar": "يقدم البنك التونسي للتضامن BTS قروضاً بشروط ميسرة ونسب فائدة تفضيلية دون ضمانات عينية صعبة لاقتناء معدات الانطلاق أو المواد الأولية."
+      },
+      "concrete_next_step": {
+        "fr": "Déposer une demande de crédit d'amorçage munie de vos diplômes ou certificats d'aptitude professionnelle à l'antenne BTS locale.",
+        "ar": "تقديم طلب قرض انطلاق مصحوباً بشهائدك العلمية أو المهنية لدى فرع BTS المحلي."
+      }
+    },
+    "kb_011": {
+      "trigger_condition": { "fr": "Projet à fort impact écologique (agritech, greentech, eau, sols).", "ar": "مشروع ذو أثر بيئي هام (تكنولوجيا الفلاحة، التكنولوجيا الخضراء، المياه، التربة)." },
+      "why_recommended": {
+        "fr": "Le CITET vous accompagne dans la conformité environnementale, l'audit de durabilité et l'accès aux écoproduits tunisiens homologués pour asseoir votre légitimité verte.",
+        "ar": "يصاحبك مركز CITET للتدقيق والتوافق البيئي، وإرساء ممارسات التنمية المستدامة، والولوج لعلامات المطابقة البيئية والإنتاج النظيف."
+      },
+      "concrete_next_step": {
+        "fr": "Prendre contact avec la direction de l'assistance technique du CITET à Tunis pour solliciter un diagnostic d'impact.",
+        "ar": "الاتصال بإدارة المساعدة الفنية بمركز CITET بتونس لطلب تشخيص الأثر البيئي لمشروعك."
+      }
+    },
+    "kb_013": {
+      "trigger_condition": { "fr": "Besoin d'enregistrer légalement l'entreprise auprès de l'État.", "ar": "الحاجة لتسجيل الشركة قانونياً وإدارياً لدى الدولة." },
+      "why_recommended": {
+        "fr": "Le RNE centralise toutes les immatriculations formelles d'entreprises en Tunisie, attribuant l'identifiant unique officiel (matricule fiscal) indispensable pour facturer légalement.",
+        "ar": "يقوم السجل الوطني للمؤسسات (RNE) بمركزة كل عمليات الترخيص والتسجيل للمؤسسات في تونس لتسليم المعرف الوحيد الرسمي والجبائي الضروري للفوترة القانونية."
+      },
+      "concrete_next_step": {
+        "fr": "Initialiser votre démarche d'immatriculation en ligne sur la plateforme du RNE (registre-entreprises.tn).",
+        "ar": "بدء إجراءات التسجيل القانوني عبر المنصة الرقمية للسجل (registre-entreprises.tn)."
+      }
+    }
+  }
+}

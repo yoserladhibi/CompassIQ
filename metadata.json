@@ -1,0 +1,8 @@
+{
+  "name": " Remixv2: CompassIQ",
+  "description": "Adaptive Entrepreneurial Maturity Diagnostic Engine for Tunisian \u0026 MENA Startups. Created for PNUD / GEWEET / ODC / IEEE / APII.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

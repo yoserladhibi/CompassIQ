@@ -1,0 +1,1095 @@
+{
+  "_meta": {
+    "project_id": "b1ce5902-b019-4fd9-9c51-d72e17d7555f",
+    "user_id": "2a19ecca-e1fa-42ea-a4d8-5d6d4e4f4f19",
+    "language": "fr",
+    "created_at": "2026-06-23T00:36:34.163Z",
+    "updated_at": "2026-06-23T21:04:57.184Z",
+    "diagnostic_version": 2,
+    "schema_version": "2.0"
+  },
+  "chat_history": [
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T00:51:15.917Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T00:51:15.982Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T00:54:51.933Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T00:54:51.938Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T00:55:13.652Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T00:55:13.654Z"
+    },
+    {
+      "role": "user",
+      "content": "Bonjour",
+      "timestamp": "2026-06-23T00:57:34.266Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T00:57:34.292Z"
+    },
+    {
+      "role": "user",
+      "content": "Bonjour",
+      "timestamp": "2026-06-23T00:57:52.876Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T00:57:52.879Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T01:02:54.868Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T01:02:54.897Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T01:06:55.466Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Une difficulté technique m'empêche momentanément de générer une réponse. Veuillez vous référer aux recommandations et ressources déjà disponibles sur votre feuille de route.",
+      "timestamp": "2026-06-23T01:06:55.485Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T01:10:27.721Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Le **Startup Act Tunisie** est le dispositif législatif mis en place en 2018 pour reconnaître officiellement les jeunes entreprises innovantes comme « startup labellisée ». En obtenant ce label, votre fintech bénéficie d’avantages fiscaux (exonération de l’impôt sur les sociétés pendant plusieurs années), d’allègements de charges sociales et de procédures administratives simplifiées, ce qui peut alléger la pression financière pendant la phase où vous devez encore établir vos projections sur 12‑24 mois et préparer votre levée de fonds. Le label est attribué aux projets qui démontrent un fort potentiel d’innovation et de création d’emplois, critères qui correspondent bien à votre score d’innovation (76) et à votre ambition de scalabilité, même si ce dernier reste à renforcer.  \n\nPour initier la démarche, il faut d’abord déposer votre dossier auprès du Ministère des Technologies de la Communication ; le dossier comprend un business plan (incluant les projections financières que vous devez finaliser), une description du produit, ainsi que les preuves de votre caractère innovant. Une fois le label accordé, vous pourrez également solliciter le régime fiscal allégé proposé par la Direction Générale des Impôts, ce qui complète les bénéfices du Startup Act. Vous pouvez consulter le site officiel pour les formulaires et les critères détaillés, et prendre contact avec le ministère pour obtenir un accompagnement personnalisé.  \n\nEn résumé, le Startup Act vous offre un cadre juridique et fiscal favorable qui peut vous aider à lever les freins liés à l’absence de projections financières et à préparer votre prochaine étape de fundraising.  \n\n[ kb_003 ]",
+      "timestamp": "2026-06-23T01:10:29.330Z"
+    },
+    {
+      "role": "user",
+      "content": "J'ai terminé ma feuille de route ! Pouvez-vous me guider pour passer à la phase \"Levée de Fonds\" ?",
+      "timestamp": "2026-06-23T01:10:52.033Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Passer à la phase de levée de fonds implique de consolider votre dossier, d’obtenir les leviers d’accompagnement les plus pertinents et de cibler les financeurs qui correspondent à votre profil fintech à fort potentiel d’innovation et à votre ambition verte.\n\n**1. Formaliser les projections financières**  \nAvant d’approcher les investisseurs, finalisez les prévisions sur 12‑24 mois demandées dans votre feuille de route. Un business plan complet (revenus attendus, coûts d’acquisition, cash‑flow) sera la base de votre pitch deck et rassurera les financeurs quant à la viabilité de votre modèle.\n\n**2. Obtenir le label « Startup Labellisée »**  \nLe Startup Act Tunisie vous permet d’obtenir un statut officiel qui donne droit à des exonérations fiscales et à des allègements de charges sociales, deux atouts majeurs pour réduire votre burn‑rate pendant la période de fundraising. Déposez votre dossier auprès du Ministère des Technologies de la Communication ; le label renforcera la crédibilité de votre projet auprès des investisseurs. [kb_003]\n\n**3. Bénéficier d’un accompagnement structuré**  \nL’incubateur privé Wiki Start Up propose un programme d’accompagnement qui couvre la préparation du pitch, le coaching commercial et la mise en relation avec des fonds d’amorçage. En intégrant cet incubateur, vous gagnerez en visibilité et en expertise pour structurer votre levée. [kb_010]\n\n**4. Cibler les sources de financement adaptées**  \n- **Programme Tunisia Innovation de la Banque Mondiale** : il finance les projets technologiques innovants via des subventions compétitives. Votre score d’innovation (76) et votre secteur fintech vous placent dans les critères d’éligibilité. Soumettez un dossier détaillant votre impact technologique et vos besoins de financement. [kb_021]  \n- **Green Tunisia Fund (Initiative Climat & Entrepreneuriat Vert)** : étant donné votre score vert (60) et votre intention d’intégrer des pratiques d’éco‑conception, ce fonds peut apporter un financement dédié aux projets à impact environnemental positif, notamment ceux alignés sur les SDG 13. Préparez une partie de votre plan qui décrit les mesures de compensation carbone ou d’éco‑conception que vous envisagez. [kb_032]\n\n**5. Construire le pitch deck et la data‑room**  \nIncluez : votre proposition de valeur fintech, le marché adressable (TAM‑SAM‑SOM), les projections financières, le plan de croissance sur 2 ans, le statut Startup Act, les éventuels soutiens de l’incubateur et les alignements avec les critères des financeurs ciblés (innovation, impact vert).  \n\n**6. Lancer la campagne de fundraising**  \nUtilisez les réseaux de l’incubateur pour obtenir des introductions, soumettez votre dossier aux appels à projets de la Banque Mondiale et du Green Tunisia Fund, et préparez des réunions avec des business angels ou fonds de capital‑risque locaux qui s’intéressent aux fintechs.  \n\nEn suivant ces étapes – formalisation des projections, obtention du label, accompagnement par un incubateur, et ciblage des programmes de financement adéquats – vous maximisez vos chances de lever les fonds nécessaires pour passer à la phase de croissance. Bonne chance dans cette prochaine étape !",
+      "timestamp": "2026-06-23T01:10:54.760Z"
+    },
+    {
+      "role": "user",
+      "content": "Pouvez-vous m'en dire plus sur \"Startup Act Tunisie\" pour mon projet ?",
+      "timestamp": "2026-06-23T15:32:41.145Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Le **Startup Act Tunisie** est la loi de 2018 qui crée le statut officiel de « startup labellisée » pour les jeunes entreprises innovantes. En obtenant ce label, votre fintech bénéficie d’avantages fiscaux (exonération de l’impôt sur les sociétés pendant plusieurs années), d’allègements de charges sociales et de procédures administratives simplifiées, ce qui allège la pression financière pendant la phase où vous devez encore établir vos projections sur 12‑24 mois et préparer votre levée de fonds. Le dispositif s’adresse aux projets à fort potentiel d’innovation et de création d’emplois – des critères qui correspondent bien à votre score d’innovation (76) et à votre ambition de croissance.  \n\nPour solliciter le label, vous devez déposer un dossier auprès du Ministère des Technologies de la Communication ; il comprend un business plan (avec les projections financières que vous finalisez), une description du produit et les preuves de votre caractère innovant. Une fois le label accordé, vous pourrez également profiter du régime fiscal allégé proposé par la Direction Générale des Impôts, ce qui complète les bénéfices du Startup Act. Vous trouverez les formulaires et les critères détaillés sur le site officiel du dispositif.  \n\nEn résumé, le Startup Act vous offre un cadre juridique et fiscal favorable qui peut vous aider à lever les freins liés à l’absence de projections financières et à préparer votre prochaine étape de fundraising.  \n\n[kb_003]",
+      "timestamp": "2026-06-23T15:32:43.431Z"
+    },
+    {
+      "role": "user",
+      "content": "J'ai terminé ma feuille de route ! Pouvez-vous me guider pour passer à la phase \"Levée de Fonds\" ?",
+      "timestamp": "2026-06-23T15:54:28.552Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Passer à la levée de fonds repose sur trois piliers : un dossier financier solide, le statut qui renforce votre crédibilité et le ciblage des financeurs les plus pertinents.\n\n**1. Finaliser vos projections financières**  \nVotre principal blocage est l’absence de prévisions sur 12‑24 mois. Élaborer un business plan détaillé (revenus attendus, coûts d’acquisition, cash‑flow) vous permettra de construire un pitch deck convaincant et de répondre aux exigences des programmes de financement.\n\n**2. Obtenir le label « Startup Labellisée »**  \nLe Startup Act Tunisie vous donne accès à un statut officiel qui apporte des exonérations fiscales, des allègements de charges sociales et des procédures administratives allégées. Déposez votre dossier (business plan, description du produit, preuves d’innovation) auprès du Ministère des Technologies de la Communication ; le label renforcera la confiance des investisseurs et réduira votre burn‑rate pendant la phase de fundraising. [kb_003]\n\n**3. S’appuyer sur un accompagnement structuré**  \nIntégrer l’incubateur privé Wiki Start Up vous donnera accès à un coaching dédié à la préparation du pitch, à la mise en forme du deck et à des mises en relation avec des fonds d’amorçage. Cet accompagnement est particulièrement adapté aux startups tech et digitales comme la vôtre. [kb_010]\n\n**4. Cibler les sources de financement alignées à votre profil**  \n\n- **Programme Tunisia Innovation de la Banque Mondiale** : il finance les projets technologiques innovants via des subventions compétitives. Votre score d’innovation (76) et votre secteur fintech vous placent dans les critères d’éligibilité. Préparez un dossier qui met en avant votre impact technologique et vos besoins de financement. [kb_021]  \n\n- **Green Tunisia Fund (Initiative Climat & Entrepreneuriat Vert)** : votre score vert (60) et votre intention d’intégrer des pratiques d’éco‑conception font de ce fonds un partenaire idéal. Il soutient les projets à impact environnemental positif et alignés sur les SDG 13. Incluez dans votre plan les mesures de compensation carbone ou d’éco‑conception que vous envisagez. [kb_032]\n\n**5. Construire le pitch deck et la data‑room**  \nRegroupez : votre proposition de valeur fintech, le TAM‑SAM‑SOM, les projections financières, le plan de croissance sur deux ans, le statut Startup Act, le soutien de l’incubateur et les alignements avec les critères des financeurs ciblés. Un deck clair et chiffré facilite les réunions avec les business angels, les fonds de capital‑risque et les programmes de subvention.\n\n**6. Lancer la campagne**  \n- Utilisez le réseau de Wiki Start Up pour obtenir des introductions.  \n- Soumettez votre dossier aux appels à projets de la Banque Mondiale et du Green Tunisia Fund.  \n- Organisez des réunions de présentation avec des investisseurs locaux spécialisés en fintech.\n\nEn suivant ces étapes – projections financières, label Startup Act, accompagnement incubateur, et ciblage des programmes de financement adaptés – vous maximisez vos chances de lever les fonds nécessaires pour passer à la phase de croissance. Bonne réussite dans votre levée !",
+      "timestamp": "2026-06-23T15:54:31.446Z"
+    }
+  ],
+  "notifications": [],
+  "progress": {
+    "completed_actions": [
+      "STEP_02",
+      "STEP_03",
+      "STEP_04",
+      "STEP_05",
+      "STEP_06",
+      "STEP_01"
+    ],
+    "in_progress_actions": [],
+    "activity_log": [
+      {
+        "event_id": "evt-1782175832462-685",
+        "timestamp": "2026-06-23T00:50:32.462Z",
+        "text": {
+          "fr": "Action complétée : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم إكمال الإجراء: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782176067219-205",
+        "timestamp": "2026-06-23T00:54:27.219Z",
+        "text": {
+          "fr": "Action complétée : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم إكمال الإجراء: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223695333-692",
+        "timestamp": "2026-06-23T14:08:15.335Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223699714-879",
+        "timestamp": "2026-06-23T14:08:19.714Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223701747-3",
+        "timestamp": "2026-06-23T14:08:21.747Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223703754-429",
+        "timestamp": "2026-06-23T14:08:23.754Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Rechercher des pratiques d'éco-conception ou de compensation carbone (SDG 13).\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"اعتماد ممارسات الاقتصاد الدائري والفرز لفرص ريادية خضراء.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223706166-49",
+        "timestamp": "2026-06-23T14:08:26.166Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Profiler précisément votre TAM-SAM-SOM pour attirer des financeurs.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"توصيف حجم السوق الكلي والمتاح والمستهدف بدقة لجذب الممولين.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782223707626-925",
+        "timestamp": "2026-06-23T14:08:27.626Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Déposer une demande de protection intellectuelle de votre code source auprès de l'INNORPI.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"تقديم طلب لحماية الملكية الفكرية لشيفرتك البرمجية لدى INNORPI التونسية.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782227109444-162",
+        "timestamp": "2026-06-23T15:05:09.444Z",
+        "text": {
+          "fr": "Action complétée : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم إكمال الإجراء: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782230004223-518",
+        "timestamp": "2026-06-23T15:53:24.225Z",
+        "text": {
+          "fr": "Action complétée : \"Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois\"",
+          "ar": "تم إكمال الإجراء: \"Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782230006338-824",
+        "timestamp": "2026-06-23T15:53:26.338Z",
+        "text": {
+          "fr": "Action complétée : \"Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.\"",
+          "ar": "تم إكمال الإجراء: \"استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782230008635-859",
+        "timestamp": "2026-06-23T15:53:28.635Z",
+        "text": {
+          "fr": "Action complétée : \"Rechercher des pratiques d'éco-conception ou de compensation carbone (SDG 13).\"",
+          "ar": "تم إكمال الإجراء: \"اعتماد ممارسات الاقتصاد الدائري والفرز لفرص ريادية خضراء.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782230011869-465",
+        "timestamp": "2026-06-23T15:53:31.869Z",
+        "text": {
+          "fr": "Action complétée : \"Profiler précisément votre TAM-SAM-SOM pour attirer des financeurs.\"",
+          "ar": "تم إكمال الإجراء: \"توصيف حجم السوق الكلي والمتاح والمستهدف بدقة لجذب الممولين.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782230014184-819",
+        "timestamp": "2026-06-23T15:53:34.185Z",
+        "text": {
+          "fr": "Action complétée : \"Déposer une demande de protection intellectuelle de votre code source auprès de l'INNORPI.\"",
+          "ar": "تم إكمال الإجراء: \"تقديم طلب لحماية الملكية الفكرية لشيفرتك البرمجية لدى INNORPI التونسية.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782248691468-66",
+        "timestamp": "2026-06-23T21:04:51.468Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782248694230-732",
+        "timestamp": "2026-06-23T21:04:54.230Z",
+        "text": {
+          "fr": "Action complétée : \"Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.\"",
+          "ar": "تم إكمال الإجراء: \"كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      }
+    ]
+  },
+  "profile": {
+    "entrepreneur": {
+      "sector": "fintech",
+      "location": "tunis",
+      "stage_self_assessed": "structuration"
+    },
+    "startup": {
+      "name": "PayWasla",
+      "problem_defined": true,
+      "target_customer": "Petits commerçants tunisiens sans accès aux paiements mobiles",
+      "solution_description": "Solution de paiement mobile QR pour commerçants informels",
+      "legal_form": "not_registered",
+      "prior_accompaniment": true,
+      "team_size": "2-3",
+      "has_cofounders": true,
+      "team_skills": [
+        "tech",
+        "business"
+      ],
+      "has_mentors": true,
+      "has_prototype": true,
+      "product_stage": "mvp",
+      "launched_to_market": false,
+      "active_users": null,
+      "customer_interviews_conducted": true,
+      "customer_interviews_count": 5,
+      "has_survey_data": true,
+      "has_pilot_users": true,
+      "has_loi": false,
+      "has_business_model": true,
+      "revenue_model": "commission",
+      "pricing_defined": false,
+      "has_business_plan": false,
+      "has_financial_projection": false,
+      "monthly_revenue": "0",
+      "monthly_revenue_numeric": 0,
+      "has_paying_customers": false,
+      "paying_customers_count": null,
+      "has_funding": false,
+      "funding_type": null,
+      "has_growth_plan": false,
+      "solution_replicable": false,
+      "manual_dependency_level": "mixed",
+      "international_expansion": false,
+      "local_competition_level": "partial",
+      "technology_intensity": "intermediate",
+      "has_env_impact": false,
+      "has_env_assessment": null,
+      "env_practices": [],
+      "agri_land_use": null,
+      "agri_water_efficiency": null
+    },
+    "assessment": {
+      "questions_answered": [
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24",
+        "Q25",
+        "Q26",
+        "Q27",
+        "Q28",
+        "Q29",
+        "Q31",
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36",
+        "Q37",
+        "Q38",
+        "Q39"
+      ],
+      "questions_skipped": [],
+      "branching_path": [],
+      "completion_rate": 0.95,
+      "last_question_id": "Q03"
+    },
+    "answers": {
+      "Q1": "fintech",
+      "Q01": "fintech",
+      "Q02": "tunis",
+      "Q03": "2-3",
+      "Q04": "structuration",
+      "Q05": "structuration",
+      "Q06": "yes",
+      "Q07": "yes",
+      "Q08": "yes",
+      "Q09": "not_registered",
+      "Q10": "yes",
+      "Q11": "yes",
+      "Q12": "yes",
+      "Q13": "yes",
+      "Q14": "yes",
+      "Q15": "mvp",
+      "Q16": "no",
+      "Q18": "yes",
+      "Q19": "yes",
+      "Q20": "yes",
+      "Q21": "yes",
+      "Q22": "no",
+      "Q23": "yes",
+      "Q24": "commission",
+      "Q25": "no",
+      "Q26": "no",
+      "Q27": "no",
+      "Q28": "0",
+      "Q29": "no",
+      "Q31": "no",
+      "Q33": "no",
+      "Q34": "no",
+      "Q35": "mixed",
+      "Q36": "no",
+      "Q37": "partial",
+      "Q38": "intermediate",
+      "Q39": "no"
+    },
+    "user": {
+      "id": "2a19ecca-e1fa-42ea-a4d8-5d6d4e4f4f19",
+      "name": "Yosra Ben Ali",
+      "email": "yosrabenali@gmail.com",
+      "language_preference": "fr"
+    },
+    "achievements_unlocked": [],
+    "history": [
+      {
+        "assessment_number": 1,
+        "date": "2026-06-23T00:50:15.666Z",
+        "profile_snapshot": {
+          "startup": {
+            "name": "PayWasla",
+            "problem_defined": true,
+            "target_customer": "Petits commerçants tunisiens sans accès aux paiements mobiles",
+            "solution_description": "Solution de paiement mobile QR pour commerçants informels",
+            "legal_form": "not_registered",
+            "prior_accompaniment": true,
+            "team_size": "2-3",
+            "has_cofounders": true,
+            "team_skills": [
+              "tech",
+              "business"
+            ],
+            "has_mentors": true,
+            "has_prototype": true,
+            "product_stage": "mvp",
+            "launched_to_market": false,
+            "active_users": null,
+            "customer_interviews_conducted": true,
+            "customer_interviews_count": 5,
+            "has_survey_data": true,
+            "has_pilot_users": true,
+            "has_loi": false,
+            "has_business_model": true,
+            "revenue_model": "commission",
+            "pricing_defined": false,
+            "has_business_plan": false,
+            "has_financial_projection": false,
+            "monthly_revenue": "0",
+            "monthly_revenue_numeric": 0,
+            "has_paying_customers": false,
+            "paying_customers_count": null,
+            "has_funding": false,
+            "funding_type": null,
+            "has_growth_plan": false,
+            "solution_replicable": false,
+            "manual_dependency_level": "mixed",
+            "international_expansion": false,
+            "local_competition_level": "partial",
+            "technology_intensity": "intermediate",
+            "has_env_impact": false,
+            "has_env_assessment": null,
+            "env_practices": [],
+            "agri_land_use": null,
+            "agri_water_efficiency": null
+          },
+          "entrepreneur": {
+            "sector": "fintech",
+            "location": "tunis",
+            "stage_self_assessed": "structuration"
+          },
+          "answers": {
+            "Q1": "fintech",
+            "Q01": "fintech",
+            "Q02": "tunis",
+            "Q03": "2-3",
+            "Q04": "structuration",
+            "Q05": "structuration",
+            "Q06": "yes",
+            "Q07": "yes",
+            "Q08": "yes",
+            "Q09": "not_registered",
+            "Q10": "yes",
+            "Q11": "yes",
+            "Q12": "yes",
+            "Q13": "yes",
+            "Q14": "yes",
+            "Q15": "mvp",
+            "Q16": "no",
+            "Q18": "yes",
+            "Q19": "yes",
+            "Q20": "yes",
+            "Q21": "yes",
+            "Q22": "no",
+            "Q23": "yes",
+            "Q24": "commission",
+            "Q25": "no",
+            "Q26": "no",
+            "Q27": "no",
+            "Q28": "0",
+            "Q29": "no",
+            "Q31": "no",
+            "Q33": "no",
+            "Q34": "no",
+            "Q35": "mixed",
+            "Q36": "no",
+            "Q37": "partial",
+            "Q38": "intermediate",
+            "Q39": "no"
+          }
+        },
+        "diagnosis": {
+          "stage_assigned": "S3",
+          "stage_label": {
+            "fr": "Structuration",
+            "ar": "مرحلة الهيكلة"
+          },
+          "stage_self_assessed": "structuration",
+          "perception_gap": {
+            "detected": false,
+            "self_assessed_stage": "S3",
+            "actual_stage": "S3",
+            "gap_direction": "aligned",
+            "gap_explanation": {
+              "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+              "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+            }
+          },
+          "classification_evidence": [
+            {
+              "criteria": {
+                "fr": "Le problème est défini",
+                "ar": "المشكلة محددة"
+              },
+              "status": true,
+              "is_hard": true
+            },
+            {
+              "criteria": {
+                "fr": "Prototype ou MVP existant",
+                "ar": "وجود نموذج أولي أو MVP"
+              },
+              "status": true,
+              "is_hard": true
+            },
+            {
+              "criteria": {
+                "fr": "Au moins 5 entretiens clients menés",
+                "ar": "إجراء 5 مقابلات عملاء على الأقل"
+              },
+              "status": true,
+              "is_hard": true
+            },
+            {
+              "criteria": {
+                "fr": "Modèle économique défini",
+                "ar": "نموذج اقتصادي محدد"
+              },
+              "status": true,
+              "is_hard": false
+            },
+            {
+              "criteria": {
+                "fr": "Utilisateurs pilotes engagés",
+                "ar": "مستخدمون تجريبيون مشاركون"
+              },
+              "status": true,
+              "is_hard": false
+            },
+            {
+              "criteria": {
+                "fr": "Enregistrement juridique initié",
+                "ar": "بدء التسجيل القانوني"
+              },
+              "status": false,
+              "is_hard": false
+            }
+          ],
+          "confidence_score": 83,
+          "blockers_detected": [
+            {
+              "id": "B_FIN_01",
+              "dimension": "commercial",
+              "severity": "medium",
+              "title": {
+                "fr": "Absence de projections financières sur 12-24 mois",
+                "ar": "غياب التوقعات المالية لـ 12-24 شهراً مقبلة"
+              },
+              "description": {
+                "fr": "Vous visez un modèle structuré mais vous ne disposez d'aucune projection de trésorerie ou de revenus à moyen terme. C'est un obstacle incontournable pour obtenir un prêt auprès de la BTS/BFPME ou mobiliser un investisseur providentiel.",
+                "ar": "أنت تسعى لبناء نموذج مهيكل ولكنك لا تملك توقعات للسيولة المالية أو الإيرادات على المدى المتوسط. هذا يمثل عائقاً حتمياً للحصول على قرض من BTS/BFPME أو جذب مستثمر ملائكي."
+              },
+              "action": {
+                "fr": "Construisez un tableau financier prévisionnel simple comptabilisant vos coûts fixes, variables, et hypothèses de vente.",
+                "ar": "قم ببناء جدول مالي تقديري بسيط يوضح تكاليفك الثابتة والمتغيرة وافتراضات المبيعات."
+              }
+            }
+          ]
+        },
+        "scores": {
+          "market": {
+            "score": 72,
+            "raw_score": 72,
+            "gating_applied": false,
+            "cap_value": null,
+            "gating_rule": null,
+            "sub_scores": {
+              "customer_validation_evidence": 75,
+              "market_opportunity": 70,
+              "revenue_model_clarity": 70
+            },
+            "primary_gap": {
+              "fr": "Faible densité d'opportunité d'échelle",
+              "ar": "كثافة منخفضة لفرص التوسع"
+            },
+            "explanation": {
+              "fr": "Votre score montre une saine validation, mais requiert une meilleure définition de la taille de votre opportunité.",
+              "ar": "تظهر درجتك موثوقية جيدة، لكنها تتطلب تحسيناً في حجم الفرصة المتاحة."
+            },
+            "recommendation": {
+              "fr": "Profiler précisément votre TAM-SAM-SOM pour attirer des financeurs.",
+              "ar": "توصيف حجم السوق الكلي والمتاح والمستهدف بدقة لجذب الممولين."
+            }
+          },
+          "commercial": {
+            "score": 50,
+            "raw_score": 63,
+            "gating_applied": true,
+            "cap_value": 50,
+            "gating_rule": "G2",
+            "sub_scores": {
+              "value_proposition_clarity": 100,
+              "product_maturity": 60,
+              "pricing_strategy_coherence": 40,
+              "offer_customer_alignment": 40
+            },
+            "primary_gap": {
+              "fr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+              "ar": "غياب الجرار المالي التجاري (العائد = 0 والعملاء الدافعين = 0)"
+            },
+            "explanation": {
+              "fr": "Votre score est plafonné à 50 par la règle G2. Malgré un concept mûr, la viabilité de votre offre commerciale ne sera prouvée qu'au moment du premier dinar encaissé.",
+              "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G2. على الرغم من نضج الفكرة، فإن نجاعة عرضك التجاري لن تثبت إلا مع تحصيل أول دينار مالي."
+            },
+            "recommendation": {
+              "fr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+              "ar": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك."
+            }
+          },
+          "innovation": {
+            "score": 76,
+            "raw_score": 76,
+            "gating_applied": false,
+            "cap_value": null,
+            "gating_rule": null,
+            "sub_scores": {
+              "local_novelty_differentiation": 60,
+              "technology_intensity": 70,
+              "barrier_to_entry": 80,
+              "departure_from_existing_offerings": 100
+            },
+            "primary_gap": {
+              "fr": "Barrières à l'entrée défendables partielles",
+              "ar": "حواجز حمائية دفاعية جزئية"
+            },
+            "explanation": {
+              "fr": "Votre intensité technologique est solide, mais l'absence de brevet ou d'expertise métier croisée limite votre avance d'innovation.",
+              "ar": "كثافة التكنولوجيا قوية، ولكن غياب الحماية ب براءة اختراع يحد من صدارة مشروعك الابتكارية."
+            },
+            "recommendation": {
+              "fr": "Déposer une demande de protection intellectuelle de votre code source auprès de l'INNORPI.",
+              "ar": "تقديم طلب لحماية الملكية الفكرية لشيفرتك البرمجية لدى INNORPI التونسية."
+            }
+          },
+          "scalability": {
+            "score": 22,
+            "raw_score": 22,
+            "gating_applied": true,
+            "cap_value": 60,
+            "gating_rule": "G4",
+            "sub_scores": {
+              "replicability_without_linear_cost": 15,
+              "manual_accompaniment_dependency": 50,
+              "deployment_cost_structure": 0,
+              "geographic_expansion_potential": 20
+            },
+            "primary_gap": {
+              "fr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+              "ar": "غياب خارطة الطريق الاستراتيجية (لا وجود لخطة نمو)"
+            },
+            "explanation": {
+              "fr": "La capitalisation sur la scalabilité exige une documentation claire des étapes d'expansion. Score plafonné à 60 par la règle G4.",
+              "ar": "يتطلب الاستثمار في التوسع توثيقاً واضحاً لخطوات النمو. تم سقف درجتك بـ 60 وفق القاعدة G4."
+            },
+            "recommendation": {
+              "fr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+              "ar": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع."
+            }
+          },
+          "green": {
+            "score": 60,
+            "raw_score": 60,
+            "gating_applied": false,
+            "cap_value": null,
+            "gating_rule": null,
+            "sub_scores": {
+              "climat_air": 60,
+              "eau": 60,
+              "sols_biodiversite": 60,
+              "ressources_dechets": 60
+            },
+            "primary_gap": {
+              "fr": "Engagement écologique neutre par défaut",
+              "ar": "التزام بيئي محايد افتراضياً"
+            },
+            "explanation": {
+              "fr": "Votre profil n'affiche pas d'impact environnemental majeur, votre score reflète une conformité basique neutre.",
+              "ar": "لم يشخص ملفك أي أثر بيئي حاد، وتعكس درجتك استجابة تنظيمية محايدة."
+            },
+            "recommendation": {
+              "fr": "Rechercher des pratiques d'éco-conception ou de compensation carbone (SDG 13).",
+              "ar": "اعتماد ممارسات الاقتصاد الدائري والفرز لفرص ريادية خضراء."
+            }
+          },
+          "overall": {
+            "score": 57,
+            "diagnosis_confidence": 83,
+            "computed_at": "2026-06-23T00:50:15.663Z"
+          },
+          "history": [
+            {
+              "timestamp": "2026-06-23T00:50:15.666Z",
+              "score": 57,
+              "version_descriptor": "v2",
+              "reason": "Évaluation initiale"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "diagnosis": {
+    "stage_assigned": "S3",
+    "stage_label": {
+      "fr": "Structuration",
+      "ar": "مرحلة الهيكلة"
+    },
+    "stage_self_assessed": "structuration",
+    "perception_gap": {
+      "detected": false,
+      "self_assessed_stage": "S3",
+      "actual_stage": "S3",
+      "gap_direction": "aligned",
+      "gap_explanation": {
+        "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+        "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+      }
+    },
+    "classification_evidence": [
+      {
+        "criteria": {
+          "fr": "Le problème est défini",
+          "ar": "المشكلة محددة"
+        },
+        "status": true,
+        "is_hard": true
+      },
+      {
+        "criteria": {
+          "fr": "Prototype ou MVP existant",
+          "ar": "وجود نموذج أولي أو MVP"
+        },
+        "status": true,
+        "is_hard": true
+      },
+      {
+        "criteria": {
+          "fr": "Au moins 5 entretiens clients menés",
+          "ar": "إجراء 5 مقابلات عملاء على الأقل"
+        },
+        "status": true,
+        "is_hard": true
+      },
+      {
+        "criteria": {
+          "fr": "Modèle économique défini",
+          "ar": "نموذج اقتصادي محدد"
+        },
+        "status": true,
+        "is_hard": false
+      },
+      {
+        "criteria": {
+          "fr": "Utilisateurs pilotes engagés",
+          "ar": "مستخدمون تجريبيون مشاركون"
+        },
+        "status": true,
+        "is_hard": false
+      },
+      {
+        "criteria": {
+          "fr": "Enregistrement juridique initié",
+          "ar": "بدء التسجيل القانوني"
+        },
+        "status": false,
+        "is_hard": false
+      }
+    ],
+    "confidence_score": 83,
+    "blockers_detected": [
+      {
+        "id": "B_FIN_01",
+        "dimension": "commercial",
+        "severity": "medium",
+        "title": {
+          "fr": "Absence de projections financières sur 12-24 mois",
+          "ar": "غياب التوقعات المالية لـ 12-24 شهراً مقبلة"
+        },
+        "description": {
+          "fr": "Vous visez un modèle structuré mais vous ne disposez d'aucune projection de trésorerie ou de revenus à moyen terme. C'est un obstacle incontournable pour obtenir un prêt auprès de la BTS/BFPME ou mobiliser un investisseur providentiel.",
+          "ar": "أنت تسعى لبناء نموذج مهيكل ولكنك لا تملك توقعات للسيولة المالية أو الإيرادات على المدى المتوسط. هذا يمثل عائقاً حتمياً للحصول على قرض من BTS/BFPME أو جذب مستثمر ملائكي."
+        },
+        "action": {
+          "fr": "Construisez un tableau financier prévisionnel simple comptabilisant vos coûts fixes, variables, et hypothèses de vente.",
+          "ar": "قم ببناء جدول مالي تقديري بسيط يوضح تكاليفك الثابتة والمتغيرة وافتراضات المبيعات."
+        }
+      }
+    ],
+    "history": [
+      {
+        "stage": "structuration",
+        "reached_at": "2026-05-24",
+        "self_assessed_at_time": "structuration"
+      },
+      {
+        "stage": "Structuration",
+        "reached_at": "2026-06-23",
+        "self_assessed_at_time": "structuration"
+      }
+    ]
+  },
+  "scores": {
+    "market": {
+      "score": 72,
+      "raw_score": 72,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "customer_validation_evidence": 75,
+        "market_opportunity": 70,
+        "revenue_model_clarity": 70
+      },
+      "primary_gap": {
+        "fr": "Faible densité d'opportunité d'échelle",
+        "ar": "كثافة منخفضة لفرص التوسع"
+      },
+      "explanation": {
+        "fr": "Votre score montre une saine validation, mais requiert une meilleure définition de la taille de votre opportunité.",
+        "ar": "تظهر درجتك موثوقية جيدة، لكنها تتطلب تحسيناً في حجم الفرصة المتاحة."
+      },
+      "recommendation": {
+        "fr": "Profiler précisément votre TAM-SAM-SOM pour attirer des financeurs.",
+        "ar": "توصيف حجم السوق الكلي والمتاح والمستهدف بدقة لجذب الممولين."
+      }
+    },
+    "commercial": {
+      "score": 50,
+      "raw_score": 63,
+      "gating_applied": true,
+      "cap_value": 50,
+      "gating_rule": "G2",
+      "sub_scores": {
+        "value_proposition_clarity": 100,
+        "product_maturity": 60,
+        "pricing_strategy_coherence": 40,
+        "offer_customer_alignment": 40
+      },
+      "primary_gap": {
+        "fr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "ar": "غياب الجرار المالي التجاري (العائد = 0 والعملاء الدافعين = 0)"
+      },
+      "explanation": {
+        "fr": "Votre score est plafonné à 50 par la règle G2. Malgré un concept mûr, la viabilité de votre offre commerciale ne sera prouvée qu'au moment du premier dinar encaissé.",
+        "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G2. على الرغم من نضج الفكرة، فإن نجاعة عرضك التجاري لن تثبت إلا مع تحصيل أول دينار مالي."
+      },
+      "recommendation": {
+        "fr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+        "ar": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك."
+      }
+    },
+    "innovation": {
+      "score": 76,
+      "raw_score": 76,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "local_novelty_differentiation": 60,
+        "technology_intensity": 70,
+        "barrier_to_entry": 80,
+        "departure_from_existing_offerings": 100
+      },
+      "primary_gap": {
+        "fr": "Barrières à l'entrée défendables partielles",
+        "ar": "حواجز حمائية دفاعية جزئية"
+      },
+      "explanation": {
+        "fr": "Votre intensité technologique est solide, mais l'absence de brevet ou d'expertise métier croisée limite votre avance d'innovation.",
+        "ar": "كثافة التكنولوجيا قوية، ولكن غياب الحماية ب براءة اختراع يحد من صدارة مشروعك الابتكارية."
+      },
+      "recommendation": {
+        "fr": "Déposer une demande de protection intellectuelle de votre code source auprès de l'INNORPI.",
+        "ar": "تقديم طلب لحماية الملكية الفكرية لشيفرتك البرمجية لدى INNORPI التونسية."
+      }
+    },
+    "scalability": {
+      "score": 22,
+      "raw_score": 22,
+      "gating_applied": true,
+      "cap_value": 60,
+      "gating_rule": "G4",
+      "sub_scores": {
+        "replicability_without_linear_cost": 15,
+        "manual_accompaniment_dependency": 50,
+        "deployment_cost_structure": 0,
+        "geographic_expansion_potential": 20
+      },
+      "primary_gap": {
+        "fr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "ar": "غياب خارطة الطريق الاستراتيجية (لا وجود لخطة نمو)"
+      },
+      "explanation": {
+        "fr": "La capitalisation sur la scalabilité exige une documentation claire des étapes d'expansion. Score plafonné à 60 par la règle G4.",
+        "ar": "يتطلب الاستثمار في التوسع توثيقاً واضحاً لخطوات النمو. تم سقف درجتك بـ 60 وفق القاعدة G4."
+      },
+      "recommendation": {
+        "fr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+        "ar": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع."
+      }
+    },
+    "green": {
+      "score": 60,
+      "raw_score": 60,
+      "gating_applied": false,
+      "cap_value": null,
+      "gating_rule": null,
+      "sub_scores": {
+        "climat_air": 60,
+        "eau": 60,
+        "sols_biodiversite": 60,
+        "ressources_dechets": 60
+      },
+      "primary_gap": {
+        "fr": "Engagement écologique neutre par défaut",
+        "ar": "التزام بيئي محايد افتراضياً"
+      },
+      "explanation": {
+        "fr": "Votre profil n'affiche pas d'impact environnemental majeur, votre score reflète une conformité basique neutre.",
+        "ar": "لم يشخص ملفك أي أثر بيئي حاد، وتعكس درجتك استجابة تنظيمية محايدة."
+      },
+      "recommendation": {
+        "fr": "Rechercher des pratiques d'éco-conception ou de compensation carbone (SDG 13).",
+        "ar": "اعتماد ممارسات الاقتصاد الدائري والفرز لفرص ريادية خضراء."
+      }
+    },
+    "overall": {
+      "score": 57,
+      "diagnosis_confidence": 83,
+      "computed_at": "2026-06-23T00:50:15.663Z"
+    },
+    "history": [
+      {
+        "date": "2026-05-24",
+        "market_score": 36,
+        "commercial_score": 25,
+        "innovation_score": 38,
+        "scalability_score": 11,
+        "green_score": 30
+      },
+      {
+        "date": "2026-06-23",
+        "market_score": 72,
+        "commercial_score": 50,
+        "innovation_score": 76,
+        "scalability_score": 22,
+        "green_score": 60
+      }
+    ]
+  },
+  "roadmap": {
+    "steps": [
+      {
+        "id": "STEP_01",
+        "horizon": "immediate",
+        "titleFr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+        "titleAr": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.",
+        "actionFr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "actionAr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G4",
+        "addressed_dimension": "scalability"
+      },
+      {
+        "id": "STEP_02",
+        "horizon": "immediate",
+        "titleFr": "Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois",
+        "titleAr": "Résoudre le goulot d'étranglement : Absence de projections financières sur 12-24 mois",
+        "actionFr": "Vous visez un modèle structuré mais vous ne disposez d'aucune projection de trésorerie ou de revenus à moyen terme. C'est un obstacle incontournable pour obtenir un prêt auprès de la BTS/BFPME ou mobiliser un investisseur providentiel.",
+        "actionAr": "Vous visez un modèle structuré mais vous ne disposez d'aucune projection de trésorerie ou de revenus à moyen terme. C'est un obstacle incontournable pour obtenir un prêt auprès de la BTS/BFPME ou mobiliser un investisseur providentiel.",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G2",
+        "addressed_dimension": "commercial"
+      },
+      {
+        "id": "STEP_03",
+        "horizon": "short",
+        "titleFr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+        "titleAr": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك.",
+        "actionFr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "actionAr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G2",
+        "addressed_dimension": "commercial"
+      },
+      {
+        "id": "STEP_04",
+        "horizon": "short",
+        "titleFr": "Rechercher des pratiques d'éco-conception ou de compensation carbone (SDG 13).",
+        "titleAr": "اعتماد ممارسات الاقتصاد الدائري والفرز لفرص ريادية خضراء.",
+        "actionFr": "Engagement écologique neutre par défaut",
+        "actionAr": "Engagement écologique neutre par défaut",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G5",
+        "addressed_dimension": "green"
+      },
+      {
+        "id": "STEP_05",
+        "horizon": "medium",
+        "titleFr": "Profiler précisément votre TAM-SAM-SOM pour attirer des financeurs.",
+        "titleAr": "توصيف حجم السوق الكلي والمتاح والمستهدف بدقة لجذب الممولين.",
+        "actionFr": "Faible densité d'opportunité d'échelle",
+        "actionAr": "Faible densité d'opportunité d'échelle",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G1",
+        "addressed_dimension": "market"
+      },
+      {
+        "id": "STEP_06",
+        "horizon": "medium",
+        "titleFr": "Déposer une demande de protection intellectuelle de votre code source auprès de l'INNORPI.",
+        "titleAr": "تقديم طلب لحماية الملكية الفكرية لشيفرتك البرمجية لدى INNORPI التونسية.",
+        "actionFr": "Barrières à l'entrée défendables partielles",
+        "actionAr": "Barrières à l'entrée défendables partielles",
+        "resourceFr": "Startup Act Tunisie",
+        "resourceAr": "Startup Act Tunisie",
+        "resourceId": "kb_003",
+        "addressed_gate": "G3",
+        "addressed_dimension": "innovation"
+      }
+    ]
+  }
+}

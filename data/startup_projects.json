@@ -1,0 +1,42 @@
+{
+  "b1ce5902-b019-4fd9-9c51-d72e17d7555f": {
+    "id": "b1ce5902-b019-4fd9-9c51-d72e17d7555f",
+    "user_id": "2a19ecca-e1fa-42ea-a4d8-5d6d4e4f4f19",
+    "startup_name": "PayWasla",
+    "region_code": "TUNIS",
+    "sector_code": "FINTECH",
+    "self_assessed_stage_code": "STRUCTURATION",
+    "created_at": "2026-06-23T00:36:33.926Z",
+    "updated_at": "2026-06-23T00:36:33.926Z"
+  },
+  "7b5a20e2-6459-4ffe-97d5-522972696f69": {
+    "id": "7b5a20e2-6459-4ffe-97d5-522972696f69",
+    "user_id": "aff7280b-0537-4a09-bc21-4aafda63de3d",
+    "startup_name": "TestStartup",
+    "region_code": "TUNIS",
+    "sector_code": "AGRITECH",
+    "self_assessed_stage_code": "IDEATION",
+    "created_at": "2026-06-23T00:40:27.168Z",
+    "updated_at": "2026-06-23T00:40:27.168Z"
+  },
+  "42dcafb2-ba86-46d8-b218-12a6491249b3": {
+    "id": "42dcafb2-ba86-46d8-b218-12a6491249b3",
+    "user_id": "33a4c7a8-eeec-4c8f-96f1-88047cb193c5",
+    "startup_name": "TestStartup2",
+    "region_code": "TUNIS",
+    "sector_code": "AGRITECH",
+    "self_assessed_stage_code": "IDEATION",
+    "created_at": "2026-06-23T00:40:40.621Z",
+    "updated_at": "2026-06-23T00:40:40.621Z"
+  },
+  "66eb5d42-4f23-4cbe-bc14-5a050cc926d9": {
+    "id": "66eb5d42-4f23-4cbe-bc14-5a050cc926d9",
+    "user_id": "e1e588f0-98f8-4795-b8f0-4760b695e10c",
+    "startup_name": "AgroSense TN",
+    "region_code": "NABEUL",
+    "sector_code": "AGRITECH",
+    "self_assessed_stage_code": "IDEATION",
+    "created_at": "2026-06-23T21:15:09.900Z",
+    "updated_at": "2026-06-23T21:15:09.900Z"
+  }
+}

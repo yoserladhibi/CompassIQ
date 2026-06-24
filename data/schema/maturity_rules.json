@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "version": "1.1",
+    "description": {
+      "fr": "Moteur de classification de maturité entrepreneuriale — CompassIQ",
+      "ar": "محرك تصنيف نضj المشاريع الريادية — CompassIQ"
+    },
+    "algorithm": {
+      "fr": "Évaluation descendante : tenter S6 en premier, revenir à S1. Assigner le stade le plus élevé où tous les hard_requirements sont satisfaits, min_soft_met atteint, et aucun blocker déclenché.",
+      "ar": "تقييم تنازلي: المحاولة من S6 أولاً والرجوع إلى S1. يُعيَّن أعلى مرحلة تستوفي جميع hard_requirements وتبلغ min_soft_met ولا يُشغَّل فيها أي blocker."
+    },
+    "operators": [
+      "eq",
+      "neq",
+      "gte",
+      "lte",
+      "gt",
+      "lt",
+      "in",
+      "not_in",
+      "is_null",
+      "is_not_null",
+      "contains"
+    ],
+    "supported_languages": [
+      "fr",
+      "ar"
+    ],
+    "default_language": "fr"
+  },
+  "stages": [
+    {
+      "id": "S1",
+      "name": {
+        "fr": "Idéation",
+        "ar": "الفكرة"
+      },
+      "label": {
+        "fr": "💡 Idéation",
+        "ar": "💡 مرحلة الفكرة"
+      },
+      "description": {
+        "fr": "L'entrepreneur dispose d'un concept mais n'a pas encore validé son idée sur le marché ni développé de produit fonctionnel.",
+        "ar": "لدى المقاول فكرة أولية لكنه لم يُتحقق منها في السوق بعد ولم يبنِ أي منتج وظيفي."
+      },
+      "hard_requirements": [],
+      "soft_requirements": [
+        {
+          "field": "startup.problem_defined",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Le problème est défini",
+            "ar": "المشكلة محددة"
+          }
+        }
+      ],
+      "min_soft_met": 0,
+      "blocker_conditions": [],
+      "is_fallback": true,
+      "minimum_thresholds": {
+        "customer_interviews_count": 0
+      },
+      "explanation": {
+        "fr": "Votre projet est actuellement en phase d'Idéation. Vous avez identifié un espace problème mais n'avez pas encore réuni suffisamment de preuves marché ni construit un produit fonctionnel. C'est une première étape normale et importante.",
+        "ar": "مشروعك في مرحلة الفكرة حالياً. لقد حددت مجال المشكلة لكنك لم تجمع بعد أدلة كافية من السوق ولم تبنِ منتجاً وظيفياً. هذه خطوة أولى طبيعية ومهمة."
+      },
+      "recommended_next_stage": "S2",
+      "priority_actions": {
+        "fr": [
+          "Définir et documenter clairement le problème que votre startup adresse",
+          "Identifier votre segment client principal",
+          "Mener au moins 10 entretiens de découverte client",
+          "Rechercher les solutions et concurrents existants en Tunisie et dans la région MENA",
+          "Explorer les programmes APII et ODC pour les entrepreneurs en phase précoce"
+        ],
+        "ar": [
+          "تحديد المشكلة التي يعالجها مشروعك وتوثيقها بوضوح",
+          "تحديد شريحة العملاء المستهدفة الرئيسية",
+          "إجراء 10 مقابلات اكتشاف عملاء على الأقل",
+          "البحث في الحلول والمنافسين الموجودين في تونس ومنطقة الشرق الأوسط وشمال أفريقيا",
+          "استكشاف برامج APII وODC للمقاولين في المراحل المبكرة"
+        ]
+      }
+    },
+    {
+      "id": "S2",
+      "name": {
+        "fr": "Validation Marché",
+        "ar": "التحقق من السوق"
+      },
+      "label": {
+        "fr": "🧪 Validation Marché",
+        "ar": "🧪 مرحلة التحقق من السوق"
+      },
+      "description": {
+        "fr": "L'entrepreneur a défini le problème, commencé à interagir avec des clients potentiels et teste ses hypothèses avant de s'engager dans un développement complet.",
+        "ar": "حدد المقاول المشكلة وبدأ في التواصل مع العملاء المحتملين ويختبر افتراضاته قبل الالتزام ببناء كامل."
+      },
+      "hard_requirements": [
+        {
+          "field": "startup.problem_defined",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Le problème est défini",
+            "ar": "المشكلة محددة"
+          }
+        },
+        {
+          "field": "startup.customer_interviews_count",
+          "operator": "gte",
+          "value": 3,
+          "label": {
+            "fr": "Au moins 3 entretiens clients menés",
+            "ar": "إجراء 3 مقابلات عملاء على الأقل"
+          }
+        }
+      ],
+      "soft_requirements": [
+        {
+          "field": "startup.has_survey_data",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Données d'enquête collectées",
+            "ar": "تم جمع بيانات الاستبيان"
+          }
+        },
+        {
+          "field": "startup.has_pilot_users",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Utilisateurs pilotes engagés",
+            "ar": "مستخدمون تجريبيون مشاركون"
+          }
+        },
+        {
+          "field": "startup.has_loi",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Lettres d'intention obtenues",
+            "ar": "تم الحصول على خطابات النية"
+          }
+        }
+      ],
+      "min_soft_met": 1,
+      "blocker_conditions": [
+        {
+          "field": "startup.has_prototype",
+          "operator": "eq",
+          "value": true,
+          "and": {
+            "field": "startup.has_business_model",
+            "operator": "eq",
+            "value": true
+          },
+          "label": {
+            "fr": "Dispose d'un prototype ET d'un modèle économique — probablement en Structuration",
+            "ar": "لديه نموذج أولي ونموذج اقتصادي — على الأرجح في مرحلة الهيكلة"
+          }
+        }
+      ],
+      "is_fallback": false,
+      "minimum_thresholds": {
+        "customer_interviews_count": 3
+      },
+      "explanation": {
+        "fr": "Votre projet est en phase de Validation Marché. Vous avez commencé à interagir avec des clients potentiels et à collecter des preuves, mais vous n'avez pas encore construit un produit complet ni défini de modèle économique. Votre priorité est de valider vos hypothèses clés avant de vous engager dans le développement.",
+        "ar": "مشروعك في مرحلة التحقق من السوق. بدأت بالتواصل مع العملاء المحتملين وجمع الأدلة، لكنك لم تبنِ بعد منتجاً كاملاً ولم تحدد نموذجاً اقتصادياً. أولويتك هي التحقق من افتراضاتك الرئيسية قبل الالتزام بالتطوير."
+      },
+      "recommended_next_stage": "S3",
+      "priority_actions": {
+        "fr": [
+          "Atteindre au moins 10 entretiens clients pour renforcer votre base de preuves",
+          "Construire un prototype simple ou une maquette à tester avec des utilisateurs",
+          "Collecter des données quantitatives via des enquêtes pour compléter vos entretiens",
+          "Identifier les 3 hypothèses les plus critiques de votre modèle économique",
+          "Contacter l'APII ou un incubateur local pour un accompagnement précoce"
+        ],
+        "ar": [
+          "الوصول إلى 10 مقابلات عملاء على الأقل لتعزيز قاعدة أدلتك",
+          "بناء نموذج أولي بسيط أو نموذج اختباري لتجربته مع المستخدمين",
+          "جمع بيانات كمية عبر استبيانات لاستكمال مقابلاتك",
+          "تحديد الافتراضات الثلاثة الأكثر أهمية في نموذجك الاقتصادي",
+          "التواصل مع APII أو حاضنة محلية للحصول على مرافقة مبكرة"
+        ]
+      }
+    },
+    {
+      "id": "S3",
+      "name": {
+        "fr": "Structuration",
+        "ar": "الهيكلة"
+      },
+      "label": {
+        "fr": "🏗️ Structuration",
+        "ar": "🏗️ مرحلة الهيكلة"
+      },
+      "description": {
+        "fr": "L'entrepreneur a validé la demande, construit un prototype fonctionnel, et structure maintenant le modèle économique, l'équipe et les bases juridiques.",
+        "ar": "تحقق المقاول من الطلب وبنى نموذجاً أولياً وظيفياً، وهو الآن يهيكل النموذج الاقتصادي والفريق والأسس القانونية."
+      },
+      "hard_requirements": [
+        {
+          "field": "startup.problem_defined",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Le problème est défini",
+            "ar": "المشكلة محددة"
+          }
+        },
+        {
+          "field": "startup.has_prototype",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Prototype ou MVP existant",
+            "ar": "وجود نموذج أولي أو MVP"
+          }
+        },
+        {
+          "field": "startup.customer_interviews_count",
+          "operator": "gte",
+          "value": 5,
+          "label": {
+            "fr": "Au moins 5 entretiens clients menés",
+            "ar": "إجراء 5 مقابلات عملاء على الأقل"
+          }
+        }
+      ],
+      "soft_requirements": [
+        {
+          "field": "startup.has_business_model",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Modèle économique défini",
+            "ar": "نموذج اقتصادي محدد"
+          }
+        },
+        {
+          "field": "startup.has_pilot_users",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Utilisateurs pilotes engagés",
+            "ar": "مستخدمون تجريبيون مشاركون"
+          }
+        },
+        {
+          "field": "startup.legal_form",
+          "operator": "not_in",
+          "value": [
+            "not_registered"
+          ],
+          "label": {
+            "fr": "Enregistrement juridique initié",
+            "ar": "بدء التسجيل القانوني"
+          }
+        }
+      ],
+      "min_soft_met": 2,
+      "blocker_conditions": [
+        {
+          "field": "startup.has_business_plan",
+          "operator": "eq",
+          "value": true,
+          "and": {
+            "field": "startup.has_financial_projection",
+            "operator": "eq",
+            "value": true
+          },
+          "label": {
+            "fr": "Dispose d'un business plan ET de projections financières — probablement en Levée de Fonds",
+            "ar": "لديه خطة عمل وتوقعات مالية — على الأرجح في مرحلة جمع التمويل"
+          }
+        }
+      ],
+      "is_fallback": false,
+      "minimum_thresholds": {
+        "customer_interviews_count": 5
+      },
+      "explanation": {
+        "fr": "Votre projet est en phase de Structuration. Vous disposez de preuves marché et d'un produit fonctionnel, et vous construisez maintenant les fondations organisationnelles et commerciales. Le défi principal à ce stade est de transformer la demande validée en un modèle économique cohérent et exécutable.",
+        "ar": "مشروعك في مرحلة الهيكلة. لديك أدلة من السوق ومنتج وظيفي، وأنت الآن تبني الأسس التنظيمية والتجارية. التحدي الرئيسي في هذه المرحلة هو تحويل الطلب المُتحقَّق منه إلى نموذج اقتصادي متмаسك وقابل للتنفيذ."
+      },
+      "recommended_next_stage": "S4",
+      "priority_actions": {
+        "fr": [
+          "Finaliser et documenter votre modèle économique à l'aide d'un Business Model Canvas",
+          "Définir votre stratégie de tarification et la valider avec au moins 3 clients potentiels",
+          "Compléter l'enregistrement juridique pour accéder aux programmes de soutien institutionnels",
+          "Identifier les lacunes de compétences de l'équipe et planifier les premiers recrutements ou partenariats clés",
+          "Explorer les programmes de financement BFPME et BTS pour les startups en phase de structuration"
+        ],
+        "ar": [
+          "وضع اللمسات الأخيرة على نموذجك الاقتصادي وتوثيقه باستخدام Business Model Canvas",
+          "تحديد استراتيجية التسعير والتحقق منها مع 3 عملاء محتملين على الأقل",
+          "إتمام التسجيل القانوني للوصول إلى برامج الدعم المؤسسي",
+          "تحديد الثغرات في مهارات الفريق والتخطيط للتوظيفات أو الشراكات الرئيسية الأولى",
+          "استكشاف برامج التمويل BFPME وBTS للشركات الناشئة في مرحلة الهيكلة"
+        ]
+      }
+    },
+    {
+      "id": "S4",
+      "name": {
+        "fr": "Levée de Fonds",
+        "ar": "جمع التمويل"
+      },
+      "label": {
+        "fr": "💰 Levée de Fonds",
+        "ar": "💰 مرحلة جمع التمويل"
+      },
+      "description": {
+        "fr": "L'entrepreneur dispose d'un modèle économique validé et se prépare à rechercher un investissement externe ou un financement institutionnel.",
+        "ar": "لدى المقاول نموذج اقتصادي مُتحقَّق منه وهو يستعد للبحث عن استثمار خارجي أو تمويل مؤسسي."
+      },
+      "hard_requirements": [
+        {
+          "field": "startup.has_prototype",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Prototype ou MVP existant",
+            "ar": "وجود نموذج أولي أو MVP"
+          }
+        },
+        {
+          "field": "startup.customer_interviews_count",
+          "operator": "gte",
+          "value": 5,
+          "label": {
+            "fr": "Au moins 5 entretiens clients menés",
+            "ar": "إجراء 5 مقابلات عملاء على الأقل"
+          }
+        },
+        {
+          "field": "startup.has_business_model",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Modèle économique défini",
+            "ar": "نموذج اقتصادي محدد"
+          }
+        },
+        {
+          "field": "startup.has_business_plan",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Business plan rédigé",
+            "ar": "خطة عمل مكتوبة"
+          }
+        },
+        {
+          "field": "startup.has_financial_projection",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Projections financières préparées",
+            "ar": "توقعات مالية معدة"
+          }
+        }
+      ],
+      "soft_requirements": [
+        {
+          "field": "startup.has_loi",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Lettres d'intention obtenues",
+            "ar": "تم الحصول على خطابات النية"
+          }
+        },
+        {
+          "field": "startup.pricing_defined",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Stratégie de tarification validée",
+            "ar": "استراتيجية التسعير محددة ومُتحقَّق منها"
+          }
+        },
+        {
+          "field": "startup.has_cofounders",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Co-fondateurs en place",
+            "ar": "وجود مؤسسين مشاركين"
+          }
+        }
+      ],
+      "min_soft_met": 1,
+      "blocker_conditions": [
+        {
+          "field": "startup.launched_to_market",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Le produit est lancé — probablement en phase Lancement ou Croissance",
+            "ar": "المنتج تم إطلاقه — على الأرجح في مرحلة الإطلاق أو النمو"
+          }
+        }
+      ],
+      "is_fallback": false,
+      "minimum_thresholds": {
+        "customer_interviews_count": 5
+      },
+      "explanation": {
+        "fr": "Votre projet est en phase de Levée de Fonds. Vous disposez d'un modèle économique validé, d'un produit fonctionnel et de la documentation nécessaire pour approcher des investisseurs ou déposer des dossiers de financement institutionnel. Votre priorité actuelle est la préparation à l'investissement et la sécurisation des capitaux nécessaires au lancement.",
+        "ar": "مشروعك في مرحلة جمع التمويل. لديك نموذج اقتصادي مُتحقَّق منه ومنتج وظيفي والوثائق اللازمة للتواصل مع المستثمرين أو تقديم طلبات التمويل المؤسسي. أولويتك الحالية هي التحضير للاستثمار وتأمين رأس المال اللازم للإطلاق."
+      },
+      "recommended_next_stage": "S5",
+      "priority_actions": {
+        "fr": [
+          "Préparer un pitch deck convaincant adapté aux investisseurs tunisiens et MENA",
+          "Déposer une candidature au label Startup Act pour bénéficier d'avantages fiscaux et de protections légales",
+          "Prendre contact avec l'APII et la BFPME pour les options de financement institutionnel",
+          "Identifier les business angels et fonds de capital-risque actifs en Tunisie",
+          "Affiner votre modèle financier avec des projections réalistes sur 3 ans"
+        ],
+        "ar": [
+          "إعداد عرض تقديمي مقنع مُكيَّف للمستثمرين التونسيين ومنطقة الشرق الأوسط وشمال أفريقيا",
+          "تقديم طلب للحصول على تصنيف قانون الناشئات للاستفادة من المزايا الضريبية والحماية القانونية",
+          "التواصل مع APII وBFPME لخيارات التمويل المؤسسي",
+          "تحديد المستثمرين الملائكيين وصناديق رأس المال المخاطر النشطة في تونس",
+          "تحسين نموذجك المالي بتوقعات واقعية لثلاث سنوات"
+        ]
+      }
+    },
+    {
+      "id": "S5",
+      "name": {
+        "fr": "Lancement",
+        "ar": "الإطلاق"
+      },
+      "label": {
+        "fr": "🚀 Lancement",
+        "ar": "🚀 مرحلة الإطلاق"
+      },
+      "description": {
+        "fr": "La startup est entrée sur le marché, dispose de vrais clients et commence à générer des revenus.",
+        "ar": "دخلت الشركة الناشئة السوق ولديها عملاء حقيقيون وبدأت في توليد الإيرادات."
+      },
+      "hard_requirements": [
+        {
+          "field": "startup.launched_to_market",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Produit lancé sur le marché",
+            "ar": "إطلاق المنتج في السوق"
+          }
+        },
+        {
+          "field": "startup.has_paying_customers",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Dispose de clients payants",
+            "ar": "وجود عملاء يدفعون"
+          }
+        }
+      ],
+      "soft_requirements": [
+        {
+          "field": "startup.monthly_revenue",
+          "operator": "in",
+          "value": [
+            "1-1000",
+            "1001-5000"
+          ],
+          "label": {
+            "fr": "Génère des revenus précoces",
+            "ar": "يولّد إيرادات أولية"
+          }
+        },
+        {
+          "field": "startup.active_users",
+          "operator": "in",
+          "value": [
+            "1-10",
+            "11-50"
+          ],
+          "label": {
+            "fr": "Dispose d'utilisateurs actifs",
+            "ar": "وجود مستخدمين نشطين"
+          }
+        },
+        {
+          "field": "startup.has_business_model",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Modèle économique défini",
+            "ar": "نموذج اقتصادي محدد"
+          }
+        }
+      ],
+      "min_soft_met": 1,
+      "blocker_conditions": [
+        {
+          "field": "startup.monthly_revenue",
+          "operator": "in",
+          "value": [
+            "5001-20000",
+            "20000+"
+          ],
+          "and": {
+            "field": "startup.has_growth_plan",
+            "operator": "eq",
+            "value": true
+          },
+          "label": {
+            "fr": "Revenus significatifs et plan de croissance présents — probablement en phase Croissance",
+            "ar": "إيرادات مهمة وخطة نمو موجودة — على الأرجح في مرحلة النمو"
+          }
+        }
+      ],
+      "is_fallback": false,
+      "minimum_thresholds": {},
+      "explanation": {
+        "fr": "Votre startup est en phase de Lancement. Vous êtes entré sur le marché et générez vos premiers revenus. Le défi critique maintenant est d'optimiser l'exécution de votre mise sur le marché, de fidéliser vos premiers clients et d'établir les fondations opérationnelles pour passer à l'échelle.",
+        "ar": "شركتك الناشئة في مرحلة الإطلاق. دخلت السوق وتولّد إيراداتك الأولى. التحدي الحاسم الآن هو تحسين تنفيذ دخولك للسوق والاحتفاظ بعملائك الأوائل وبناء الأسس التشغيلية للتوسع."
+      },
+      "recommended_next_stage": "S6",
+      "priority_actions": {
+        "fr": [
+          "Définir et suivre 3 à 5 KPIs essentiels : CAC, churn, MRR, NPS",
+          "Mettre en place une boucle de retour client structurée",
+          "Optimiser votre processus de vente et documenter un playbook reproductible",
+          "Identifier le goulot d'étranglement de croissance : acquisition, activation ou rétention",
+          "Explorer les programmes de subventions PNUD et UE disponibles pour les startups lancées"
+        ],
+        "ar": [
+          "تحديد ومتابعة 3 إلى 5 مؤشرات أداء رئيسية: CAC وchurn وMRR وNPS",
+          "إنشاء حلقة منظمة لتغذية راجعة من العملاء",
+          "تحسين عملية المبيعات وتوثيق دليل قابل للتكرار",
+          "تحديد عنق الزجاجة في النمو: الاستحواذ أم التفعيل أم الاحتفاظ",
+          "استكشاف برامج منح PNUD والاتحاد الأوروبي المتاحة للشركات الناشئة التي تم إطلاقها"
+        ]
+      }
+    },
+    {
+      "id": "S6",
+      "name": {
+        "fr": "Croissance",
+        "ar": "النمو"
+      },
+      "label": {
+        "fr": "📈 Croissance",
+        "ar": "📈 مرحلة النمو"
+      },
+      "description": {
+        "fr": "La startup a démontré un product-market fit, génère des revenus réguliers et développe activement ses opérations.",
+        "ar": "أثبتت الشركة الناشئة تحقيق توافق المنتج مع السوق وتولّد إيرادات منتظمة وتوسّع عملياتها بنشاط."
+      },
+      "hard_requirements": [
+        {
+          "field": "startup.launched_to_market",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Produit lancé sur le marché",
+            "ar": "إطلاق المنتج في السوق"
+          }
+        },
+        {
+          "field": "startup.has_paying_customers",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Dispose de clients payants",
+            "ar": "وجود عملاء يدفعون"
+          }
+        },
+        {
+          "field": "startup.has_growth_plan",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Plan de croissance documenté",
+            "ar": "خطة نمو موثقة"
+          }
+        },
+        {
+          "field": "startup.monthly_revenue",
+          "operator": "in",
+          "value": [
+            "5001-20000",
+            "20000+"
+          ],
+          "label": {
+            "fr": "Revenus supérieurs à 5 000 TND / mois",
+            "ar": "إيرادات تتجاوز 5,000 دينار تونسي شهرياً"
+          }
+        }
+      ],
+      "soft_requirements": [
+        {
+          "field": "startup.solution_replicable",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Solution réplicable à l'échelle",
+            "ar": "الحل قابل للتكرار على نطاق واسع"
+          }
+        },
+        {
+          "field": "startup.international_expansion",
+          "operator": "eq",
+          "value": true,
+          "label": {
+            "fr": "Expansion internationale planifiée",
+            "ar": "التوسع الدولي مخطط له"
+          }
+        },
+        {
+          "field": "startup.paying_customers_count",
+          "operator": "gte",
+          "value": 20,
+          "label": {
+            "fr": "Au moins 20 clients payants",
+            "ar": "20 عميلاً يدفعون على الأقل"
+          }
+        }
+      ],
+      "min_soft_met": 1,
+      "blocker_conditions": [],
+      "is_fallback": false,
+      "minimum_thresholds": {
+        "monthly_revenue_numeric": 5001
+      },
+      "explanation": {
+        "fr": "Votre startup est en phase de Croissance. Vous avez établi un product-market fit et générez des revenus réguliers et significatifs. Le défi se déplace de la validation et du lancement vers une mise à l'échelle systématique — construire l'équipe, l'infrastructure et les processus nécessaires à une croissance durable.",
+        "ar": "شركتك الناشئة في مرحلة النمو. لقد حققت توافق المنتج مع السوق وتولّد إيرادات منتظمة ومهمة. ينتقل التحدي من التحقق والإطلاق إلى التوسع المنهجي — بناء الفريق والبنية التحتية والعمليات اللازمة للنمو المستدام."
+      },
+      "recommended_next_stage": null,
+      "priority_actions": {
+        "fr": [
+          "Définir un plan de recrutement structuré pour soutenir la montée en charge opérationnelle",
+          "Explorer un financement de Série A ou un financement de croissance institutionnel",
+          "Construire des partenariats avec des distributeurs ou des acteurs stratégiques de votre secteur",
+          "Développer une feuille de route d'expansion géographique pour la région MENA",
+          "Mettre en place des reportings financiers robustes et des cadres de gouvernance"
+        ],
+        "ar": [
+          "تحديد خطة توظيف منظمة لدعم التوسع التشغيلي",
+          "استكشاف تمويل من الجولة A أو تمويل نمو مؤسسي",
+          "بناء شراكات مع موزعين أو فاعلين استراتيجيين في قطاعك",
+          "تتطوير خارطة طريق للتوسع الجغرافي في منطقة الشرق الأوسط وشمال أفريقيا",
+          "تطبيق أطر تقارير مالية وحوكمة متينة"
+        ]
+      }
+    }
+  ],
+  "gap_detection_messages": {
+    "overestimation": {
+      "fr": "Votre auto-évaluation ({self_assessed}) est plus avancée que le stade diagnostiqué ({actual}). Le système a identifié des lacunes spécifiques expliquant cet écart.",
+      "ar": "تقييمك الذاتي ({self_assessed}) أكثر تقدماً من المرحلة التي شخّصها النظام ({actual}). حدد النظام ثغرات محددة تفسر هذا الفارق."
+    },
+    "underestimation": {
+      "fr": "Votre auto-évaluation ({self_assessed}) est moins avancée que le stade diagnostiqué ({actual}). Vous avez progressé plus que vous ne le pensez.",
+      "ar": "تقييمك الذاتي ({self_assessed}) أقل تقدماً من المرحلة التي شخّصها النظام ({actual}). لقد تقدمت أكثر مما تعتقد."
+    },
+    "aligned": {
+      "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+      "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+    }
+  },
+  "confidence_levels": {
+    "high": {
+      "threshold": 0.8,
+      "label": {
+        "fr": "Confiance élevée",
+        "ar": "ثقة عالية"
+      }
+    },
+    "medium": {
+      "threshold": 0.5,
+      "label": {
+        "fr": "Confiance modérée",
+        "ar": "ثقة متوسطة"
+      }
+    },
+    "low": {
+      "threshold": 0,
+      "label": {
+        "fr": "Confiance faible — profil incomplet",
+        "ar": "ثقة منخفضة — الملف غير مكتمل"
+      }
+    }
+  }
+}

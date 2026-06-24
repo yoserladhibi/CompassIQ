@@ -1,0 +1,1080 @@
+{
+  "_meta": {
+    "project_id": "66eb5d42-4f23-4cbe-bc14-5a050cc926d9",
+    "user_id": "e1e588f0-98f8-4795-b8f0-4760b695e10c",
+    "language": "fr",
+    "created_at": "2026-06-23T21:15:09.928Z",
+    "updated_at": "2026-06-24T00:55:00.751Z",
+    "diagnostic_version": 2,
+    "schema_version": "2.0"
+  },
+  "chat_history": [],
+  "notifications": [],
+  "progress": {
+    "completed_actions": [
+      "STEP_06",
+      "STEP_05",
+      "STEP_02",
+      "STEP_03",
+      "STEP_04"
+    ],
+    "in_progress_actions": [],
+    "activity_log": [
+      {
+        "event_id": "evt-1782249719630-591",
+        "timestamp": "2026-06-23T21:21:59.630Z",
+        "text": {
+          "fr": "Action complétée : \"Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.\"",
+          "ar": "تم إكمال الإجراء: \"إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782249735982-828",
+        "timestamp": "2026-06-23T21:22:15.982Z",
+        "text": {
+          "fr": "Action complétée : \"Concevoir une preuve de concept (POC) technique démontrant la faisabilité de l'innovation.\"",
+          "ar": "تم إكمال الإجراء: \"تصميم إثبات للمفهوم (POC) تقنياً يثبت جدوى ابتكارك المزعوم.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782249759212-614",
+        "timestamp": "2026-06-23T21:22:39.212Z",
+        "text": {
+          "fr": "Action complétée : \"Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.\"",
+          "ar": "تم إكمال الإجراء: \"إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782249777551-860",
+        "timestamp": "2026-06-23T21:22:57.551Z",
+        "text": {
+          "fr": "Action complétée : \"Faire valider votre plan par une auto-évaluation formelle d'impact écologique.\"",
+          "ar": "تم إكمال الإجراء: \"إجراء تقييم ذاتي رسمي للأثر البيئي والبيولوجي لمشروعك.\""
+        },
+        "type": "completion",
+        "dimension": "roadmap"
+      },
+      {
+        "event_id": "evt-1782249824164-750",
+        "timestamp": "2026-06-23T21:23:44.164Z",
+        "text": {
+          "fr": "Action marquée en cours : \"Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.\"",
+          "ar": "تم تعليم الإجراء كقيد التنفيذ: \"إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين.\""
+        },
+        "type": "status_change",
+        "dimension": "roadmap"
+      }
+    ]
+  },
+  "profile": {
+    "entrepreneur": {
+      "sector": "agritech",
+      "location": "nabeul",
+      "stage_self_assessed": "idea"
+    },
+    "startup": {
+      "name": "AgroSense TN",
+      "problem_defined": true,
+      "target_customer": "Petits agriculteurs de la région de Nabeul",
+      "solution_description": "Capteurs IoT bon marché pour surveiller l'humidité du sol et optimiser l'irrigation",
+      "legal_form": "not_registered",
+      "prior_accompaniment": false,
+      "team_size": "solo",
+      "has_cofounders": false,
+      "team_skills": [
+        "tech"
+      ],
+      "has_mentors": false,
+      "has_prototype": false,
+      "product_stage": null,
+      "launched_to_market": null,
+      "active_users": null,
+      "customer_interviews_conducted": false,
+      "customer_interviews_count": null,
+      "has_survey_data": false,
+      "has_pilot_users": false,
+      "has_loi": false,
+      "has_business_model": false,
+      "revenue_model": null,
+      "pricing_defined": null,
+      "has_business_plan": false,
+      "has_financial_projection": false,
+      "monthly_revenue": "0",
+      "monthly_revenue_numeric": 0,
+      "has_paying_customers": false,
+      "paying_customers_count": null,
+      "has_funding": false,
+      "funding_type": null,
+      "has_growth_plan": false,
+      "solution_replicable": false,
+      "manual_dependency_level": "fully_manual",
+      "international_expansion": false,
+      "local_competition_level": "partial",
+      "technology_intensity": "intermediate",
+      "has_env_impact": true,
+      "has_env_assessment": false,
+      "env_practices": [
+        "water_efficiency"
+      ],
+      "agri_land_use": null,
+      "agri_water_efficiency": null
+    },
+    "assessment": {
+      "questions_answered": [
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q18",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q26",
+        "Q27",
+        "Q28",
+        "Q29",
+        "Q31",
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36",
+        "Q37",
+        "Q38",
+        "Q39",
+        "Q40",
+        "Q41"
+      ],
+      "questions_skipped": [],
+      "branching_path": [],
+      "completion_rate": 1,
+      "last_question_id": "Q41"
+    },
+    "answers": {
+      "Q1": "agritech",
+      "Q01": "agritech",
+      "Q02": "nabeul",
+      "Q03": "solo",
+      "Q04": "idea",
+      "Q05": "idea",
+      "Q06": "yes",
+      "Q07": "yes",
+      "Q08": "yes",
+      "Q09": "not_registered",
+      "Q10": "no",
+      "Q11": "no",
+      "Q12": "no",
+      "Q13": "no",
+      "Q14": "no",
+      "Q18": "no",
+      "Q20": "no",
+      "Q21": "no",
+      "Q22": "no",
+      "Q23": "no",
+      "Q26": "no",
+      "Q27": "no",
+      "Q28": "0",
+      "Q29": "no",
+      "Q31": "no",
+      "Q33": "no",
+      "Q34": "no",
+      "Q35": "fully_manual",
+      "Q36": "no",
+      "Q37": "partial",
+      "Q38": "intermediate",
+      "Q39": "yes",
+      "Q40": "no",
+      "Q41": "no"
+    },
+    "user": {
+      "id": "e1e588f0-98f8-4795-b8f0-4760b695e10c",
+      "name": "Yassine Belhaj",
+      "email": "yassine.belhaj@gmail.com",
+      "language_preference": "fr"
+    },
+    "achievements_unlocked": [],
+    "history": [
+      {
+        "assessment_number": 1,
+        "date": "2026-06-23T21:18:54.354Z",
+        "profile_snapshot": {
+          "startup": {
+            "name": "AgroSense TN",
+            "problem_defined": true,
+            "target_customer": "Petits agriculteurs de la région de Nabeul",
+            "solution_description": "Capteurs IoT bon marché pour surveiller l'humidité du sol et optimiser l'irrigation",
+            "legal_form": "not_registered",
+            "prior_accompaniment": false,
+            "team_size": "solo",
+            "has_cofounders": false,
+            "team_skills": [
+              "tech"
+            ],
+            "has_mentors": false,
+            "has_prototype": false,
+            "product_stage": null,
+            "launched_to_market": null,
+            "active_users": null,
+            "customer_interviews_conducted": false,
+            "customer_interviews_count": null,
+            "has_survey_data": false,
+            "has_pilot_users": false,
+            "has_loi": false,
+            "has_business_model": false,
+            "revenue_model": null,
+            "pricing_defined": null,
+            "has_business_plan": false,
+            "has_financial_projection": false,
+            "monthly_revenue": "0",
+            "monthly_revenue_numeric": 0,
+            "has_paying_customers": false,
+            "paying_customers_count": null,
+            "has_funding": false,
+            "funding_type": null,
+            "has_growth_plan": false,
+            "solution_replicable": false,
+            "manual_dependency_level": "fully_manual",
+            "international_expansion": false,
+            "local_competition_level": "partial",
+            "technology_intensity": "intermediate",
+            "has_env_impact": true,
+            "has_env_assessment": false,
+            "env_practices": [
+              "water_efficiency"
+            ],
+            "agri_land_use": null,
+            "agri_water_efficiency": null
+          },
+          "entrepreneur": {
+            "sector": "agritech",
+            "location": "nabeul",
+            "stage_self_assessed": "idea"
+          },
+          "answers": {
+            "Q1": "agritech",
+            "Q01": "agritech",
+            "Q02": "nabeul",
+            "Q03": "solo",
+            "Q04": "idea",
+            "Q05": "idea",
+            "Q06": "yes",
+            "Q07": "yes",
+            "Q08": "yes",
+            "Q09": "not_registered",
+            "Q10": "no",
+            "Q11": "no",
+            "Q12": "no",
+            "Q13": "no",
+            "Q14": "no",
+            "Q18": "no",
+            "Q20": "no",
+            "Q21": "no",
+            "Q22": "no",
+            "Q23": "no",
+            "Q26": "no",
+            "Q27": "no",
+            "Q28": "0",
+            "Q29": "no",
+            "Q31": "no",
+            "Q33": "no",
+            "Q34": "no",
+            "Q35": "fully_manual",
+            "Q36": "no",
+            "Q37": "partial",
+            "Q38": "intermediate",
+            "Q39": "yes",
+            "Q40": "no",
+            "Q41": "no"
+          }
+        },
+        "diagnosis": {
+          "stage_assigned": "S1",
+          "stage_label": {
+            "fr": "Idéation",
+            "ar": "مرحلة الفكرة"
+          },
+          "stage_self_assessed": "idea",
+          "perception_gap": {
+            "detected": false,
+            "self_assessed_stage": "S1",
+            "actual_stage": "S1",
+            "gap_direction": "aligned",
+            "gap_explanation": {
+              "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+              "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+            }
+          },
+          "classification_evidence": [
+            {
+              "criteria": {
+                "fr": "Le problème est défini",
+                "ar": "المشكلة محددة"
+              },
+              "status": true,
+              "is_hard": false
+            }
+          ],
+          "confidence_score": 59,
+          "blockers_detected": [
+            {
+              "id": "B_GREEN_01",
+              "dimension": "green",
+              "severity": "medium",
+              "title": {
+                "fr": "Examen de conformité environnementale absent pour secteur à fort impact",
+                "ar": "غياب تقييم الأثر البيئي لقطاع عالي التأثير"
+              },
+              "description": {
+                "fr": "Votre startup opère dans un secteur à engagement environnemental élevé (par exemple AgriTech, Énergie, Industrie) mais n'a initié aucune évaluation écologique formelle. Cela risque de bloquer des subventions PNUD ou devancer les exigences du ANPE.",
+                "ar": "تعمل شركتك في قطاع ذي وزن بيئي كبير (مثل التكنولوجيا الزراعية، الطاقة، الصناعة) ولكنك لم تبدأ أي تقييم بيئي رسمي مما قد يعيق منح PNUD أو يخالف معايير ANPE."
+              },
+              "action": {
+                "fr": "Documentez sommairement vos impacts et planifiez une réflexion d'éco-conception ou contactez un consultant en impact vert.",
+                "ar": "قم بتوثيق تأثيراتك الحالية وخطط لإدماج التصميم الإيكولوجي في حلك ou تواصل مع مستشار في التأثير الأخضر."
+              }
+            }
+          ]
+        },
+        "scores": {
+          "market": {
+            "score": 25,
+            "raw_score": 25,
+            "gating_applied": true,
+            "cap_value": 50,
+            "gating_rule": "G1",
+            "sub_scores": {
+              "customer_validation_evidence": 0,
+              "market_opportunity": 70,
+              "revenue_model_clarity": 0
+            },
+            "primary_gap": {
+              "fr": "Preuves de validation client critiques manquantes (< 5 entretiens)",
+              "ar": "نقص حاد في أدلة مراجعة العملاء (من المقابلات الأقل من 5)"
+            },
+            "explanation": {
+              "fr": "Votre score est plafonné à 50 par la règle d'exclusion G1 car vous n'avez pas mené au moins 5 entretiens qualitatifs. La confiance du marché repose sur des faits réels plutôt que des suppositions.",
+              "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G1 لأنك لم تقم بـ 5 مقابلات نوعية على الأقل. تستند ثقة السوق على وقائع ملموسة وليست فرضيات."
+            },
+            "recommendation": {
+              "fr": "Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.",
+              "ar": "إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين."
+            }
+          },
+          "commercial": {
+            "score": 30,
+            "raw_score": 30,
+            "gating_applied": true,
+            "cap_value": 50,
+            "gating_rule": "G2",
+            "sub_scores": {
+              "value_proposition_clarity": 100,
+              "product_maturity": 0,
+              "pricing_strategy_coherence": 0,
+              "offer_customer_alignment": 0
+            },
+            "primary_gap": {
+              "fr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+              "ar": "غياب الجرار المالي التجاري (العائد = 0 والعملاء الدافعين = 0)"
+            },
+            "explanation": {
+              "fr": "Votre score est plafonné à 50 par la règle G2. Malgré un concept mûr, la viabilité de votre offre commerciale ne sera prouvée qu'au moment du premier dinar encaissé.",
+              "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G2. على الرغم من نضج الفكرة، فإن نجاعة عرضك التجاري لن تثبت إلا مع تحصيل أول دينار مالي."
+            },
+            "recommendation": {
+              "fr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+              "ar": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك."
+            }
+          },
+          "innovation": {
+            "score": 60,
+            "raw_score": 76,
+            "gating_applied": true,
+            "cap_value": 60,
+            "gating_rule": "G3",
+            "sub_scores": {
+              "local_novelty_differentiation": 60,
+              "technology_intensity": 70,
+              "barrier_to_entry": 80,
+              "departure_from_existing_offerings": 100
+            },
+            "primary_gap": {
+              "fr": "Aucune matérialisation physique de l'innovation (Pas de prototype)",
+              "ar": "عدم وجود تجسيد مادي للابتكار (لا يوجد نموذج أولي)"
+            },
+            "explanation": {
+              "fr": "L'innovation n'est jugée sincère qu'à travers une concrétisation fonctionnelle. Votre score est plafonné à 60 par la règle G3.",
+              "ar": "لا يُحكم بجدية الابتكار إلا بتطبيقه العملي الوظيفي. تم سقف درجتك بـ 60 وفق القاعدة G3."
+            },
+            "recommendation": {
+              "fr": "Concevoir une preuve de concept (POC) technique démontrant la faisabilité de l'innovation.",
+              "ar": "تصميم إثبات للمفهوم (POC) تقنياً يثبت جدوى ابتكارك المزعوم."
+            }
+          },
+          "scalability": {
+            "score": 7,
+            "raw_score": 7,
+            "gating_applied": true,
+            "cap_value": 60,
+            "gating_rule": "G4",
+            "sub_scores": {
+              "replicability_without_linear_cost": 15,
+              "manual_accompaniment_dependency": 10,
+              "deployment_cost_structure": 0,
+              "geographic_expansion_potential": 0
+            },
+            "primary_gap": {
+              "fr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+              "ar": "غياب خارطة الطريق الاستراتيجية (لا وجود لخطة نمو)"
+            },
+            "explanation": {
+              "fr": "La capitalisation sur la scalabilité exige une documentation claire des étapes d'expansion. Score plafonné à 60 par la règle G4.",
+              "ar": "يتطلب الاستثمار في التوسع توثيقاً واضحاً لخطوات النمو. تم سقف درجتك بـ 60 وفق القاعدة G4."
+            },
+            "recommendation": {
+              "fr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+              "ar": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع."
+            }
+          },
+          "green": {
+            "score": 13,
+            "raw_score": 13,
+            "gating_applied": true,
+            "cap_value": 40,
+            "gating_rule": "G5",
+            "sub_scores": {
+              "climat_air": 0,
+              "eau": 50,
+              "sols_biodiversite": 0,
+              "ressources_dechets": 0
+            },
+            "primary_gap": {
+              "fr": "Conformité d'évaluation d'impact manquante pour secteur clé",
+              "ar": "غياب تقييم الأثر البيئي المفترض لقطاع حيوي"
+            },
+            "explanation": {
+              "fr": "Opérer dans la CleanTech, l'AgriTech ou l'industrie nécessite une vigilance stricte. Gating G5 appliqué : score fixé à un maximum de 40.",
+              "ar": "يتطلب العمل في التكنولوجيا الزراعية أو النظيفة يقظة بيئية حاسمة. تم تطبيق البند G5 وسقف درجتك بـ 40."
+            },
+            "recommendation": {
+              "fr": "Faire valider votre plan par une auto-évaluation formelle d'impact écologique.",
+              "ar": "إجراء تقييم ذاتي رسمي للأثر البيئي والبيولوجي لمشروعك."
+            }
+          },
+          "overall": {
+            "score": 28,
+            "diagnosis_confidence": 59,
+            "computed_at": "2026-06-23T21:18:54.354Z"
+          },
+          "history": [
+            {
+              "timestamp": "2026-06-23T21:18:54.354Z",
+              "score": 28,
+              "version_descriptor": "v2",
+              "reason": "Évaluation initiale"
+            }
+          ]
+        }
+      },
+      {
+        "assessment_number": 2,
+        "date": "2026-06-24T00:09:40.642Z",
+        "profile_snapshot": {
+          "startup": {
+            "name": "AgroSense TN",
+            "problem_defined": true,
+            "target_customer": "Petits agriculteurs de la région de Nabeul",
+            "solution_description": "Capteurs IoT bon marché pour surveiller l'humidité du sol et optimiser l'irrigation",
+            "legal_form": "not_registered",
+            "prior_accompaniment": false,
+            "team_size": "solo",
+            "has_cofounders": false,
+            "team_skills": [
+              "tech"
+            ],
+            "has_mentors": false,
+            "has_prototype": false,
+            "product_stage": null,
+            "launched_to_market": null,
+            "active_users": null,
+            "customer_interviews_conducted": false,
+            "customer_interviews_count": null,
+            "has_survey_data": false,
+            "has_pilot_users": false,
+            "has_loi": false,
+            "has_business_model": false,
+            "revenue_model": null,
+            "pricing_defined": null,
+            "has_business_plan": false,
+            "has_financial_projection": false,
+            "monthly_revenue": "0",
+            "monthly_revenue_numeric": 0,
+            "has_paying_customers": false,
+            "paying_customers_count": null,
+            "has_funding": false,
+            "funding_type": null,
+            "has_growth_plan": false,
+            "solution_replicable": false,
+            "manual_dependency_level": "fully_manual",
+            "international_expansion": false,
+            "local_competition_level": "partial",
+            "technology_intensity": "intermediate",
+            "has_env_impact": true,
+            "has_env_assessment": false,
+            "env_practices": [
+              "water_efficiency"
+            ],
+            "agri_land_use": null,
+            "agri_water_efficiency": null
+          },
+          "entrepreneur": {
+            "sector": "agritech",
+            "location": "nabeul",
+            "stage_self_assessed": "idea"
+          },
+          "answers": {
+            "Q1": "agritech",
+            "Q01": "agritech",
+            "Q02": "nabeul",
+            "Q03": "solo",
+            "Q04": "idea",
+            "Q05": "idea",
+            "Q06": "yes",
+            "Q07": "yes",
+            "Q08": "yes",
+            "Q09": "not_registered",
+            "Q10": "no",
+            "Q11": "no",
+            "Q12": "no",
+            "Q13": "no",
+            "Q14": "no",
+            "Q18": "no",
+            "Q20": "no",
+            "Q21": "no",
+            "Q22": "no",
+            "Q23": "no",
+            "Q26": "no",
+            "Q27": "no",
+            "Q28": "0",
+            "Q29": "no",
+            "Q31": "no",
+            "Q33": "no",
+            "Q34": "no",
+            "Q35": "fully_manual",
+            "Q36": "no",
+            "Q37": "partial",
+            "Q38": "intermediate",
+            "Q39": "yes",
+            "Q40": "no",
+            "Q41": "no"
+          }
+        },
+        "diagnosis": {
+          "stage_assigned": "S1",
+          "stage_label": {
+            "fr": "Idéation",
+            "ar": "مرحلة الفكرة"
+          },
+          "stage_self_assessed": "idea",
+          "perception_gap": {
+            "detected": false,
+            "self_assessed_stage": "S1",
+            "actual_stage": "S1",
+            "gap_direction": "aligned",
+            "gap_explanation": {
+              "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+              "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+            }
+          },
+          "classification_evidence": [
+            {
+              "criteria": {
+                "fr": "Le problème est défini",
+                "ar": "المشكلة محددة"
+              },
+              "status": true,
+              "is_hard": false
+            }
+          ],
+          "confidence_score": 59,
+          "blockers_detected": [
+            {
+              "id": "B_GREEN_01",
+              "dimension": "green",
+              "severity": "medium",
+              "title": {
+                "fr": "Examen de conformité environnementale absent pour secteur à fort impact",
+                "ar": "غياب تقييم الأثر البيئي لقطاع عالي التأثير"
+              },
+              "description": {
+                "fr": "Votre startup opère dans un secteur à engagement environnemental élevé (par exemple AgriTech, Énergie, Industrie) mais n'a initié aucune évaluation écologique formelle. Cela risque de bloquer des subventions PNUD ou devancer les exigences du ANPE.",
+                "ar": "تعمل شركتك في قطاع ذي وزن بيئي كبير (مثل التكنولوجيا الزراعية، الطاقة، الصناعة) ولكنك لم تبدأ أي تقييم بيئي رسمي مما قد يعيق منح PNUD أو يخالف معايير ANPE."
+              },
+              "action": {
+                "fr": "Documentez sommairement vos impacts et planifiez une réflexion d'éco-conception ou contactez un consultant en impact vert.",
+                "ar": "قم بتوثيق تأثيراتك الحالية وخطط لإدماج التصميم الإيكولوجي في حلك ou تواصل مع مستشار في التأثير الأخضر."
+              }
+            }
+          ]
+        },
+        "scores": {
+          "market": {
+            "score": 25,
+            "raw_score": 25,
+            "gating_applied": true,
+            "cap_value": 50,
+            "gating_rule": "G1",
+            "sub_scores": {
+              "customer_validation_evidence": 0,
+              "market_opportunity": 70,
+              "revenue_model_clarity": 0
+            },
+            "primary_gap": {
+              "fr": "Preuves de validation client critiques manquantes (< 5 entretiens)",
+              "ar": "نقص حاد في أدلة مراجعة العملاء (من المقابلات الأقل من 5)"
+            },
+            "explanation": {
+              "fr": "Votre score est plafonné à 50 par la règle d'exclusion G1 car vous n'avez pas mené au moins 5 entretiens qualitatifs. La confiance du marché repose sur des faits réels plutôt que des suppositions.",
+              "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G1 لأنك لم تقم بـ 5 مقابلات نوعية على الأقل. تستند ثقة السوق على وقائع ملموسة وليست فرضيات."
+            },
+            "recommendation": {
+              "fr": "Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.",
+              "ar": "إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين."
+            }
+          },
+          "commercial": {
+            "score": 30,
+            "raw_score": 30,
+            "gating_applied": true,
+            "cap_value": 50,
+            "gating_rule": "G2",
+            "sub_scores": {
+              "value_proposition_clarity": 100,
+              "product_maturity": 0,
+              "pricing_strategy_coherence": 0,
+              "offer_customer_alignment": 0
+            },
+            "primary_gap": {
+              "fr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+              "ar": "غياب الجرار المالي التجاري (العائد = 0 والعملاء الدافعين = 0)"
+            },
+            "explanation": {
+              "fr": "Votre score est plafonné à 50 par la règle G2. Malgré un concept mûr, la viabilité de votre offre commerciale ne sera prouvée qu'au moment du premier dinar encaissé.",
+              "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G2. على الرغم من نضج الفكرة، فإن نجاعة عرضك التجاري لن تثبت إلا مع تحصيل أول دينار مالي."
+            },
+            "recommendation": {
+              "fr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+              "ar": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك."
+            }
+          },
+          "innovation": {
+            "score": 60,
+            "raw_score": 76,
+            "gating_applied": true,
+            "cap_value": 60,
+            "gating_rule": "G3",
+            "sub_scores": {
+              "local_novelty_differentiation": 60,
+              "technology_intensity": 70,
+              "barrier_to_entry": 80,
+              "departure_from_existing_offerings": 100
+            },
+            "primary_gap": {
+              "fr": "Aucune matérialisation physique de l'innovation (Pas de prototype)",
+              "ar": "عدم وجود تجسيد مادي للابتكار (لا يوجد نموذج أولي)"
+            },
+            "explanation": {
+              "fr": "L'innovation n'est jugée sincère qu'à travers une concrétisation fonctionnelle. Votre score est plafonné à 60 par la règle G3.",
+              "ar": "لا يُحكم بجدية الابتكار إلا بتطبيقه العملي الوظيفي. تم سقف درجتك بـ 60 وفق القاعدة G3."
+            },
+            "recommendation": {
+              "fr": "Concevoir une preuve de concept (POC) technique démontrant la faisabilité de l'innovation.",
+              "ar": "تصميم إثبات للمفهوم (POC) تقنياً يثبت جدوى ابتكارك المزعوم."
+            }
+          },
+          "scalability": {
+            "score": 7,
+            "raw_score": 7,
+            "gating_applied": true,
+            "cap_value": 60,
+            "gating_rule": "G4",
+            "sub_scores": {
+              "replicability_without_linear_cost": 15,
+              "manual_accompaniment_dependency": 10,
+              "deployment_cost_structure": 0,
+              "geographic_expansion_potential": 0
+            },
+            "primary_gap": {
+              "fr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+              "ar": "غياب خارطة الطريق الاستراتيجية (لا وجود لخطة نمو)"
+            },
+            "explanation": {
+              "fr": "La capitalisation sur la scalabilité exige une documentation claire des étapes d'expansion. Score plafonné à 60 par la règle G4.",
+              "ar": "يتطلب الاستثمار في التوسع توثيقاً واضحاً لخطوات النمو. تم سقف درجتك بـ 60 وفق القاعدة G4."
+            },
+            "recommendation": {
+              "fr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+              "ar": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع."
+            }
+          },
+          "green": {
+            "score": 13,
+            "raw_score": 13,
+            "gating_applied": true,
+            "cap_value": 40,
+            "gating_rule": "G5",
+            "sub_scores": {
+              "climat_air": 0,
+              "eau": 50,
+              "sols_biodiversite": 0,
+              "ressources_dechets": 0
+            },
+            "primary_gap": {
+              "fr": "Conformité d'évaluation d'impact manquante pour secteur clé",
+              "ar": "غياب تقييم الأثر البيئي المفترض لقطاع حيوي"
+            },
+            "explanation": {
+              "fr": "Opérer dans la CleanTech, l'AgriTech ou l'industrie nécessite une vigilance stricte. Gating G5 appliqué : score fixé à un maximum de 40.",
+              "ar": "يتطلب العمل في التكنولوجيا الزراعية أو النظيفة يقظة بيئية حاسمة. تم تطبيق البند G5 وسقف درجتك بـ 40."
+            },
+            "recommendation": {
+              "fr": "Faire valider votre plan par une auto-évaluation formelle d'impact écologique.",
+              "ar": "إجراء تقييم ذاتي رسمي للأثر البيئي والبيولوجي لمشروعك."
+            }
+          },
+          "overall": {
+            "score": 28,
+            "diagnosis_confidence": 59,
+            "computed_at": "2026-06-23T21:18:54.354Z"
+          },
+          "history": [
+            {
+              "timestamp": "2026-06-24T00:09:40.642Z",
+              "score": 28,
+              "version_descriptor": "v2",
+              "reason": "Évaluation initiale"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "diagnosis": {
+    "stage_assigned": "S1",
+    "stage_label": {
+      "fr": "Idéation",
+      "ar": "مرحلة الفكرة"
+    },
+    "stage_self_assessed": "idea",
+    "perception_gap": {
+      "detected": false,
+      "self_assessed_stage": "S1",
+      "actual_stage": "S1",
+      "gap_direction": "aligned",
+      "gap_explanation": {
+        "fr": "Votre auto-évaluation correspond au stade diagnostiqué par le système.",
+        "ar": "يتوافق تقييمك الذاتي مع المرحلة التي شخّصها النظام."
+      }
+    },
+    "classification_evidence": [
+      {
+        "criteria": {
+          "fr": "Le problème est défini",
+          "ar": "المشكلة محددة"
+        },
+        "status": true,
+        "is_hard": false
+      }
+    ],
+    "confidence_score": 59,
+    "blockers_detected": [
+      {
+        "id": "B_GREEN_01",
+        "dimension": "green",
+        "severity": "medium",
+        "title": {
+          "fr": "Examen de conformité environnementale absent pour secteur à fort impact",
+          "ar": "غياب تقييم الأثر البيئي لقطاع عالي التأثير"
+        },
+        "description": {
+          "fr": "Votre startup opère dans un secteur à engagement environnemental élevé (par exemple AgriTech, Énergie, Industrie) mais n'a initié aucune évaluation écologique formelle. Cela risque de bloquer des subventions PNUD ou devancer les exigences du ANPE.",
+          "ar": "تعمل شركتك في قطاع ذي وزن بيئي كبير (مثل التكنولوجيا الزراعية، الطاقة، الصناعة) ولكنك لم تبدأ أي تقييم بيئي رسمي مما قد يعيق منح PNUD أو يخالف معايير ANPE."
+        },
+        "action": {
+          "fr": "Documentez sommairement vos impacts et planifiez une réflexion d'éco-conception ou contactez un consultant en impact vert.",
+          "ar": "قم بتوثيق تأثيراتك الحالية وخطط لإدماج التصميم الإيكولوجي في حلك ou تواصل مع مستشار في التأثير الأخضر."
+        }
+      }
+    ],
+    "history": [
+      {
+        "stage": "idea",
+        "reached_at": "2026-05-24",
+        "self_assessed_at_time": "idea"
+      },
+      {
+        "stage": "Ideation",
+        "reached_at": "2026-06-23",
+        "self_assessed_at_time": "idea"
+      },
+      {
+        "stage": "Ideation",
+        "reached_at": "2026-06-24",
+        "self_assessed_at_time": "idea"
+      }
+    ]
+  },
+  "scores": {
+    "market": {
+      "score": 25,
+      "raw_score": 25,
+      "gating_applied": true,
+      "cap_value": 50,
+      "gating_rule": "G1",
+      "sub_scores": {
+        "customer_validation_evidence": 0,
+        "market_opportunity": 70,
+        "revenue_model_clarity": 0
+      },
+      "primary_gap": {
+        "fr": "Preuves de validation client critiques manquantes (< 5 entretiens)",
+        "ar": "نقص حاد في أدلة مراجعة العملاء (من المقابلات الأقل من 5)"
+      },
+      "explanation": {
+        "fr": "Votre score est plafonné à 50 par la règle d'exclusion G1 car vous n'avez pas mené au moins 5 entretiens qualitatifs. La confiance du marché repose sur des faits réels plutôt que des suppositions.",
+        "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G1 لأنك لم تقم بـ 5 مقابلات نوعية على الأقل. تستند ثقة السوق على وقائع ملموسة وليست فرضيات."
+      },
+      "recommendation": {
+        "fr": "Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.",
+        "ar": "إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين."
+      }
+    },
+    "commercial": {
+      "score": 30,
+      "raw_score": 30,
+      "gating_applied": true,
+      "cap_value": 50,
+      "gating_rule": "G2",
+      "sub_scores": {
+        "value_proposition_clarity": 100,
+        "product_maturity": 0,
+        "pricing_strategy_coherence": 0,
+        "offer_customer_alignment": 0
+      },
+      "primary_gap": {
+        "fr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "ar": "غياب الجرار المالي التجاري (العائد = 0 والعملاء الدافعين = 0)"
+      },
+      "explanation": {
+        "fr": "Votre score est plafonné à 50 par la règle G2. Malgré un concept mûr, la viabilité de votre offre commerciale ne sera prouvée qu'au moment du premier dinar encaissé.",
+        "ar": "تم سقف درجتك بـ 50 بموجب قاعدة الحظر G2. على الرغم من نضج الفكرة، فإن نجاعة عرضك التجاري لن تثبت إلا مع تحصيل أول دينار مالي."
+      },
+      "recommendation": {
+        "fr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+        "ar": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك."
+      }
+    },
+    "innovation": {
+      "score": 60,
+      "raw_score": 76,
+      "gating_applied": true,
+      "cap_value": 60,
+      "gating_rule": "G3",
+      "sub_scores": {
+        "local_novelty_differentiation": 60,
+        "technology_intensity": 70,
+        "barrier_to_entry": 80,
+        "departure_from_existing_offerings": 100
+      },
+      "primary_gap": {
+        "fr": "Aucune matérialisation physique de l'innovation (Pas de prototype)",
+        "ar": "عدم وجود تجسيد مادي للابتكار (لا يوجد نموذج أولي)"
+      },
+      "explanation": {
+        "fr": "L'innovation n'est jugée sincère qu'à travers une concrétisation fonctionnelle. Votre score est plafonné à 60 par la règle G3.",
+        "ar": "لا يُحكم بجدية الابتكار إلا بتطبيقه العملي الوظيفي. تم سقف درجتك بـ 60 وفق القاعدة G3."
+      },
+      "recommendation": {
+        "fr": "Concevoir une preuve de concept (POC) technique démontrant la faisabilité de l'innovation.",
+        "ar": "تصميم إثبات للمفهوم (POC) تقنياً يثبت جدوى ابتكارك المزعوم."
+      }
+    },
+    "scalability": {
+      "score": 7,
+      "raw_score": 7,
+      "gating_applied": true,
+      "cap_value": 60,
+      "gating_rule": "G4",
+      "sub_scores": {
+        "replicability_without_linear_cost": 15,
+        "manual_accompaniment_dependency": 10,
+        "deployment_cost_structure": 0,
+        "geographic_expansion_potential": 0
+      },
+      "primary_gap": {
+        "fr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "ar": "غياب خارطة الطريق الاستراتيجية (لا وجود لخطة نمو)"
+      },
+      "explanation": {
+        "fr": "La capitalisation sur la scalabilité exige une documentation claire des étapes d'expansion. Score plafonné à 60 par la règle G4.",
+        "ar": "يتطلب الاستثمار في التوسع توثيقاً واضحاً لخطوات النمو. تم سقف درجتك بـ 60 وفق القاعدة G4."
+      },
+      "recommendation": {
+        "fr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+        "ar": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع."
+      }
+    },
+    "green": {
+      "score": 13,
+      "raw_score": 13,
+      "gating_applied": true,
+      "cap_value": 40,
+      "gating_rule": "G5",
+      "sub_scores": {
+        "climat_air": 0,
+        "eau": 50,
+        "sols_biodiversite": 0,
+        "ressources_dechets": 0
+      },
+      "primary_gap": {
+        "fr": "Conformité d'évaluation d'impact manquante pour secteur clé",
+        "ar": "غياب تقييم الأثر البيئي المفترض لقطاع حيوي"
+      },
+      "explanation": {
+        "fr": "Opérer dans la CleanTech, l'AgriTech ou l'industrie nécessite une vigilance stricte. Gating G5 appliqué : score fixé à un maximum de 40.",
+        "ar": "يتطلب العمل في التكنولوجيا الزراعية أو النظيفة يقظة بيئية حاسمة. تم تطبيق البند G5 وسقف درجتك بـ 40."
+      },
+      "recommendation": {
+        "fr": "Faire valider votre plan par une auto-évaluation formelle d'impact écologique.",
+        "ar": "إجراء تقييم ذاتي رسمي للأثر البيئي والبيولوجي لمشروعك."
+      }
+    },
+    "overall": {
+      "score": 28,
+      "diagnosis_confidence": 59,
+      "computed_at": "2026-06-23T21:18:54.354Z"
+    },
+    "history": [
+      {
+        "date": "2026-05-24",
+        "market_score": 13,
+        "commercial_score": 15,
+        "innovation_score": 30,
+        "scalability_score": 10,
+        "green_score": 10
+      },
+      {
+        "date": "2026-06-23",
+        "market_score": 25,
+        "commercial_score": 30,
+        "innovation_score": 60,
+        "scalability_score": 7,
+        "green_score": 13
+      },
+      {
+        "date": "2026-06-24",
+        "market_score": 25,
+        "commercial_score": 30,
+        "innovation_score": 60,
+        "scalability_score": 7,
+        "green_score": 13
+      }
+    ]
+  },
+  "roadmap": {
+    "steps": [
+      {
+        "id": "STEP_01",
+        "horizon": "immediate",
+        "titleFr": "Conduire au moins 10 vrais entretiens individuels en face-à-face avec des clients cibles tunisiens.",
+        "titleAr": "إجراء 10 مقابلات فردية حقيقية وجهاً لوجه مع عملاء تونسيين مستهدفين.",
+        "actionFr": "Preuves de validation client critiques manquantes (< 5 entretiens)",
+        "actionAr": "Preuves de validation client critiques manquantes (< 5 entretiens)",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G1",
+        "addressed_dimension": "market"
+      },
+      {
+        "id": "STEP_02",
+        "horizon": "immediate",
+        "titleFr": "Recruter des utilisateurs pilotes prêts à tester une formule payante ou pré-acheter votre solution.",
+        "titleAr": "استقطاب مستخدمين تجريبين مستعدين للاشتراك في نسخة مدفوعة أو طلب شراء مسبق لحلك.",
+        "actionFr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "actionAr": "Absence de traction commerciale financière (Revenu = 0 et clients payants = 0)",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G2",
+        "addressed_dimension": "commercial"
+      },
+      {
+        "id": "STEP_03",
+        "horizon": "immediate",
+        "titleFr": "Rédiger un plan de croissance sur 2 ans intégrant les hypothèses d'extension de canaux d'acquisition.",
+        "titleAr": "كتابة خطة نمو لسنتين تغطي فرضيات قنوات الاستقطاب للتوسع.",
+        "actionFr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "actionAr": "Feuille de route stratégique manquante (Pas de plan de croissance)",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G4",
+        "addressed_dimension": "scalability"
+      },
+      {
+        "id": "STEP_04",
+        "horizon": "immediate",
+        "titleFr": "Faire valider votre plan par une auto-évaluation formelle d'impact écologique.",
+        "titleAr": "إجراء تقييم ذاتي رسمي للأثر البيئي والبيولوجي لمشروعك.",
+        "actionFr": "Conformité d'évaluation d'impact manquante pour secteur clé",
+        "actionAr": "Conformité d'évaluation d'impact manquante pour secteur clé",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G5",
+        "addressed_dimension": "green"
+      },
+      {
+        "id": "STEP_05",
+        "horizon": "immediate",
+        "titleFr": "Résoudre le goulot d'étranglement : Examen de conformité environnementale absent pour secteur à fort impact",
+        "titleAr": "Résoudre le goulot d'étranglement : Examen de conformité environnementale absent pour secteur à fort impact",
+        "actionFr": "Votre startup opère dans un secteur à engagement environnemental élevé (par exemple AgriTech, Énergie, Industrie) mais n'a initié aucune évaluation écologique formelle. Cela risque de bloquer des subventions PNUD ou devancer les exigences du ANPE.",
+        "actionAr": "Votre startup opère dans un secteur à engagement environnemental élevé (par exemple AgriTech, Énergie, Industrie) mais n'a initié aucune évaluation écologique formelle. Cela risque de bloquer des subventions PNUD ou devancer les exigences du ANPE.",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G5",
+        "addressed_dimension": "green"
+      },
+      {
+        "id": "STEP_06",
+        "horizon": "short",
+        "titleFr": "Concevoir une preuve de concept (POC) technique démontrant la faisabilité de l'innovation.",
+        "titleAr": "تصميم إثبات للمفهوم (POC) تقنياً يثبت جدوى ابتكارك المزعوم.",
+        "actionFr": "Aucune matérialisation physique de l'innovation (Pas de prototype)",
+        "actionAr": "Aucune matérialisation physique de l'innovation (Pas de prototype)",
+        "resourceFr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceAr": "ANPE - Agence Nationale pour l'Emploi et le Travail Indépendant",
+        "resourceId": "kb_004",
+        "addressed_gate": "G3",
+        "addressed_dimension": "innovation"
+      }
+    ]
+  }
+}

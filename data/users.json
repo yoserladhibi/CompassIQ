@@ -1,0 +1,34 @@
+{
+  "2a19ecca-e1fa-42ea-a4d8-5d6d4e4f4f19": {
+    "id": "2a19ecca-e1fa-42ea-a4d8-5d6d4e4f4f19",
+    "email": "yosrabenali@gmail.com",
+    "password_hash": "$2b$10$/r.i8xb9xRYiRf8lv.9htu1lH84S9bE/6GrqNf4nApLcGpFF4iThy",
+    "full_name": "Yosra Ben Ali",
+    "language_preference": "fr",
+    "created_at": "2026-06-23T00:36:33.902Z"
+  },
+  "aff7280b-0537-4a09-bc21-4aafda63de3d": {
+    "id": "aff7280b-0537-4a09-bc21-4aafda63de3d",
+    "email": "testsession@example.com",
+    "password_hash": "$2b$10$EBZdYPY6mU6X5g4cBM9nT.a77v.7vSHZjscAIl.A7yV9q4SL9DKZq",
+    "full_name": "Test User",
+    "language_preference": "fr",
+    "created_at": "2026-06-23T00:40:27.144Z"
+  },
+  "33a4c7a8-eeec-4c8f-96f1-88047cb193c5": {
+    "id": "33a4c7a8-eeec-4c8f-96f1-88047cb193c5",
+    "email": "testsession2@example.com",
+    "password_hash": "$2b$10$rQbyIbivNrumAi886MqcB.rhzaYHfhotlLAnA8gue1oV/7HGvZb/2",
+    "full_name": "Test User2",
+    "language_preference": "fr",
+    "created_at": "2026-06-23T00:40:40.615Z"
+  },
+  "e1e588f0-98f8-4795-b8f0-4760b695e10c": {
+    "id": "e1e588f0-98f8-4795-b8f0-4760b695e10c",
+    "email": "yassine.belhaj@gmail.com",
+    "password_hash": "$2b$10$z/yUUZ1//aqO5EBmB9zJ8u6OrbbPhRynN.8QWYVpufPT9FpEDlhgW",
+    "full_name": "Yassine Belhaj",
+    "language_preference": "fr",
+    "created_at": "2026-06-23T21:15:09.891Z"
+  }
+}

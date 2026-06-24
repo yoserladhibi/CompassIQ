@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "purpose": "Deterministic, jargon-free explanation text for every scoring sub-criterion. No LLM call needed to generate this layer — look up the criterion id and the score band (low/medium/high), done. This guarantees zero technical jargon and zero hallucination risk for the part of the UI a normal user reads by default. The full weighted technical breakdown (from the scoring engine itself) stays available separately for the 'view technical details' expandable section.",
+  "band_thresholds": { "low": "0-49", "medium": "50-74", "high": "75-100" },
+
+  "score_dimensions": {
+    "market_score": {
+      "label": { "fr": "Score Marché", "ar": "نقاط السوق" },
+      "criteria": [
+        {
+          "id": "customer_validation_evidence",
+          "plain_question": { "fr": "Avez-vous vraiment parlé à des clients potentiels pour confirmer qu'ils veulent ce produit ?", "ar": "هل تحدثت فعلاً مع عملاء محتملين للتأكد من أنهم يريدون هذا المنتج؟" },
+          "bands": {
+            "low": { "fr": "Vous n'avez pas encore assez parlé à de vrais clients potentiels — c'est la plus grande inconnue de votre projet pour le moment.", "ar": "لم تتحدث بعد بشكل كافٍ مع عملاء محتملين حقيقيين — وهذا يمثل أكبر مجهول في مشروعك حالياً.", "next_action": { "fr": "Allez interviewer au moins 5 personnes qui pourraient acheter votre produit, cette semaine.", "ar": "قم بإجراء مقابلات مع 5 أشخاص على الأقل قد يشترون منتجك، هذا الأسبوع." } },
+            "medium": { "fr": "Vous avez commencé à valider l'intérêt des clients, mais il vous manque encore des preuves solides (lettres d'intention, utilisateurs pilotes).", "ar": "بدأت في التحقق من اهتمام العملاء، لكنك تحتاج إلى أدلة أقوى (خطابات نوايا، مستخدمين تجريبيين)." },
+            "high": { "fr": "Vous avez de bonnes preuves que de vrais clients veulent ce que vous proposez — c'est un signal fort.", "ar": "لديك أدلة جيدة على أن عملاء حقيقيين يريدون ما تقدمه — وهذه إشارة قوية." }
+          }
+        },
+        {
+          "id": "market_share_analysis",
+          "plain_question": { "fr": "Quelle est la taille du marché que vous visez, et combien de concurrents s'y trouvent déjà ?", "ar": "ما هو حجم السوق الذي تستهدفه، وكم عدد المنافسين الموجودين فيه؟" },
+          "bands": {
+            "low": { "fr": "Vous n'avez pas encore une vision claire de la taille de votre marché ni de vos concurrents.", "ar": "ليس لديك بعد رؤية واضحة لحجم سوقك أو لمنافسيك.", "next_action": { "fr": "Estimez combien de personnes ou d'entreprises pourraient acheter votre produit, et listez vos 3 principaux concurrents.", "ar": "قدّر عدد الأشخاص أو الشركات التي يمكنها شراء منتجك، وحدد أهم 3 منافسين لك." } },
+            "medium": { "fr": "Vous avez une idée de votre marché, mais l'analyse de la concurrence reste à approfondir.", "ar": "لديك فكرة عن سوقك، لكن تحليل المنافسين يحتاج إلى مزيد من التعمق." },
+            "high": { "fr": "Vous avez une analyse claire et chiffrée de votre marché et de la concurrence.", "ar": "لديك تحليل واضح ومدعوم بالأرقام لسوقك ومنافسيك." }
+          }
+        },
+        {
+          "id": "revenue_model_clarity",
+          "plain_question": { "fr": "Avez-vous une façon claire et réaliste de gagner de l'argent avec ce projet ?", "ar": "هل لديك طريقة واضحة وواقعية لتحقيق الربح من هذا المشروع؟" },
+          "bands": {
+            "low": { "fr": "Votre façon de gagner de l'argent n'est pas encore définie clairement.", "ar": "لم تحدد بعد بشكل واضح كيف ستحقق الربح.", "next_action": { "fr": "Définissez un prix précis et testez-le avec 3 à 5 premiers clients.", "ar": "حدد سعراً دقيقاً وجربه مع 3 إلى 5 عملاء أوائل." } },
+            "medium": { "fr": "Votre modèle de revenus existe mais n'est pas encore totalement validé.", "ar": "نموذج إيراداتك موجود لكنه لم يُختبر بشكل كامل بعد." },
+            "high": { "fr": "Votre modèle de revenus est clair, réaliste et déjà en partie validé.", "ar": "نموذج إيراداتك واضح وواقعي، وقد تم التحقق منه جزئياً." }
+          }
+        }
+      ]
+    },
+
+    "commercial_score": {
+      "label": { "fr": "Score Offre Commerciale", "ar": "نقاط العرض التجاري" },
+      "criteria": [
+        {
+          "id": "value_proposition_clarity",
+          "plain_question": { "fr": "Pouvez-vous expliquer en une phrase pourquoi quelqu'un vous choisirait plutôt qu'un concurrent ?", "ar": "هل يمكنك أن تشرح في جملة واحدة لماذا سيختارك أحدهم بدل المنافسين؟" },
+          "bands": {
+            "low": { "fr": "Il n'est pas encore facile de comprendre ce qui vous différencie de la concurrence.", "ar": "ليس من الواضح بعد ما الذي يميزك عن المنافسين.", "next_action": { "fr": "Écrivez une seule phrase claire expliquant pourquoi un client devrait vous choisir.", "ar": "اكتب جملة واحدة واضحة تشرح لماذا يجب على العميل اختيارك." } },
+            "medium": { "fr": "Votre offre est définie mais sa différence avec la concurrence pourrait être plus claire.", "ar": "عرضك محدد، لكن الفرق بينه وبين المنافسين يمكن أن يكون أوضح." },
+            "high": { "fr": "Votre proposition de valeur est claire et nettement différenciée.", "ar": "عرض القيمة الذي تقدمه واضح ومتميز بشكل ملحوظ." }
+          }
+        },
+        {
+          "id": "product_service_maturity",
+          "plain_question": { "fr": "Votre produit est-il juste une idée, un prototype, ou quelque chose que les gens peuvent déjà acheter ?", "ar": "هل منتجك مجرد فكرة، أم نموذج أولي، أم شيء يمكن للناس شراؤه فعلاً الآن؟" },
+          "bands": {
+            "low": { "fr": "Votre produit est encore à un stade très précoce (idée ou concept).", "ar": "منتجك لا يزال في مرحلة مبكرة جداً (فكرة أو تصور).", "next_action": { "fr": "Construisez une première version simple (prototype) que vous pouvez montrer à des clients.", "ar": "قم ببناء نسخة أولى بسيطة (نموذج أولي) يمكنك عرضها على العملاء." } },
+            "medium": { "fr": "Vous avez un prototype ou un MVP, mais le produit n'est pas encore prêt pour le marché.", "ar": "لديك نموذج أولي أو منتج بحدّه الأدنى، لكنه ليس جاهزاً للسوق بعد." },
+            "high": { "fr": "Votre produit est mature et prêt pour le marché.", "ar": "منتجك ناضج وجاهز للسوق." }
+          }
+        },
+        {
+          "id": "pricing_strategy_coherence",
+          "plain_question": { "fr": "Votre prix couvre-t-il vos coûts et correspond-il à ce que les clients sont prêts à payer ?", "ar": "هل يغطي سعرك تكاليفك ويتناسب مع ما يرغب العملاء في دفعه؟" },
+          "bands": {
+            "low": { "fr": "Vous n'avez pas encore de stratégie de prix claire.", "ar": "ليس لديك بعد استراتيجية تسعير واضحة.", "next_action": { "fr": "Calculez vos coûts réels et demandez à des clients potentiels combien ils seraient prêts à payer.", "ar": "احسب تكاليفك الحقيقية واسأل العملاء المحتملين عن السعر الذي يقبلون دفعه." } },
+            "medium": { "fr": "Vous avez un prix, mais sa cohérence avec vos coûts et le marché reste à confirmer.", "ar": "لديك سعر، لكن توافقه avec تكاليفك والسوق يحتاج إلى تأكيد." },
+            "high": { "fr": "Votre stratégie de prix est cohérente et bien pensée.", "ar": "استراتيجية تسعيرك متماسكة ومدروسة بشكل جيد." }
+          }
+        },
+        {
+          "id": "offer_customer_alignment",
+          "plain_question": { "fr": "Ce que vous proposez répond-il vraiment au problème que vos clients disent avoir ?", "ar": "هل ما تقدمه يحل فعلاً المشكلة التي يقول عملاؤك أنهم يواجهونها؟" },
+          "bands": {
+            "low": { "fr": "Le lien entre votre offre et le vrai besoin de vos clients n'est pas encore clair.", "ar": "العلاقة بين عرضك والحاجة الحقيقية لعملائك ليست واضحة بعد.", "next_action": { "fr": "Reparlez à vos clients cibles et vérifiez que votre offre résout exactement leur problème.", "ar": "تحدث مجدداً مع عملائك المستهدفين وتأكد أن عرضك يحل مشكلتهم بدقة." } },
+            "medium": { "fr": "Votre offre répond globalement au besoin, mais l'alignement pourrait être plus précis.", "ar": "عرضك يلبي الحاجة بشكل عام، لكن التطابق يمكن أن يكون أدق." },
+            "high": { "fr": "Votre offre répond précisément au besoin exprimé par vos clients.", "ar": "عرضك يلبي بدقة الحاجة التي عبّر عنها عملاؤك." }
+          }
+        }
+      ]
+    },
+
+    "innovation_score": {
+      "label": { "fr": "Score Innovation", "ar": "نقاط الابتكار" },
+      "criteria": [
+        {
+          "id": "local_novelty",
+          "plain_question": { "fr": "Est-ce vraiment nouveau en Tunisie, ou quelque chose de similaire existe-t-il déjà ?", "ar": "هل هذا جديد بالفعل في تونس، أم أن شيئاً مشابهاً موجود من قبل؟" },
+          "bands": {
+            "low": { "fr": "Des solutions similaires existent déjà sur le marché tunisien.", "ar": "توجد حلول مشابهة بالفعل في السوق التونسي.", "next_action": { "fr": "Identifiez ce qui rend votre approche réellement différente, ou ajustez votre offre pour qu'elle le soit.", "ar": "حدد ما يجعل نهجك different de ce qui existe بالفعل، أو عدّل عرضك ليكون كذلك." } },
+            "medium": { "fr": "Votre projet apporte une certaine nouveauté, mais elle reste limitée.", "ar": "مشروعك يحمل بعض الجدة، لكنها تبقى محدودة." },
+            "high": { "fr": "Votre projet est nettement nouveau dans le contexte tunisien/MENA.", "ar": "مشروعك جديد بشكل واضح في السياق التونسي/الشرق أوسطي." }
+          }
+        },
+        {
+          "id": "technology_intensity",
+          "plain_question": { "fr": "Y a-t-il une vraie technologie derrière ce projet, ou est-ce surtout un site/une appli simple ?", "ar": "هل هناك تقنية حقيقية وراء هذا المشروع، أم أنه مجرد موقع أو تطبيق بسيط؟" },
+          "bands": {
+            "low": { "fr": "Le niveau de technologie utilisé est encore limité.", "ar": "مستوى التقنية المستخدمة محدود حالياً.", "next_action": { "fr": "Identifiez une vraie brique technologique qui pourrait renforcer votre projet.", "ar": "حدد عنصراً تقنياً حقيقياً يمكن أن يعزز مشروعك." } },
+            "medium": { "fr": "Vous utilisez une technologie correcte, sans être particulièrement avancée.", "ar": "تستخدم تقنية مقبولة، دون أن تكون متقدمة بشكل خاص." },
+            "high": { "fr": "Votre projet repose sur une technologie sophistiquée et bien intégrée.", "ar": "يعتمد مشروعك على تقنية متطورة ومدمجة بشكل جيد." }
+          }
+        },
+        {
+          "id": "barrier_to_entry",
+          "plain_question": { "fr": "Serait-il facile pour quelqu'un d'autre de vous copier le mois prochain ?", "ar": "هل سيكون من السهل على شخص آخر تقليدك الشهر المقبل؟" },
+          "bands": {
+            "low": { "fr": "Votre solution serait facile à copier rapidement par un concurrent.", "ar": "يمكن لمنافس تقليد حلك بسهولة وبسرعة.", "next_action": { "fr": "Réfléchissez à ce qui pourrait rendre votre solution difficile à reproduire (savoir-faire, partenariats, technologie).", "ar": "فكّر في ما يمكن أن يجعل حلك صعب التقليد (خبرة، شراكات، تقنية)." } },
+            "medium": { "fr": "Votre solution offre une certaine protection, mais elle reste copiable avec des efforts.", "ar": "حلك يوفر بعض الحماية، لكن يمكن تقليده ببعض الجهد." },
+            "high": { "fr": "Votre solution est difficile à reproduire pour un concurrent.", "ar": "من الصعب على منافس تقليد حلك." }
+          }
+        },
+        {
+          "id": "departure_from_existing_offerings",
+          "plain_question": { "fr": "À quel point votre approche est-elle différente de ce qui existe déjà sur le marché ?", "ar": "إلى أي مدى يختلف أسلوبك عن ما هو موجود حالياً في السوق؟" },
+          "bands": {
+            "low": { "fr": "Votre approche reste très proche de ce qui existe déjà.", "ar": "أسلوبك لا يزال قريباً جداً مما هو موجود حالياً.", "next_action": { "fr": "Cherchez un angle ou une méthode qui vous distingue clairement des offres existantes.", "ar": "ابحث عن زاوية أو طريقة تميزك بوضوح عن العروض الحالية." } },
+            "medium": { "fr": "Votre approche diffère partiellement des offres existantes.", "ar": "أسلوبك يختلف بشكل جزئي عن العروض الحالية." },
+            "high": { "fr": "Votre approche se démarque clairement des solutions existantes.", "ar": "أسلوبك يتميز بوضوح عن الحلول الموجودة." }
+          }
+        }
+      ]
+    },
+
+    "scalability_score": {
+      "label": { "fr": "Score Scalabilité", "ar": "نقاط قابلية التوسع" },
+      "criteria": [
+        {
+          "id": "replicability_without_linear_cost",
+          "plain_question": { "fr": "Si vous aviez 10 fois plus de clients demain, vos coûts seraient-ils aussi multipliés par 10 ?", "ar": "إذا حصلت على 10 أضعاف العملاء غداً, هل ستتضاعف تكاليفك بنفس النسبة؟" },
+          "bands": {
+            "low": { "fr": "Pour le moment, vos coûts augmenteraient presque autant que votre nombre de clients.", "ar": "حالياً، ستزداد تكاليفك بنفس وتيرة زيادة عملائك تقريباً.", "next_action": { "fr": "Identifiez les tâches manuelles que vous pourriez automatiser ou déléguer pour grandir sans multiplier les coûts.", "ar": "حدد المهام اليدوية التي يمكنك أتمتتها أو تفويضها للنمو دون مضاعفة التكاليف." } },
+            "medium": { "fr": "Une croissance est possible, mais certains coûts augmenteraient encore avec le nombre de clients.", "ar": "النمو ممكن، لكن بعض التكاليف ستظل ترتفع مع عدد العملاء." },
+            "high": { "fr": "Vous pouvez grandir fortement sans que vos coûts n'augmentent au même rythme.", "ar": "يمكنك النمو بقوة دون أن ترتفع تكاليفك بنفس الوتيرة." }
+          }
+        },
+        {
+          "id": "manual_dependency",
+          "plain_question": { "fr": "Le projet fonctionne-t-il plutôt seul, ou avez-vous besoin d'être impliqué dans chaque transaction ?", "ar": "هل يعمل المشروع من تلقاء نفسه، أم أنك تحتاج للتدخل في كل عملية؟" },
+          "bands": {
+            "low": { "fr": "Vous êtes encore impliqué personnellement dans presque chaque transaction.", "ar": "أنت لا تزال متدخلاً شخصياً في كل عملية تقريباً.", "next_action": { "fr": "Documentez vos processus pour qu'une autre personne (ou un outil) puisse les réaliser sans vous.", "ar": "وثّق عملياتك بحيث يمكن لشخص آخر (أو أداة) تنفيذها دونك." } },
+            "medium": { "fr": "Une partie du processus peut fonctionner sans vous, mais votre implication reste importante.", "ar": "جزء من العملية يمكن أن يعمل دونك، لكن تدخلك يبقى مهماً." },
+            "high": { "fr": "Le projet fonctionne largement sans dépendre de vous personnellement.", "ar": "المشروع يعمل إلى حد كبير دون الاعتماد عليك شخصياً." }
+          }
+        },
+        {
+          "id": "deployment_cost_structure",
+          "plain_question": { "fr": "Est-ce coûteux de s'installer dans une nouvelle ville ou un nouveau pays, ou c'est facile à étendre ?", "ar": "هل التوسع إلى مدينة أو بلد جديد مكلف، أم يمكن القيام به بسهولة؟" },
+          "bands": {
+            "low": { "fr": "S'installer ailleurs demanderait actuellement un investissement important.", "ar": "التوسع إلى مكان آخر يتطلب حالياً استثماراً كبيراً.", "next_action": { "fr": "Cherchez des moyens de réduire les coûts fixes nécessaires pour vous étendre à un nouvel endroit.", "ar": "ابحث عن طرق لتقليل التكاليف الثابتة اللازمة للتوسع إلى مكان جديد." } },
+            "medium": { "fr": "Une expansion est possible mais demanderait encore des ressources notables.", "ar": "التوسع ممكن لكنه يتطلب موارد ملحوظة." },
+            "high": { "fr": "Votre structure de coûts permet une expansion vers de nouveaux marchés à moindre coût.", "ar": "تسمح هيكلة تكاليفك بالتوسع إلى أسواق جديدة بتكلفة منخفضة." }
+          }
+        },
+        {
+          "id": "geographic_expansion_potential",
+          "plain_question": { "fr": "Ce projet pourrait-il vraiment grandir au-delà de votre région actuelle ?", "ar": "هل يمكن لهذا المشروع أن ينمو فعلاً خارج منطقتك الحالية؟" },
+          "bands": {
+            "low": { "fr": "Le potentiel d'expansion géographique n'est pas encore clair.", "ar": "إمكانية التوسع الجغرافي ليست واضحة بعد.", "next_action": { "fr": "Étudiez si votre solution pourrait fonctionner dans une autre région ou un autre pays.", "ar": "ابحث في إمكانية عمل حلك في منطقة أو بلد آخر." } },
+            "medium": { "fr": "Une expansion semble possible mais reste à confirmer concrètement.", "ar": "التوسع يبدو ممكناً لكنه يحتاج إلى تأكيد فعلي." },
+            "high": { "fr": "Votre projet a un potentiel d'expansion géographique clair et crédible.", "ar": "مشروعك يملك إمكانية واضحة وموثوقة للتوسع الجغرافي." }
+          }
+        }
+      ]
+    },
+
+    "green_score": {
+      "label": { "fr": "Score Vert", "ar": "النقاط البيئية" },
+      "criteria": [
+        {
+          "id": "climat_air",
+          "plain_question": { "fr": "Votre activité produit-elle beaucoup d'émissions, et faites-vous quelque chose pour les réduire ?", "ar": "هل ينتج نشاطك انبعاثات كثيرة، وهل تقوم بشيء لتقليلها؟" },
+          "bands": {
+            "low": { "fr": "L'impact climatique de votre activité n'est pas encore évalué ni réduit.", "ar": "لم يتم تقييم أو تقليل الأثر المناخي لنشاطك بعد.", "next_action": { "fr": "Identifiez les principales sources d'émissions de votre activité et une première action pour les réduire.", "ar": "حدد أهم مصادر الانبعاثات في نشاطك وخطوة أولى لتقليلها." } },
+            "medium": { "fr": "Vous avez commencé à prendre en compte votre impact climatique, sans démarche complète.", "ar": "بدأت بأخذ أثرك المناخي بعين الاعتبار، دون نهج كامل." },
+            "high": { "fr": "Vous gérez activement et efficacement l'impact climatique de votre activité.", "ar": "تدير بفعالية وبشكل نشط الأثر المناخي لنشاطك." }
+          }
+        },
+        {
+          "id": "eau",
+          "plain_question": { "fr": "Utilisez-vous beaucoup d'eau, et la réutilisez-vous ou l'économisez-vous ?", "ar": "هل تستهلك كمية كبيرة من الماء، وهل تعيد استخدامه أو توفّره؟" },
+          "bands": {
+            "low": { "fr": "La gestion de l'eau n'est pas encore prise en compte dans votre activité.", "ar": "إدارة المياه لم تؤخذ بعين الاعتبار بعد في نشاطك.", "next_action": { "fr": "Identifiez si votre activité consomme beaucoup d'eau et une façon simple d'en réduire l'usage.", "ar": "حدد إن كان نشاطك يستهلك كثيراً من الماء وطريقة بسيطة لتقليل استهلاكه." } },
+            "medium": { "fr": "Certaines pratiques d'économie d'eau existent, mais restent partielles.", "ar": "توجد بعض ممارسات توفير المياه، لكنها تبقى جزئية." },
+            "high": { "fr": "Vous gérez efficacement votre consommation d'eau, avec réutilisation ou économie réelle.", "ar": "تدير استهلاكك للمياه بفعالية، مع إعادة استخدام أو توفير حقيقي." }
+          }
+        },
+        {
+          "id": "sols_biodiversite",
+          "plain_question": { "fr": "Votre activité affecte-t-elle les terres, le sol, ou les écosystèmes locaux ?", "ar": "هل يؤثر نشاطك على الأرض أو التربة أو النظم البيئية المحلية؟" },
+          "bands": {
+            "low": { "fr": "L'impact de votre activité sur les sols ou les écosystèmes locaux n'est pas encore pris en compte.", "ar": "أثر نشاطك على التربة أو النظم البيئية المحلية لم يؤخذ بعين الاعتبار بعد.", "next_action": { "fr": "Évaluez si votre activité affecte des terres ou des écosystèmes locaux, et comment limiter cet impact.", "ar": "قيّم إن كان نشاطك يؤثر على الأرض أو النظم البيئية المحلية، وكيفية الحد من ذلك الأثر." } },
+            "medium": { "fr": "Un certain soin est apporté à cet aspect, sans démarche complète.", "ar": "يوجد قدر من الاهتمام بهذا الجانب، دون نهج كامل." },
+            "high": { "fr": "Votre activité préserve activement les sols et la biodiversité locale.", "ar": "نشاطك يحافظ بشكل فعّال على التربة والتنوع البيولوجي المحلي." }
+          }
+        },
+        {
+          "id": "ressources_dechets",
+          "plain_question": { "fr": "Gaspillez-vous beaucoup de matériaux, ou les réutilisez-vous / recyclez-vous ?", "ar": "هل تهدر الكثير من المواد، أم تعيد استخدامها أو تدويرها؟" },
+          "bands": {
+            "low": { "fr": "La gestion des déchets et ressources n'est pas encore optimisée.", "ar": "إدارة النفايات والموارد لم تُحسّن بعد.", "next_action": { "fr": "Identifiez votre principale source de déchets et une façon de la réduire ou recycler.", "ar": "حدد أهم مصدر للنفايات في نشاطك وطريقة لتقليلها أو إعادة تدويرها." } },
+            "medium": { "fr": "Certaines pratiques de réduction des déchets existent, sans démarche systématique.", "ar": "توجد بعض ممارسات تقليل النفايات، دون نهج منظم." },
+            "high": { "fr": "Vous gérez efficacement vos ressources avec une vraie démarche de réduction des déchets.", "ar": "تدير مواردك بفعالية مع نهج حقيقي لتقليل النفايات." }
+          }
+        }
+      ]
+    }
+  }
+}
