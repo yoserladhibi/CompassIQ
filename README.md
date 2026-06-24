@@ -13,7 +13,7 @@
 
 > Empowering Tunisian entrepreneurs through AI-driven startup diagnosis, explainable scoring, and personalized guidance.
 
- **Phase 1 Presentation:** [Phase1_Presentation.pdf](docs/presentation/compassiq_pitch_dec)
+ **final phase Presentation:** [compassiq_pitch_deck](docs/presentation/compassiq_pitch_deck)
 
 </div>
 
