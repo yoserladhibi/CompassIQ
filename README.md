@@ -13,8 +13,6 @@
 
 > Empowering Tunisian entrepreneurs through AI-driven startup diagnosis, explainable scoring, and personalized guidance.
 
- **final phase Presentation:** [compassiq_pitch_deck](docs/presentation/compassiq_pitch_deck)
-
 </div>
 
 ---
@@ -28,6 +26,7 @@
 - [Startup Maturity Model](#-startup-maturity-model)
 - [Explainable Scoring Methodology](#-explainable-scoring-methodology)
 - [System Diagrams](#-system-diagrams)
+- [Documentation & Deliverables](#-documentation--deliverables)
 - [Tech Stack](#-tech-stack)
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
@@ -110,7 +109,6 @@ Full French and Arabic support across all UI text, scoring explanations, recomme
 
 ---
 
-
 ## Startup Maturity Model
 
 | Stage | Description |
@@ -138,7 +136,7 @@ Each startup is scored across five dimensions with the following weights:
 
 **Key design principle:** A gating rule only affects the explanation text when it is *actually* the limiting factor (i.e., `raw_score > cap_value`). If the raw score is already below the cap, the explanation correctly attributes the low score to sub-criteria performance — not the gate.
 
- Full methodology: [scoring_methodology.pdf](docs/scoring/scoring_methodology.pdf)
+📄 Full methodology: [scoring_methodology.pdf](docs/scoring/scoring_methodology.pdf)
 
 ---
 
@@ -148,19 +146,53 @@ Each startup is scored across five dimensions with the following weights:
   <img src="docs/diagrams/system_architecture.png" width="600" alt="System Architecture">
 </p>
 
- [Download PDF](docs/diagrams/system_architecture.pdf)
+📄 [Download PDF](docs/diagrams/system_architecture.pdf)
 
 <p align="center">
   <img src="docs/diagrams/ai_workflow.png" width="600" alt="AI Workflow">
 </p>
 
- [Download PDF](docs/diagrams/ai_workflow.pdf)
+📄 [Download PDF](docs/diagrams/ai_workflow.pdf)
 
 <p align="center">
   <img src="docs/diagrams/user_journey.png" width="600" alt="User Journey">
 </p>
 
- [Download PDF](docs/diagrams/user_journey.pdf)
+📄 [Download PDF](docs/diagrams/user_journey.pdf)
+
+---
+
+## Documentation & Deliverables
+
+All project documents are stored under `docs/`. Replace the placeholder paths below with your actual filenames once uploaded.
+
+### 🎤 Presentation & Pitch
+
+| Document | Description | Link |
+|---|---|---|
+| Final Presentation | Slides used for the AINS Hackathon 2026 final phase | [compassiq_final_presentation.pdf](docs/presentation/compassiq_final_presentation.pdf) |
+| Pitch Deck | Investor-facing pitch deck summarizing the product vision | [compassiq_pitch_deck.pdf](docs/presentation/compassiq_pitch_deck.pdf) |
+
+### 🧠 Explainability & Methodology
+
+| Document | Description | Link |
+|---|---|---|
+| Scoring Methodology | Full breakdown of the 5-dimension weighted scoring model and gating rules | [scoring_methodology.pdf](docs/scoring/scoring_methodology.pdf) |
+| Explainability Layers | Detailed documentation of how score justifications are generated per dimension | [explainability_layers.pdf](docs/scoring/explainability_layers.pdf) |
+
+### 📚 Knowledge Base
+
+| Document | Description | Link |
+|---|---|---|
+| CompassIQ Knowledge Base | Domain knowledge used to ground LLM recommendations in Tunisian ecosystem context | [CompassIQ_knowledge_base_v2.pdf](docs/knowledge_base/CompassIQ_knowledge_base_v2.pdf) |
+
+### 📊 Evaluation
+
+| Document | Description | Link |
+|---|---|---|
+| Evaluation Report | Testing results, scoring validation, and model performance analysis | [evaluation_report.pdf](docs/evaluation/evaluation_report.pdf) |
+
+> **Note:** If any document is not yet finalized, replace its link with `_coming soon_` or remove the row until the file is ready.
 
 ---
 
@@ -196,8 +228,16 @@ compassiq/
 │           └── users.json
 ├── docs/
 │   ├── diagrams/
+│   ├── evaluation/
+│   │   └── evaluation_report.pdf
+│   ├── knowledge_base/
+│   │   └── CompassIQ_knowledge_base_v2.pdf
 │   ├── presentation/
+│   │   ├── compassiq_final_presentation.pdf
+│   │   └── compassiq_pitch_deck.pdf
 │   └── scoring/
+│       ├── explainability_layers.pdf
+│       └── scoring_methodology.pdf
 ├── public/
 ├── reports/
 ├── src/
@@ -264,7 +304,7 @@ npm run dev
 
 ---
 
-<div align="center">
+<div align="center"></div>
 
 Built for the **AINS Hackathon 2026** · Tunisia
 
