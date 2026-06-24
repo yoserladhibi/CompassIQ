@@ -148,11 +148,6 @@ Each startup is scored across five dimensions with the following weights:
 
 📄 [Download PDF](docs/diagrams/compassiq_system_architecture.pdf)
 
-<p align="center">
-  <img src="docs/diagrams/ai_workflow.png" width="600" alt="AI Workflow">
-</p>
-
-📄 [Download PDF](docs/diagrams/ai_workflow.pdf)
 
 <p align="center">
   <img src="docs/diagrams/user_journey.png" width="600" alt="User Journey">
